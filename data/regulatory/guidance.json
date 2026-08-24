@@ -1,0 +1,132 @@
+{
+  "note": "Section-level extracts of public AML/CFT guidance, paraphrased for length. Section identifiers follow the source documents so a citation resolves to something a compliance officer can look up.",
+  "sources": {
+    "FATF": "FATF Recommendations and Interpretive Notes (2012, as amended)",
+    "FATF-GUID": "FATF Guidance on Transparency and Beneficial Ownership (2014) and the 2023 revision of Recommendation 24",
+    "FinCEN": "31 CFR 1010.230 Customer Due Diligence Requirements, and FinCEN beneficial ownership guidance",
+    "FinCEN-CTA": "Beneficial Ownership Information Reporting Rule under the Corporate Transparency Act, 31 CFR 1010.380",
+    "FFIEC": "FFIEC BSA/AML Examination Manual"
+  },
+  "sections": [
+    {
+      "id": "FATF-R10",
+      "source": "FATF",
+      "title": "Recommendation 10: Customer due diligence",
+      "text": "Financial institutions must identify the customer and verify that identity using reliable, independent source documents, data or information. They must identify the beneficial owner and take reasonable measures to verify that identity such that the institution is satisfied it knows who the beneficial owner is. For legal persons and arrangements this includes understanding the ownership and control structure. Where the customer is a legal person, the institution must identify the natural persons who ultimately have a controlling ownership interest, and where there is doubt whether such persons are the beneficial owners, or where no natural person exerts control through ownership, the natural persons exercising control through other means."
+    },
+    {
+      "id": "FATF-R10-INR-5",
+      "source": "FATF",
+      "title": "Interpretive Note to Recommendation 10, paragraph 5: the cascade",
+      "text": "Identification of beneficial owners of a legal person follows a cascade. First, the identity of natural persons holding a controlling ownership interest, where a threshold such as twenty-five percent may be used as evidence of control. Second, to the extent there is doubt that those persons are the beneficial owners, or where no natural person exerts control through ownership, the identity of natural persons exercising control through other means. Third, where no natural person is identified under either limb, the identity of the relevant natural person holding the position of senior managing official. The third limb is a fallback and its use must be recorded, because recording a senior manager as beneficial owner where a real owner exists is a failure of the measure, not compliance with it."
+    },
+    {
+      "id": "FATF-R12",
+      "source": "FATF",
+      "title": "Recommendation 12: Politically exposed persons",
+      "text": "In relation to foreign politically exposed persons, institutions must have risk management systems to determine whether a customer or beneficial owner is a PEP, obtain senior management approval for establishing or continuing the relationship, take reasonable measures to establish the source of wealth and source of funds, and conduct enhanced ongoing monitoring. These requirements also apply to family members and close associates of a PEP. Recommendation 12 requires enhanced due diligence, not refusal. A PEP relationship is a category that calls for additional scrutiny; it is not in itself a finding of wrongdoing, and treating it as one is both a compliance failure and a driver of unjustified de-risking."
+    },
+    {
+      "id": "FATF-R24",
+      "source": "FATF-GUID",
+      "title": "Recommendation 24: Transparency and beneficial ownership of legal persons",
+      "text": "Countries must ensure that adequate, accurate and up-to-date information on the beneficial ownership and control of legal persons is available to competent authorities in a timely manner. The 2023 revision requires a multi-pronged approach: a beneficial ownership registry or an alternative mechanism providing equivalent efficient access, combined with information held by the company itself and, where relevant, information held by other sources. Countries must also assess and mitigate the risks associated with foreign-created legal persons that have a sufficient link to their jurisdiction, and must prevent the misuse of nominee shareholders and nominee directors, including by requiring nominees to disclose their nominator."
+    },
+    {
+      "id": "FATF-R25",
+      "source": "FATF-GUID",
+      "title": "Recommendation 25: Transparency and beneficial ownership of legal arrangements",
+      "text": "Trustees of express trusts must obtain and hold adequate, accurate and current beneficial ownership information on the settlor, the trustee, the protector where one exists, the beneficiaries or class of beneficiaries, and any other natural person exercising ultimate effective control. Trustees must disclose their status when forming a business relationship or carrying out an occasional transaction above the threshold. A trust structure inserted between an owner and an asset removes the owner from every ownership register, which is why control through a trust must be pursued to the natural persons behind it rather than recorded as ownership by the trustee."
+    },
+    {
+      "id": "FATF-LAYERING",
+      "source": "FATF-GUID",
+      "title": "Concealment techniques: complex structures and layering",
+      "text": "The techniques most commonly used to obscure beneficial ownership are: chains of legal persons across multiple jurisdictions, particularly where at least one is a jurisdiction with weak beneficial ownership requirements; nominee shareholders and nominee directors acting on undisclosed instructions; bearer shares and bearer share warrants; the use of legal arrangements such as trusts and foundations that sit outside company registers; and the fragmentation of holdings so that each individual interest falls below the disclosure threshold while the aggregate confers control. Length of an ownership chain is not on its own evidence of concealment; many legitimate groups are structured across several holding companies for tax, financing or regulatory reasons. What distinguishes concealment is the combination of length with opacity and the absence of a commercial rationale."
+    },
+    {
+      "id": "FATF-R15-VA",
+      "source": "FATF",
+      "title": "Recommendation 15: New technologies and virtual assets",
+      "text": "Countries must identify and assess the money laundering and terrorist financing risks that may arise from the development of new products and business practices, including new delivery mechanisms, and from the use of new or developing technologies. Virtual asset service providers must be licensed or registered and subject to effective systems for monitoring and ensuring compliance, including the requirement to obtain and transmit originator and beneficiary information for transfers."
+    },
+    {
+      "id": "FinCEN-CDD-1",
+      "source": "FinCEN",
+      "title": "31 CFR 1010.230: Beneficial ownership requirements for legal entity customers",
+      "text": "Covered financial institutions must establish and maintain written procedures reasonably designed to identify and verify the beneficial owners of legal entity customers at the time a new account is opened. Beneficial owner is defined under two independent prongs. The ownership prong captures each individual who, directly or indirectly, owns twenty-five percent or more of the equity interests of the legal entity customer. The control prong captures a single individual with significant responsibility to control, manage or direct the legal entity customer, such as a chief executive officer, chief financial officer, managing member or general partner. An institution must identify at least one individual under the control prong regardless of whether any individual is identified under the ownership prong."
+    },
+    {
+      "id": "FinCEN-CDD-2",
+      "source": "FinCEN",
+      "title": "Indirect ownership and the calculation of the twenty-five percent threshold",
+      "text": "Ownership may be direct or indirect. Where an individual owns an interest through one or more intermediate legal entities, the individual's indirect interest is calculated by multiplying the ownership percentages along the chain. An individual owning sixty percent of a holding company that owns fifty percent of the customer holds a thirty percent indirect interest and is a beneficial owner under the ownership prong. Recording the direct percentage at the final link rather than the multiplied interest along the chain both overstates holdings that are attenuated and understates the number of chains that must be traced before the threshold can be shown not to be met."
+    },
+    {
+      "id": "FinCEN-CDD-3",
+      "source": "FinCEN",
+      "title": "Reliance on the certification form, and when it is not reasonable",
+      "text": "An institution may rely on the beneficial ownership information supplied by the customer on a certification form, provided it has no knowledge of facts that would reasonably call into question the reliability of that information. Where the institution holds information that contradicts the certification, or where the structure disclosed is inconsistent with information obtained from an independent source such as a corporate register or a sanctions list, reliance is no longer reasonable and the institution must resolve the discrepancy before proceeding."
+    },
+    {
+      "id": "FinCEN-CTA-1",
+      "source": "FinCEN-CTA",
+      "title": "31 CFR 1010.380: Beneficial ownership information reporting",
+      "text": "A reporting company must file a report identifying each beneficial owner by full legal name, date of birth, current address, and a unique identifying number from an acceptable identification document, together with an image of that document. A beneficial owner is any individual who directly or indirectly exercises substantial control over the reporting company or owns or controls at least twenty-five percent of its ownership interests. Substantial control includes service as a senior officer, authority over the appointment or removal of senior officers or a majority of the board, and direction over important decisions. Reports must be updated within thirty days of any change to previously reported information."
+    },
+    {
+      "id": "FinCEN-SAR",
+      "source": "FinCEN",
+      "title": "Suspicious activity reporting and the standard for filing",
+      "text": "A filing institution must report a transaction it knows, suspects, or has reason to suspect involves funds derived from illegal activity, is designed to evade reporting requirements, has no business or apparent lawful purpose, or involves use of the institution to facilitate criminal activity. The standard is suspicion, not proof, and the narrative must explain who, what, when, where and why. A structural finding such as an undisclosed chain of ownership through secrecy jurisdictions supports a filing only where the narrative connects it to the customer relationship and the transactions observed; a description of corporate structure with no such connection is not a completed narrative."
+    },
+    {
+      "id": "FFIEC-CDD",
+      "source": "FFIEC",
+      "title": "FFIEC BSA/AML Examination Manual: customer due diligence",
+      "text": "The bank's customer due diligence programme must be commensurate with the risk profile of the customer. Higher risk profiles require more information: the purpose of the account, the source of funds and wealth, the beneficial owners of accounts where the customer is a legal entity, the customer's occupation or type of business, and the expected transaction activity. Examiners will assess whether the bank's procedures are reasonably designed and whether they are actually followed, including whether escalation criteria are documented and whether escalated cases were reviewed by someone with the authority to decline the relationship."
+    },
+    {
+      "id": "FFIEC-EDD",
+      "source": "FFIEC",
+      "title": "FFIEC BSA/AML Examination Manual: enhanced due diligence for higher-risk customers",
+      "text": "Enhanced due diligence for higher-risk customers should include obtaining information on the individuals with ownership or control, the source of wealth and source of funds, the customer's or the customer's beneficial owner's country of residence and whether it presents higher risk, an explanation of changes in account activity, and where the customer is a legal entity an understanding of the purpose of the structure. The manual is explicit that a customer's status as a PEP, or as a resident of a higher-risk jurisdiction, determines the depth of review required and does not by itself require the account to be declined or closed."
+    },
+    {
+      "id": "FFIEC-NOMINEE",
+      "source": "FFIEC",
+      "title": "FFIEC BSA/AML Examination Manual: nominee and shell company accounts",
+      "text": "Shell companies with no physical presence and no employees are legitimate for many purposes, including holding intangible assets and acting as financing vehicles. Risk arises where the shell is combined with features that obscure ownership: nominee incorporation services acting as officers of record, registered addresses shared with hundreds of unrelated companies, jurisdictions that do not require ownership disclosure, and rapid changes of ownership. Where a corporate service provider acts as officer or shareholder of record, the bank should determine on whose instructions that provider acts, and record the answer, because the provider is not the beneficial owner and recording it as such leaves the customer file wrong on its central fact."
+    },
+    {
+      "id": "FFIEC-SANCTIONS",
+      "source": "FFIEC",
+      "title": "OFAC screening and the fifty percent rule",
+      "text": "An entity owned fifty percent or more, in the aggregate, directly or indirectly, by one or more blocked persons is itself blocked, whether or not it appears on the SDN list. Aggregation across multiple blocked owners is required: two blocked persons each holding thirty percent of a company aggregate to sixty percent, and the company is blocked. Institutions must therefore trace ownership beyond the entities named on the list. An entity in which blocked persons hold less than fifty percent in aggregate is not blocked by operation of the rule, but the interest is a risk factor calling for further review."
+    },
+    {
+      "id": "FFIEC-MONITOR",
+      "source": "FFIEC",
+      "title": "Ongoing monitoring and updating customer information",
+      "text": "Banks must conduct ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information including the beneficial ownership of legal entity customers. There is no categorical requirement to refresh information on a fixed schedule; the trigger is an event that indicates the information may no longer be accurate, such as a change in ownership disclosed by a register, a sanctions listing affecting a known owner, or transaction activity inconsistent with the stated purpose of the account."
+    },
+    {
+      "id": "FATF-RISK-BASED",
+      "source": "FATF-GUID",
+      "title": "The risk-based approach and unjustified de-risking",
+      "text": "The risk-based approach requires institutions to allocate resources in proportion to risk. FATF has stated that terminating or restricting business relationships with entire classes of customer, without a case-by-case assessment of risk, is not consistent with the risk-based approach. Wholesale de-risking of categories such as money service businesses, non-profit organisations, or customers connected to particular jurisdictions drives activity into less transparent channels and is a failure of the standard rather than a conservative application of it."
+    },
+    {
+      "id": "FATF-RECORDS",
+      "source": "FATF",
+      "title": "Recommendation 11: Record keeping",
+      "text": "Institutions must maintain all necessary records on transactions, both domestic and international, for at least five years, and must keep all records obtained through customer due diligence measures, including account files and business correspondence and the results of any analysis undertaken, for at least five years after the business relationship ends. Records must be sufficient to permit reconstruction of individual transactions so as to provide, if necessary, evidence for prosecution of criminal activity. A screening decision whose supporting evidence cannot be reconstructed is not a documented decision."
+    },
+    {
+      "id": "FATF-R20",
+      "source": "FATF",
+      "title": "Recommendation 20: Reporting of suspicious transactions",
+      "text": "If a financial institution suspects or has reasonable grounds to suspect that funds are the proceeds of a criminal activity, or are related to terrorist financing, it must report promptly to the financial intelligence unit. The obligation is a direct one and applies regardless of the amount involved. Attempted transactions are within scope. Tipping off the customer, or any third party, that a report has been or is being filed is prohibited."
+    }
+  ]
+}

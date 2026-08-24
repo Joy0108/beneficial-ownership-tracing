@@ -1,0 +1,227 @@
+{
+  "format": "FollowTheMoney",
+  "version": "3.5",
+  "entities": [
+    {
+      "id": "os-P001",
+      "schema": "Person",
+      "properties": {
+        "name": [
+          "Dmitriy Volkov",
+          "Дмитрий Волков"
+        ],
+        "birthDate": [
+          "1968-04-11"
+        ],
+        "nationality": [
+          "RU"
+        ],
+        "topics": [
+          "sanction",
+          "role.pep"
+        ],
+        "position": [
+          "Deputy Minister of Energy"
+        ]
+      },
+      "datasets": [
+        "us_ofac_sdn"
+      ],
+      "referents": [],
+      "first_seen": "2022-03-01",
+      "last_seen": "2024-07-30"
+    },
+    {
+      "id": "os-P004",
+      "schema": "Person",
+      "properties": {
+        "name": [
+          "Ahmed Al Rashid",
+          "أحمد الراشد"
+        ],
+        "birthDate": [
+          "1970-07-19"
+        ],
+        "nationality": [
+          "AE"
+        ],
+        "topics": [
+          "role.pep"
+        ],
+        "position": [
+          "Board member, state investment fund"
+        ]
+      },
+      "datasets": [
+        "everypolitician"
+      ],
+      "referents": [],
+      "first_seen": "2022-03-01",
+      "last_seen": "2024-07-30"
+    },
+    {
+      "id": "os-P006",
+      "schema": "Person",
+      "properties": {
+        "name": [
+          "Oxana Petrenko",
+          "Оксана Петренко"
+        ],
+        "birthDate": [
+          "1983-03-24"
+        ],
+        "nationality": [
+          "UA"
+        ],
+        "topics": [
+          "role.pep"
+        ],
+        "position": [
+          "Regional governor"
+        ]
+      },
+      "datasets": [
+        "everypolitician"
+      ],
+      "referents": [],
+      "first_seen": "2022-03-01",
+      "last_seen": "2024-07-30"
+    },
+    {
+      "id": "os-P008",
+      "schema": "Person",
+      "properties": {
+        "name": [
+          "Serguei Morozov",
+          "Сергей Морозов"
+        ],
+        "birthDate": [
+          "1972-12-15"
+        ],
+        "nationality": [
+          "RU"
+        ],
+        "topics": [
+          "sanction"
+        ]
+      },
+      "datasets": [
+        "us_ofac_sdn"
+      ],
+      "referents": [],
+      "first_seen": "2022-03-01",
+      "last_seen": "2024-07-30"
+    },
+    {
+      "id": "os-P010",
+      "schema": "Person",
+      "properties": {
+        "name": [
+          "Kwame Osei"
+        ],
+        "birthDate": [
+          "1966-08-14"
+        ],
+        "nationality": [
+          "GH"
+        ],
+        "topics": [
+          "role.pep"
+        ],
+        "position": [
+          "Minister of Mines"
+        ]
+      },
+      "datasets": [
+        "everypolitician"
+      ],
+      "referents": [],
+      "first_seen": "2022-03-01",
+      "last_seen": "2024-07-30"
+    },
+    {
+      "id": "os-C004",
+      "schema": "Company",
+      "properties": {
+        "name": [
+          "Meridian Nominees Limited"
+        ],
+        "jurisdiction": [
+          "VG"
+        ],
+        "incorporationDate": [
+          "2013-05-11"
+        ],
+        "address": [
+          "Craigmuir Chambers, PO Box 71, Road Town, Tortola VG1110"
+        ],
+        "leiCode": [],
+        "topics": [
+          "sanction.linked"
+        ]
+      },
+      "datasets": [
+        "us_ofac_sdn"
+      ],
+      "referents": [],
+      "first_seen": "2022-03-01",
+      "last_seen": "2024-07-30"
+    },
+    {
+      "id": "os-C006",
+      "schema": "Company",
+      "properties": {
+        "name": [
+          "Sunrise Commodities Free Zone Establishment"
+        ],
+        "jurisdiction": [
+          "AE"
+        ],
+        "incorporationDate": [
+          "2015-02-17"
+        ],
+        "address": [
+          "Unit 1802, Jumeirah Business Centre 3, Cluster Y, JLT, Dubai"
+        ],
+        "leiCode": [],
+        "topics": [
+          "sanction.linked"
+        ]
+      },
+      "datasets": [
+        "us_ofac_sdn"
+      ],
+      "referents": [],
+      "first_seen": "2022-03-01",
+      "last_seen": "2024-07-30"
+    },
+    {
+      "id": "os-C012",
+      "schema": "Company",
+      "properties": {
+        "name": [
+          "Sahel Extractives LTD."
+        ],
+        "jurisdiction": [
+          "GH"
+        ],
+        "incorporationDate": [
+          "2014-03-03"
+        ],
+        "address": [
+          "Independence Avenue 5, Ridge, Accra"
+        ],
+        "leiCode": [],
+        "topics": [
+          "sanction.linked"
+        ]
+      },
+      "datasets": [
+        "us_ofac_sdn"
+      ],
+      "referents": [],
+      "first_seen": "2022-03-01",
+      "last_seen": "2024-07-30"
+    }
+  ]
+}

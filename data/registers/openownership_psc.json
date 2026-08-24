@@ -1,0 +1,644 @@
+{
+  "format": "BODS",
+  "version": "0.3",
+  "statements": [
+    {
+      "statementID": "openownership-register-000000",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C003-C002",
+        "name": "Baltic Resource Holdings LTD.",
+        "jurisdiction": "CY"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C003-C002",
+        "type": "entity",
+        "name": "Arcadia Capital Partners Limited",
+        "jurisdiction": "KY",
+        "address": {
+          "full": "190 Elgin Avenue"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 75.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000001",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C002-C001",
+        "name": "Northwind Energy Trading Ltd.",
+        "jurisdiction": "GB"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C002-C001",
+        "type": "entity",
+        "name": "Baltic Resource Holdings Limited",
+        "jurisdiction": "CY",
+        "address": {
+          "full": "Arch. Makariou III 199, Neocleous House, 3030 Limassol"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 60.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000002",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C005-C002",
+        "name": "Baltic Resource Holdings Limited",
+        "jurisdiction": "CY"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C005-C002",
+        "type": "entity",
+        "name": "Volga Shipping Group O.O.O.",
+        "jurisdiction": "RU",
+        "address": {
+          "full": "Ulitsa Tverskaya 12"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 12.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000003",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-P003-C016",
+        "name": "Orion Petrochemicals BV",
+        "jurisdiction": "NL"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "psc-int-P003-C016",
+        "type": "individual",
+        "name": "Marcus Van Der Berg",
+        "birthDate": "1961-01",
+        "nationality": "NL",
+        "address": {
+          "full": "Zuidplein 126, 1077 XV Amsterdam"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 100.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000004",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C016-C018",
+        "name": "Adriatic Shipping Lines S.p.A.",
+        "jurisdiction": "IT"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C016-C018",
+        "type": "entity",
+        "name": "Orion Petrochemicals Besloten Vennootschap",
+        "jurisdiction": "NL",
+        "address": {
+          "full": "Zuidplein 126, 1077 XV Amsterdam"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 70.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000005",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-P007-C009",
+        "name": "Cardinal Infrastructure PLC",
+        "jurisdiction": "GB"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "psc-int-P007-C009",
+        "type": "individual",
+        "name": "Robert Kingsley",
+        "birthDate": "1957-06",
+        "nationality": "GB",
+        "address": {
+          "full": "1 Canada Square, Canary Wharf, London E14 5AB"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 82.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000006",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-P010-C012",
+        "name": "Sahel Extractives Limited",
+        "jurisdiction": "GH"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "psc-int-P010-C012",
+        "type": "individual",
+        "name": "Kwame Osei",
+        "birthDate": "1966-08",
+        "nationality": "GH",
+        "address": {
+          "full": "INDEPENDENCE AVENUE 5,RIDGE,ACCRA"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 45.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000007",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C012-C011",
+        "name": "Aurora Mining Holding sLtd.",
+        "jurisdiction": "GB"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C012-C011",
+        "type": "entity",
+        "name": "Sahel Extractives Ltd.",
+        "jurisdiction": "GH",
+        "address": {
+          "full": "Independence Avenue 5, Ridge, Accra"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 30.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000008",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C010-C012",
+        "name": "Sahel Extractiives Ltd",
+        "jurisdiction": "GH"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C010-C012",
+        "type": "entity",
+        "name": "Silk Road Ventures Limited",
+        "jurisdiction": "SC",
+        "address": {
+          "full": "Suite 1, Second Floor, Sound & Vision House, Francis Rachel Street, Victoria, Mahe"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 40.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000009",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C019-C013",
+        "name": "Grandview Property Fund Limited",
+        "jurisdiction": "MT"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C019-C013",
+        "type": "entity",
+        "name": "Blue Harbour oNminees Ltd",
+        "jurisdiction": "BZ",
+        "address": {
+          "full": "WITHFIELD TOWER,THIRD FLOOR,4792 CONEY DRIVE,BELIZE CITY"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 95.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000010",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C013-C014",
+        "name": "Pinnacle Avdisory Services Limited Liability Partnership",
+        "jurisdiction": "GB"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C013-C014",
+        "type": "entity",
+        "name": "Grandview PProperty Fund Ltd.",
+        "jurisdiction": "MT",
+        "address": {
+          "full": "LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 70.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000011",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-P009-C020",
+        "name": "Continental Freight Systems LTD.",
+        "jurisdiction": "GB"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "psc-int-P009-C020",
+        "type": "individual",
+        "name": "Isabella Ferrari",
+        "birthDate": "1980-05",
+        "nationality": "IT",
+        "address": {
+          "full": "VIA MONTE NAPOLEONE 8,20121 MILANO"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 100.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000012",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-P013-C021",
+        "name": "RHINE VALLEY LOGISTICS BESLOTEN VENNOOTSCHAP",
+        "jurisdiction": "NL"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "psc-int-P013-C021",
+        "type": "individual",
+        "name": "Henrik Larsson",
+        "birthDate": "1971-05",
+        "nationality": "SE",
+        "address": {
+          "full": "Sveavagen 44"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 100.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000013",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C021-C022",
+        "name": "Tuscan Foods SpA",
+        "jurisdiction": "IT"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C021-C022",
+        "type": "entity",
+        "name": "Rhine Valley Logistics BV",
+        "jurisdiction": "NL",
+        "address": {
+          "full": "Zuidplein 126, 1077 XV Amsterdam"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 75.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000014",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-C022-C023",
+        "name": "Baltic Fisheries Limited",
+        "jurisdiction": "GB"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "psc-int-C022-C023",
+        "type": "entity",
+        "name": "Tuscan Foods S.p.A.",
+        "jurisdiction": "IT",
+        "address": {
+          "full": "Via Monte Napoleone 8, 20121 Milano"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 60.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000015",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-P014-C022",
+        "name": "Tuscan Foods S.p.A.",
+        "jurisdiction": "IT"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "psc-int-P014-C022",
+        "type": "individual",
+        "name": "Marta Nowak",
+        "birthDate": "1985-09",
+        "nationality": "PL",
+        "address": {
+          "full": "Zlota 59, 00-120 Warszawa"
+        }
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "share": {
+            "exact": 25.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000016",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-P002-C002",
+        "name": "Baltic Resource Holdings Limited",
+        "jurisdiction": "CY"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "psc-int-P002-C002",
+        "type": "individual",
+        "name": "Yelena Socolova",
+        "birthDate": "1975-09",
+        "nationality": "RU",
+        "address": {
+          "full": "Ulitsa Tverskaya 12, Moscow 125009"
+        }
+      },
+      "interests": [
+        {
+          "type": "directorship",
+          "share": {
+            "exact": 0.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    },
+    {
+      "statementID": "openownership-register-000017",
+      "statementType": "ownershipOrControlStatement",
+      "statementDate": "2024-06-30",
+      "subject": {
+        "describedByEntityStatement": "psc-sub-P002-C013",
+        "name": "GRANDVIEW PROPERTY FUND LTD",
+        "jurisdiction": "MT"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "psc-int-P002-C013",
+        "type": "individual",
+        "name": "Elena Sokolova",
+        "birthDate": "1975-09",
+        "nationality": "RU",
+        "address": {
+          "full": "Ulitsa Tverskaya 12, Moscow 125009"
+        }
+      },
+      "interests": [
+        {
+          "type": "directorship",
+          "share": {
+            "exact": 0.0
+          },
+          "startDate": "2019-01-01"
+        }
+      ],
+      "source": {
+        "type": [
+          "officialRegister"
+        ],
+        "description": "UK PSC register",
+        "retrievedAt": "2024-07-01"
+      }
+    }
+  ]
+}

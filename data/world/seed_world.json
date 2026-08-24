@@ -1,0 +1,3568 @@
+{
+  "seed": 20240802,
+  "people": [
+    {
+      "id": "P001",
+      "name": "Dmitri Volkov",
+      "native_name": "Дмитрий Волков",
+      "birth_date": "1968-04-11",
+      "nationality": "RU",
+      "pep_role": "Deputy Minister of Energy",
+      "sanctioned": true
+    },
+    {
+      "id": "P002",
+      "name": "Elena Sokolova",
+      "native_name": "Елена Соколова",
+      "birth_date": "1975-09-02",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "P003",
+      "name": "Marcus Van Der Berg",
+      "native_name": "",
+      "birth_date": "1961-01-30",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "P004",
+      "name": "Ahmed Al-Rashid",
+      "native_name": "أحمد الراشد",
+      "birth_date": "1970-07-19",
+      "nationality": "AE",
+      "pep_role": "Board member, state investment fund",
+      "sanctioned": false
+    },
+    {
+      "id": "P005",
+      "name": "Li Wei Chen",
+      "native_name": "陈力伟",
+      "birth_date": "1979-11-05",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "P006",
+      "name": "Oksana Petrenko",
+      "native_name": "Оксана Петренко",
+      "birth_date": "1983-03-24",
+      "nationality": "UA",
+      "pep_role": "Regional governor",
+      "sanctioned": false
+    },
+    {
+      "id": "P007",
+      "name": "Robert Kingsley",
+      "native_name": "",
+      "birth_date": "1957-06-08",
+      "nationality": "GB",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "P008",
+      "name": "Sergei Morozov",
+      "native_name": "Сергей Морозов",
+      "birth_date": "1972-12-15",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": true
+    },
+    {
+      "id": "P009",
+      "name": "Isabella Ferrari",
+      "native_name": "",
+      "birth_date": "1980-05-21",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "P010",
+      "name": "Kwame Osei",
+      "native_name": "",
+      "birth_date": "1966-08-14",
+      "nationality": "GH",
+      "pep_role": "Minister of Mines",
+      "sanctioned": false
+    },
+    {
+      "id": "P011",
+      "name": "Yulia Kuznetsova",
+      "native_name": "Юлия Кузнецова",
+      "birth_date": "1988-02-09",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "P012",
+      "name": "Thomas Whitfield",
+      "native_name": "",
+      "birth_date": "1954-10-03",
+      "nationality": "GB",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "P013",
+      "name": "Henrik Larsson",
+      "native_name": "",
+      "birth_date": "1971-05-17",
+      "nationality": "SE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "P014",
+      "name": "Marta Nowak",
+      "native_name": "",
+      "birth_date": "1985-09-28",
+      "nationality": "PL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0000",
+      "name": "Andrei Kovacs",
+      "native_name": "",
+      "birth_date": "1990-10-16",
+      "nationality": "UA",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0001",
+      "name": "Nikolai Costa",
+      "native_name": "",
+      "birth_date": "1950-12-27",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0002",
+      "name": "James Silva",
+      "native_name": "",
+      "birth_date": "1967-10-11",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0003",
+      "name": "Katarina Berg",
+      "native_name": "",
+      "birth_date": "1993-01-03",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0004",
+      "name": "Maria Reyes",
+      "native_name": "",
+      "birth_date": "1951-11-17",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0005",
+      "name": "James Adeyemi",
+      "native_name": "",
+      "birth_date": "1971-06-07",
+      "nationality": "CH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0006",
+      "name": "Irina Reyes",
+      "native_name": "",
+      "birth_date": "1975-01-02",
+      "nationality": "GB",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0007",
+      "name": "Sofia Bakker",
+      "native_name": "",
+      "birth_date": "1958-10-22",
+      "nationality": "GB",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0008",
+      "name": "Clara Ibrahim",
+      "native_name": "",
+      "birth_date": "1978-08-17",
+      "nationality": "CY",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0009",
+      "name": "Nikolai Yilmaz",
+      "native_name": "",
+      "birth_date": "1989-01-02",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0010",
+      "name": "Irina Adeyemi",
+      "native_name": "",
+      "birth_date": "1994-05-12",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0011",
+      "name": "Fatima Okafor",
+      "native_name": "",
+      "birth_date": "1988-02-03",
+      "nationality": "GB",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0012",
+      "name": "Nikolai Novak",
+      "native_name": "",
+      "birth_date": "1986-11-27",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0013",
+      "name": "Fatima Adeyemi",
+      "native_name": "",
+      "birth_date": "1956-11-04",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0014",
+      "name": "James Bakker",
+      "native_name": "",
+      "birth_date": "1965-10-03",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0015",
+      "name": "Irina Kovacs",
+      "native_name": "",
+      "birth_date": "1965-07-04",
+      "nationality": "GB",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0016",
+      "name": "Anna Nakamura",
+      "native_name": "",
+      "birth_date": "1954-12-25",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0017",
+      "name": "Irina Costa",
+      "native_name": "",
+      "birth_date": "1976-08-22",
+      "nationality": "CH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0018",
+      "name": "Clara Kovacs",
+      "native_name": "",
+      "birth_date": "1964-02-18",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0019",
+      "name": "Andrei Berg",
+      "native_name": "",
+      "birth_date": "1980-07-18",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0020",
+      "name": "Katarina Fischer",
+      "native_name": "",
+      "birth_date": "1960-07-08",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0021",
+      "name": "James Petrov",
+      "native_name": "",
+      "birth_date": "1988-03-07",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0022",
+      "name": "Nikolai Marchetti",
+      "native_name": "",
+      "birth_date": "1950-06-13",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0023",
+      "name": "Fatima Okafor",
+      "native_name": "",
+      "birth_date": "1966-10-03",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0024",
+      "name": "Samuel Dubois",
+      "native_name": "",
+      "birth_date": "1992-05-16",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0025",
+      "name": "Irina Bakker",
+      "native_name": "",
+      "birth_date": "1983-08-08",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0026",
+      "name": "Ivan Berg",
+      "native_name": "",
+      "birth_date": "1975-02-06",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0027",
+      "name": "Katarina Fischer",
+      "native_name": "",
+      "birth_date": "1991-11-18",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0028",
+      "name": "Daniel Nowak",
+      "native_name": "",
+      "birth_date": "1984-09-22",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0029",
+      "name": "Ivan Nakamura",
+      "native_name": "",
+      "birth_date": "1970-12-22",
+      "nationality": "GH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0030",
+      "name": "Lucia Marchetti",
+      "native_name": "",
+      "birth_date": "1976-02-13",
+      "nationality": "UA",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0031",
+      "name": "Grace Haddad",
+      "native_name": "",
+      "birth_date": "1984-12-08",
+      "nationality": "CH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0032",
+      "name": "Lucia Adeyemi",
+      "native_name": "",
+      "birth_date": "1981-01-08",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0033",
+      "name": "Katarina Haddad",
+      "native_name": "",
+      "birth_date": "1952-06-02",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0034",
+      "name": "Nikolai Berg",
+      "native_name": "",
+      "birth_date": "1980-10-25",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0035",
+      "name": "Fatima Yilmaz",
+      "native_name": "",
+      "birth_date": "1984-12-23",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0036",
+      "name": "Peter Novak",
+      "native_name": "",
+      "birth_date": "1956-12-06",
+      "nationality": "CY",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0037",
+      "name": "Clara Nakamura",
+      "native_name": "",
+      "birth_date": "1995-12-07",
+      "nationality": "GH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0038",
+      "name": "Lucia Bakker",
+      "native_name": "",
+      "birth_date": "1953-03-19",
+      "nationality": "GB",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0039",
+      "name": "Clara Kovacs",
+      "native_name": "",
+      "birth_date": "1978-07-03",
+      "nationality": "CH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0040",
+      "name": "Omar Marchetti",
+      "native_name": "",
+      "birth_date": "1992-06-07",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0041",
+      "name": "Nikolai Marchetti",
+      "native_name": "",
+      "birth_date": "1957-02-19",
+      "nationality": "UA",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0042",
+      "name": "Nadia Petrov",
+      "native_name": "",
+      "birth_date": "1995-08-08",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0043",
+      "name": "Sofia Okafor",
+      "native_name": "",
+      "birth_date": "1951-04-24",
+      "nationality": "GH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0044",
+      "name": "Hassan Lindqvist",
+      "native_name": "",
+      "birth_date": "1992-12-11",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0045",
+      "name": "Omar Haddad",
+      "native_name": "",
+      "birth_date": "1962-05-18",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0046",
+      "name": "Maria Lindqvist",
+      "native_name": "",
+      "birth_date": "1994-07-07",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0047",
+      "name": "Irina Okafor",
+      "native_name": "",
+      "birth_date": "1964-11-18",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0048",
+      "name": "Nadia Fischer",
+      "native_name": "",
+      "birth_date": "1976-01-18",
+      "nationality": "GH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0049",
+      "name": "Sofia Adeyemi",
+      "native_name": "",
+      "birth_date": "1979-06-05",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0050",
+      "name": "Anna Dubois",
+      "native_name": "",
+      "birth_date": "1967-07-16",
+      "nationality": "UA",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0051",
+      "name": "Andrei Yilmaz",
+      "native_name": "",
+      "birth_date": "1952-09-17",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0052",
+      "name": "Viktor Petrov",
+      "native_name": "",
+      "birth_date": "1956-08-25",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0053",
+      "name": "James Petrov",
+      "native_name": "",
+      "birth_date": "1953-06-14",
+      "nationality": "GH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0054",
+      "name": "Sofia Okafor",
+      "native_name": "",
+      "birth_date": "1979-04-17",
+      "nationality": "CY",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0055",
+      "name": "Daniel Lindqvist",
+      "native_name": "",
+      "birth_date": "1966-10-04",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0056",
+      "name": "Sofia Ibrahim",
+      "native_name": "",
+      "birth_date": "1989-03-16",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0057",
+      "name": "Ivan Marchetti",
+      "native_name": "",
+      "birth_date": "1995-06-16",
+      "nationality": "CH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0058",
+      "name": "Peter Silva",
+      "native_name": "",
+      "birth_date": "1960-02-08",
+      "nationality": "CY",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0059",
+      "name": "Nikolai Fischer",
+      "native_name": "",
+      "birth_date": "1978-04-27",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0060",
+      "name": "Grace Ibrahim",
+      "native_name": "",
+      "birth_date": "1978-05-01",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0061",
+      "name": "Lucia Dubois",
+      "native_name": "",
+      "birth_date": "1970-05-25",
+      "nationality": "CY",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0062",
+      "name": "Irina Costa",
+      "native_name": "",
+      "birth_date": "1951-06-18",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0063",
+      "name": "Omar Reyes",
+      "native_name": "",
+      "birth_date": "1971-05-23",
+      "nationality": "GB",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0064",
+      "name": "Nikolai Okafor",
+      "native_name": "",
+      "birth_date": "1989-06-18",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0065",
+      "name": "Fatima Dubois",
+      "native_name": "",
+      "birth_date": "1954-12-02",
+      "nationality": "UA",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0066",
+      "name": "Irina Adeyemi",
+      "native_name": "",
+      "birth_date": "1969-01-04",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0067",
+      "name": "Anna Yilmaz",
+      "native_name": "",
+      "birth_date": "1975-12-17",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0068",
+      "name": "Lucia Fischer",
+      "native_name": "",
+      "birth_date": "1954-09-25",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0069",
+      "name": "Nikolai Reyes",
+      "native_name": "",
+      "birth_date": "1985-10-12",
+      "nationality": "GB",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0070",
+      "name": "Fatima Nakamura",
+      "native_name": "",
+      "birth_date": "1958-02-27",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0071",
+      "name": "Maria Fischer",
+      "native_name": "",
+      "birth_date": "1986-07-24",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0072",
+      "name": "Clara Berg",
+      "native_name": "",
+      "birth_date": "1967-01-03",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0073",
+      "name": "Andrei Silva",
+      "native_name": "",
+      "birth_date": "1956-09-16",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0074",
+      "name": "Irina Okafor",
+      "native_name": "",
+      "birth_date": "1984-10-14",
+      "nationality": "UA",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0075",
+      "name": "Nikolai Kovacs",
+      "native_name": "",
+      "birth_date": "1987-09-05",
+      "nationality": "CH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0076",
+      "name": "Viktor Nakamura",
+      "native_name": "",
+      "birth_date": "1951-06-12",
+      "nationality": "CH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0077",
+      "name": "Ivan Kovacs",
+      "native_name": "",
+      "birth_date": "1956-01-23",
+      "nationality": "CH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0078",
+      "name": "Lucia Okafor",
+      "native_name": "",
+      "birth_date": "1960-10-22",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0079",
+      "name": "Daniel Lindqvist",
+      "native_name": "",
+      "birth_date": "1967-11-22",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0080",
+      "name": "Omar Berg",
+      "native_name": "",
+      "birth_date": "1974-10-08",
+      "nationality": "UA",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0081",
+      "name": "Peter Reyes",
+      "native_name": "",
+      "birth_date": "1990-06-21",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0082",
+      "name": "Daniel Ibrahim",
+      "native_name": "",
+      "birth_date": "1972-01-15",
+      "nationality": "UA",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0083",
+      "name": "Lucia Larsen",
+      "native_name": "",
+      "birth_date": "1950-03-11",
+      "nationality": "CH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0084",
+      "name": "Fatima Petrov",
+      "native_name": "",
+      "birth_date": "1952-05-25",
+      "nationality": "RU",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0085",
+      "name": "Viktor Reyes",
+      "native_name": "",
+      "birth_date": "1994-11-01",
+      "nationality": "AE",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0086",
+      "name": "Samuel Marchetti",
+      "native_name": "",
+      "birth_date": "1967-07-10",
+      "nationality": "CN",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0087",
+      "name": "Sofia Haddad",
+      "native_name": "",
+      "birth_date": "1987-04-07",
+      "nationality": "GH",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0088",
+      "name": "Viktor Bakker",
+      "native_name": "",
+      "birth_date": "1993-08-01",
+      "nationality": "NL",
+      "pep_role": "",
+      "sanctioned": false
+    },
+    {
+      "id": "Q0089",
+      "name": "Anna Silva",
+      "native_name": "",
+      "birth_date": "1989-02-24",
+      "nationality": "IT",
+      "pep_role": "",
+      "sanctioned": false
+    }
+  ],
+  "companies": [
+    {
+      "id": "C001",
+      "name": "Northwind Energy Trading",
+      "jurisdiction": "GB",
+      "incorporation_date": "2011-03-15",
+      "legal_form": "Limited",
+      "lei": "5493001KJTIIGC8Y1R12"
+    },
+    {
+      "id": "C002",
+      "name": "Baltic Resource Holdings",
+      "jurisdiction": "CY",
+      "incorporation_date": "2012-07-02",
+      "legal_form": "Limited",
+      "lei": "213800MBWEIJDM5CU638"
+    },
+    {
+      "id": "C003",
+      "name": "Arcadia Capital Partners",
+      "jurisdiction": "KY",
+      "incorporation_date": "2013-01-20",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "C004",
+      "name": "Meridian Nominees",
+      "jurisdiction": "VG",
+      "incorporation_date": "2013-05-11",
+      "legal_form": "BVI Business Company",
+      "lei": ""
+    },
+    {
+      "id": "C005",
+      "name": "Volga Shipping Group",
+      "jurisdiction": "RU",
+      "incorporation_date": "2009-11-28",
+      "legal_form": "OOO",
+      "lei": "253400WQIYIZAXBWCU02"
+    },
+    {
+      "id": "C006",
+      "name": "Sunrise Commodities",
+      "jurisdiction": "AE",
+      "incorporation_date": "2015-02-17",
+      "legal_form": "FZE",
+      "lei": ""
+    },
+    {
+      "id": "C007",
+      "name": "Helvetia Trust Services",
+      "jurisdiction": "CH",
+      "incorporation_date": "2008-06-30",
+      "legal_form": "AG",
+      "lei": "506700GE1G29325QX363"
+    },
+    {
+      "id": "C008",
+      "name": "Delta Marine Logistics",
+      "jurisdiction": "PA",
+      "incorporation_date": "2014-09-05",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "C009",
+      "name": "Cardinal Infrastructure",
+      "jurisdiction": "GB",
+      "incorporation_date": "2010-04-19",
+      "legal_form": "Public Limited Company",
+      "lei": "213800D1EI4B9WTWWD28"
+    },
+    {
+      "id": "C010",
+      "name": "Silk Road Ventures",
+      "jurisdiction": "SC",
+      "incorporation_date": "2016-08-22",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "C011",
+      "name": "Aurora Mining Holdings",
+      "jurisdiction": "GB",
+      "incorporation_date": "2012-11-09",
+      "legal_form": "Limited",
+      "lei": "5493004NBBK8OCM3T012"
+    },
+    {
+      "id": "C012",
+      "name": "Sahel Extractives",
+      "jurisdiction": "GH",
+      "incorporation_date": "2014-03-03",
+      "legal_form": "Limited",
+      "lei": ""
+    },
+    {
+      "id": "C013",
+      "name": "Grandview Property Fund",
+      "jurisdiction": "MT",
+      "incorporation_date": "2015-06-14",
+      "legal_form": "Limited",
+      "lei": "529900W3MOO00A18X956"
+    },
+    {
+      "id": "C014",
+      "name": "Pinnacle Advisory Services",
+      "jurisdiction": "GB",
+      "incorporation_date": "2013-08-27",
+      "legal_form": "Limited Liability Partnership",
+      "lei": ""
+    },
+    {
+      "id": "C015",
+      "name": "Kestrel Trading DMCC",
+      "jurisdiction": "AE",
+      "incorporation_date": "2017-01-12",
+      "legal_form": "DMCC",
+      "lei": ""
+    },
+    {
+      "id": "C016",
+      "name": "Orion Petrochemicals",
+      "jurisdiction": "NL",
+      "incorporation_date": "2011-10-06",
+      "legal_form": "B.V.",
+      "lei": "724500Y6L1I8Z2GLRP19"
+    },
+    {
+      "id": "C017",
+      "name": "Zenith Capital Management",
+      "jurisdiction": "KY",
+      "incorporation_date": "2016-04-25",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "C018",
+      "name": "Adriatic Shipping Lines",
+      "jurisdiction": "IT",
+      "incorporation_date": "2010-02-11",
+      "legal_form": "S.p.A.",
+      "lei": "815600A9E1D1D0F0C123"
+    },
+    {
+      "id": "C019",
+      "name": "Blue Harbour Nominees",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2017-09-30",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "C020",
+      "name": "Continental Freight Systems",
+      "jurisdiction": "GB",
+      "incorporation_date": "2009-05-18",
+      "legal_form": "Limited",
+      "lei": "213800QZ5K7EJP9NRT44"
+    },
+    {
+      "id": "C021",
+      "name": "Rhine Valley Logistics",
+      "jurisdiction": "NL",
+      "incorporation_date": "2013-04-12",
+      "legal_form": "B.V.",
+      "lei": "724500KKV1J1M8L2CD77"
+    },
+    {
+      "id": "C022",
+      "name": "Tuscan Foods",
+      "jurisdiction": "IT",
+      "incorporation_date": "2014-07-08",
+      "legal_form": "S.p.A.",
+      "lei": "815600B2C3D4E5F6A789"
+    },
+    {
+      "id": "C023",
+      "name": "Baltic Fisheries",
+      "jurisdiction": "GB",
+      "incorporation_date": "2015-11-23",
+      "legal_form": "Limited",
+      "lei": "213800RR8T2WQ4NMPL61"
+    },
+    {
+      "id": "B0000",
+      "name": "Cobalt Textiles International",
+      "jurisdiction": "PA",
+      "incorporation_date": "2020-01-15",
+      "legal_form": "IBC",
+      "lei": "BG0000E970PIJS6H64UZ"
+    },
+    {
+      "id": "B0001",
+      "name": "Granite Maritime",
+      "jurisdiction": "AE",
+      "incorporation_date": "2015-01-08",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "B0002",
+      "name": "Cobalt Partners International",
+      "jurisdiction": "AE",
+      "incorporation_date": "2005-03-08",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "B0003",
+      "name": "Northern Partners Global",
+      "jurisdiction": "CY",
+      "incorporation_date": "2017-07-22",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG0003INIHTU8TCBK0YC"
+    },
+    {
+      "id": "B0004",
+      "name": "Draco Capital Corporation",
+      "jurisdiction": "CH",
+      "incorporation_date": "2006-07-27",
+      "legal_form": "B.V.",
+      "lei": "BG0004KCVSEHTJCNUCZM"
+    },
+    {
+      "id": "B0005",
+      "name": "Emerald Capital International",
+      "jurisdiction": "NL",
+      "incorporation_date": "2010-09-17",
+      "legal_form": "DMCC",
+      "lei": ""
+    },
+    {
+      "id": "B0006",
+      "name": "Harbour Maritime Corporation",
+      "jurisdiction": "AE",
+      "incorporation_date": "2008-02-13",
+      "legal_form": "Exempted Company",
+      "lei": "BG0006D9HPLODI40IZT2"
+    },
+    {
+      "id": "B0007",
+      "name": "Regent Industries Corporation",
+      "jurisdiction": "IT",
+      "incorporation_date": "2009-06-17",
+      "legal_form": "IBC",
+      "lei": "BG0007C6NLXKNFWTB2V0"
+    },
+    {
+      "id": "B0008",
+      "name": "Cobalt Textiles Corporation",
+      "jurisdiction": "MT",
+      "incorporation_date": "2018-09-07",
+      "legal_form": "S.p.A.",
+      "lei": ""
+    },
+    {
+      "id": "B0009",
+      "name": "Anchor Property Corporation",
+      "jurisdiction": "MT",
+      "incorporation_date": "2018-02-15",
+      "legal_form": "IBC",
+      "lei": "BG0009X6S3P4HPTKHRK5"
+    },
+    {
+      "id": "B0010",
+      "name": "Imperial Property Group",
+      "jurisdiction": "NL",
+      "incorporation_date": "2015-04-11",
+      "legal_form": "DMCC",
+      "lei": "BG00101BOJG3E2ABL3W2"
+    },
+    {
+      "id": "B0011",
+      "name": "Cypress Consulting Enterprises",
+      "jurisdiction": "IT",
+      "incorporation_date": "2010-06-08",
+      "legal_form": "DMCC",
+      "lei": ""
+    },
+    {
+      "id": "B0012",
+      "name": "Everest Logistics Enterprises",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2017-01-15",
+      "legal_form": "OOO",
+      "lei": ""
+    },
+    {
+      "id": "B0013",
+      "name": "Summit Trading Global",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2017-06-07",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "B0014",
+      "name": "Harbour Resources Corporation",
+      "jurisdiction": "SC",
+      "incorporation_date": "2007-09-22",
+      "legal_form": "AG",
+      "lei": ""
+    },
+    {
+      "id": "B0015",
+      "name": "Beacon Capital Group",
+      "jurisdiction": "SC",
+      "incorporation_date": "2018-07-10",
+      "legal_form": "AG",
+      "lei": "BG0015RRQJGJNQAPPFF4"
+    },
+    {
+      "id": "B0016",
+      "name": "Everest Holdings",
+      "jurisdiction": "SC",
+      "incorporation_date": "2019-03-04",
+      "legal_form": "Limited",
+      "lei": "BG0016EBJ274X7K3XGTT"
+    },
+    {
+      "id": "B0017",
+      "name": "Anchor Petroleum",
+      "jurisdiction": "AE",
+      "incorporation_date": "2019-01-07",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "B0018",
+      "name": "Falcon Partners",
+      "jurisdiction": "CH",
+      "incorporation_date": "2017-01-23",
+      "legal_form": "DMCC",
+      "lei": ""
+    },
+    {
+      "id": "B0019",
+      "name": "Anchor Maritime Group",
+      "jurisdiction": "CH",
+      "incorporation_date": "2007-09-07",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "B0020",
+      "name": "Emerald Resources",
+      "jurisdiction": "CY",
+      "incorporation_date": "2013-07-06",
+      "legal_form": "Public Limited Company",
+      "lei": "BG0020QOM2VW4O7LF212"
+    },
+    {
+      "id": "B0021",
+      "name": "Crown Logistics Global",
+      "jurisdiction": "GB",
+      "incorporation_date": "2018-06-13",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "B0022",
+      "name": "Beacon Investments Enterprises",
+      "jurisdiction": "PA",
+      "incorporation_date": "2018-05-20",
+      "legal_form": "OOO",
+      "lei": "BG00229SZI61I6SUTA3O"
+    },
+    {
+      "id": "B0023",
+      "name": "Emerald Industries Corporation",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2014-06-12",
+      "legal_form": "S.p.A.",
+      "lei": ""
+    },
+    {
+      "id": "B0024",
+      "name": "Atlantic Investments",
+      "jurisdiction": "PA",
+      "incorporation_date": "2010-09-11",
+      "legal_form": "Exempted Company",
+      "lei": "BG0024SZ1LUMMZ0FPLZN"
+    },
+    {
+      "id": "B0025",
+      "name": "Atlantic Investments Corporation",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2009-02-01",
+      "legal_form": "FZE",
+      "lei": "BG0025R3938Q9O09UUSL"
+    },
+    {
+      "id": "B0026",
+      "name": "Everest Industries Enterprises",
+      "jurisdiction": "CY",
+      "incorporation_date": "2010-11-19",
+      "legal_form": "FZE",
+      "lei": ""
+    },
+    {
+      "id": "B0027",
+      "name": "Draco Petroleum Global",
+      "jurisdiction": "CH",
+      "incorporation_date": "2016-11-25",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "B0028",
+      "name": "Summit Agri Global",
+      "jurisdiction": "IT",
+      "incorporation_date": "2010-12-19",
+      "legal_form": "S.p.A.",
+      "lei": "BG0028E6EY0OYI01MV2W"
+    },
+    {
+      "id": "B0029",
+      "name": "Halcyon Logistics Group",
+      "jurisdiction": "IT",
+      "incorporation_date": "2013-04-09",
+      "legal_form": "Exempted Company",
+      "lei": "BG0029Z4VVOPH4I6TLRF"
+    },
+    {
+      "id": "B0030",
+      "name": "Granite Resources Corporation",
+      "jurisdiction": "PA",
+      "incorporation_date": "2007-09-25",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "B0031",
+      "name": "Summit Resources Global",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2017-11-04",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "B0032",
+      "name": "Harbour Agri Enterprises",
+      "jurisdiction": "AE",
+      "incorporation_date": "2015-09-21",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "B0033",
+      "name": "Everest Industries Global",
+      "jurisdiction": "GB",
+      "incorporation_date": "2014-04-08",
+      "legal_form": "DMCC",
+      "lei": ""
+    },
+    {
+      "id": "B0034",
+      "name": "Anchor Agri",
+      "jurisdiction": "PA",
+      "incorporation_date": "2005-11-05",
+      "legal_form": "Limited",
+      "lei": ""
+    },
+    {
+      "id": "B0035",
+      "name": "Crown Capital Enterprises",
+      "jurisdiction": "NL",
+      "incorporation_date": "2018-08-08",
+      "legal_form": "AG",
+      "lei": "BG00351IWFR63EYW0M02"
+    },
+    {
+      "id": "B0036",
+      "name": "Summit Property Enterprises",
+      "jurisdiction": "KY",
+      "incorporation_date": "2020-04-02",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG0036T8CI1WTS95GPH3"
+    },
+    {
+      "id": "B0037",
+      "name": "Emerald Agri International",
+      "jurisdiction": "AE",
+      "incorporation_date": "2011-12-24",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "B0038",
+      "name": "Anchor Logistics",
+      "jurisdiction": "AE",
+      "incorporation_date": "2012-12-09",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "B0039",
+      "name": "Falcon Metals",
+      "jurisdiction": "CH",
+      "incorporation_date": "2008-02-01",
+      "legal_form": "FZE",
+      "lei": ""
+    },
+    {
+      "id": "B0040",
+      "name": "Northern Property Corporation",
+      "jurisdiction": "AE",
+      "incorporation_date": "2008-05-27",
+      "legal_form": "IBC",
+      "lei": "BG00404YNVVRCTOUP010"
+    },
+    {
+      "id": "B0041",
+      "name": "Regent Capital International",
+      "jurisdiction": "PA",
+      "incorporation_date": "2005-05-22",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "B0042",
+      "name": "Ivory Holdings",
+      "jurisdiction": "MT",
+      "incorporation_date": "2010-12-05",
+      "legal_form": "S.p.A.",
+      "lei": ""
+    },
+    {
+      "id": "B0043",
+      "name": "Halcyon Resources Enterprises",
+      "jurisdiction": "MT",
+      "incorporation_date": "2011-11-14",
+      "legal_form": "AG",
+      "lei": "BG0043RXAJAZO9GOPCC5"
+    },
+    {
+      "id": "B0044",
+      "name": "Garnet Petroleum Group",
+      "jurisdiction": "AE",
+      "incorporation_date": "2009-09-02",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG0044HYJBBO8HTL9C6X"
+    },
+    {
+      "id": "B0045",
+      "name": "Beacon Capital Enterprises",
+      "jurisdiction": "KY",
+      "incorporation_date": "2018-07-24",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "B0046",
+      "name": "Draco Maritime International",
+      "jurisdiction": "CH",
+      "incorporation_date": "2006-12-24",
+      "legal_form": "B.V.",
+      "lei": ""
+    },
+    {
+      "id": "B0047",
+      "name": "Foxglove Logistics International",
+      "jurisdiction": "KY",
+      "incorporation_date": "2015-06-25",
+      "legal_form": "S.p.A.",
+      "lei": "BG0047K3ROUSGLB1P7LK"
+    },
+    {
+      "id": "B0048",
+      "name": "Emerald Textiles Enterprises",
+      "jurisdiction": "SC",
+      "incorporation_date": "2008-09-20",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG00487HNDLIZ9FM728G"
+    },
+    {
+      "id": "B0049",
+      "name": "Cypress Partners Group",
+      "jurisdiction": "KY",
+      "incorporation_date": "2014-08-14",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG0049KNNY0OMYQJSW7B"
+    },
+    {
+      "id": "B0050",
+      "name": "Summit Partners Group",
+      "jurisdiction": "GB",
+      "incorporation_date": "2012-02-17",
+      "legal_form": "Limited",
+      "lei": "BG0050X4B5KRFBJXWE2R"
+    },
+    {
+      "id": "B0051",
+      "name": "Summit Metals Enterprises",
+      "jurisdiction": "KY",
+      "incorporation_date": "2006-01-25",
+      "legal_form": "AG",
+      "lei": ""
+    },
+    {
+      "id": "B0052",
+      "name": "Ivory Petroleum",
+      "jurisdiction": "AE",
+      "incorporation_date": "2016-04-09",
+      "legal_form": "AG",
+      "lei": ""
+    },
+    {
+      "id": "B0053",
+      "name": "Granite Metals Global",
+      "jurisdiction": "VG",
+      "incorporation_date": "2016-09-02",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "B0054",
+      "name": "Falcon Resources Global",
+      "jurisdiction": "IT",
+      "incorporation_date": "2019-08-23",
+      "legal_form": "AG",
+      "lei": ""
+    },
+    {
+      "id": "B0055",
+      "name": "Regent Textiles",
+      "jurisdiction": "PA",
+      "incorporation_date": "2007-09-19",
+      "legal_form": "DMCC",
+      "lei": "BG00554ZL8R1NVJ4PTPX"
+    },
+    {
+      "id": "B0056",
+      "name": "Harbour Trading",
+      "jurisdiction": "MT",
+      "incorporation_date": "2012-06-12",
+      "legal_form": "FZE",
+      "lei": ""
+    },
+    {
+      "id": "B0057",
+      "name": "Cypress Capital",
+      "jurisdiction": "AE",
+      "incorporation_date": "2006-01-27",
+      "legal_form": "AG",
+      "lei": "BG00573XCA62FHHPID0J"
+    },
+    {
+      "id": "B0058",
+      "name": "Cypress Property Group",
+      "jurisdiction": "MT",
+      "incorporation_date": "2014-03-19",
+      "legal_form": "AG",
+      "lei": ""
+    },
+    {
+      "id": "B0059",
+      "name": "Granite Maritime International",
+      "jurisdiction": "VG",
+      "incorporation_date": "2020-08-18",
+      "legal_form": "AG",
+      "lei": "BG0059A4N0MCRBY7FU5X"
+    },
+    {
+      "id": "B0060",
+      "name": "Falcon Agri Enterprises",
+      "jurisdiction": "IT",
+      "incorporation_date": "2010-04-14",
+      "legal_form": "S.p.A.",
+      "lei": ""
+    },
+    {
+      "id": "B0061",
+      "name": "Draco Holdings",
+      "jurisdiction": "GB",
+      "incorporation_date": "2005-03-15",
+      "legal_form": "AG",
+      "lei": ""
+    },
+    {
+      "id": "B0062",
+      "name": "Halcyon Textiles Corporation",
+      "jurisdiction": "NL",
+      "incorporation_date": "2008-02-19",
+      "legal_form": "Limited",
+      "lei": "BG0062N9X2OJ5E151DNX"
+    },
+    {
+      "id": "B0063",
+      "name": "Falcon Industries Group",
+      "jurisdiction": "GB",
+      "incorporation_date": "2012-04-21",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG0063TBHSWMFXYS15NR"
+    },
+    {
+      "id": "B0064",
+      "name": "Anchor Trading Global",
+      "jurisdiction": "CH",
+      "incorporation_date": "2011-04-02",
+      "legal_form": "AG",
+      "lei": ""
+    },
+    {
+      "id": "B0065",
+      "name": "Ivory Trading Corporation",
+      "jurisdiction": "CY",
+      "incorporation_date": "2011-02-06",
+      "legal_form": "S.p.A.",
+      "lei": ""
+    },
+    {
+      "id": "B0066",
+      "name": "Regent Ventures Group",
+      "jurisdiction": "MT",
+      "incorporation_date": "2019-08-14",
+      "legal_form": "Public Limited Company",
+      "lei": ""
+    },
+    {
+      "id": "B0067",
+      "name": "Draco Petroleum",
+      "jurisdiction": "KY",
+      "incorporation_date": "2020-08-18",
+      "legal_form": "AG",
+      "lei": "BG0067E48APOP2PQISAF"
+    },
+    {
+      "id": "B0068",
+      "name": "Draco Industries Enterprises",
+      "jurisdiction": "KY",
+      "incorporation_date": "2005-03-04",
+      "legal_form": "OOO",
+      "lei": ""
+    },
+    {
+      "id": "B0069",
+      "name": "Harbour Textiles",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2012-02-06",
+      "legal_form": "IBC",
+      "lei": "BG0069T8XXOKEIFO885J"
+    },
+    {
+      "id": "B0070",
+      "name": "Draco Trading International",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2010-05-14",
+      "legal_form": "B.V.",
+      "lei": "BG0070BCCPALRRZSTGL0"
+    },
+    {
+      "id": "B0071",
+      "name": "Foxglove Textiles",
+      "jurisdiction": "VG",
+      "incorporation_date": "2011-08-24",
+      "legal_form": "OOO",
+      "lei": ""
+    },
+    {
+      "id": "B0072",
+      "name": "Garnet Logistics Corporation",
+      "jurisdiction": "VG",
+      "incorporation_date": "2016-01-02",
+      "legal_form": "DMCC",
+      "lei": ""
+    },
+    {
+      "id": "B0073",
+      "name": "Atlantic Property International",
+      "jurisdiction": "MT",
+      "incorporation_date": "2012-03-09",
+      "legal_form": "Exempted Company",
+      "lei": "BG0073UYT4NUXQH6YUYG"
+    },
+    {
+      "id": "B0074",
+      "name": "Northern Industries Corporation",
+      "jurisdiction": "CH",
+      "incorporation_date": "2007-12-24",
+      "legal_form": "Exempted Company",
+      "lei": "BG00740ESMPA2Y0ZPRGI"
+    },
+    {
+      "id": "B0075",
+      "name": "Crown Agri Group",
+      "jurisdiction": "MT",
+      "incorporation_date": "2020-10-19",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "B0076",
+      "name": "Draco Agri Group",
+      "jurisdiction": "AE",
+      "incorporation_date": "2011-03-24",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "B0077",
+      "name": "Draco Maritime Global",
+      "jurisdiction": "CH",
+      "incorporation_date": "2009-01-23",
+      "legal_form": "DMCC",
+      "lei": "BG00778ODJ19AS9QIB2S"
+    },
+    {
+      "id": "B0078",
+      "name": "Foxglove Industries",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2018-12-11",
+      "legal_form": "B.V.",
+      "lei": ""
+    },
+    {
+      "id": "B0079",
+      "name": "Cypress Maritime",
+      "jurisdiction": "AE",
+      "incorporation_date": "2014-12-01",
+      "legal_form": "DMCC",
+      "lei": ""
+    },
+    {
+      "id": "B0080",
+      "name": "Anchor Property Global",
+      "jurisdiction": "IT",
+      "incorporation_date": "2006-07-05",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG00809UDT0CHPAA4531"
+    },
+    {
+      "id": "B0081",
+      "name": "Ivory Partners Enterprises",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2010-07-01",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "B0082",
+      "name": "Beacon Petroleum International",
+      "jurisdiction": "AE",
+      "incorporation_date": "2006-02-25",
+      "legal_form": "Public Limited Company",
+      "lei": "BG0082W4N1Y8BIXEAVNI"
+    },
+    {
+      "id": "B0083",
+      "name": "Foxglove Property",
+      "jurisdiction": "MT",
+      "incorporation_date": "2006-10-18",
+      "legal_form": "FZE",
+      "lei": ""
+    },
+    {
+      "id": "B0084",
+      "name": "Atlantic Holdings Corporation",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2015-11-04",
+      "legal_form": "Public Limited Company",
+      "lei": "BG0084IODSB1CQQN1PW1"
+    },
+    {
+      "id": "B0085",
+      "name": "Northern Metals Global",
+      "jurisdiction": "AE",
+      "incorporation_date": "2009-07-23",
+      "legal_form": "Public Limited Company",
+      "lei": ""
+    },
+    {
+      "id": "B0086",
+      "name": "Atlantic Capital Corporation",
+      "jurisdiction": "KY",
+      "incorporation_date": "2020-10-25",
+      "legal_form": "FZE",
+      "lei": "BG0086VH9AVA4NA0ZP71"
+    },
+    {
+      "id": "B0087",
+      "name": "Emerald Logistics Global",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2013-11-08",
+      "legal_form": "IBC",
+      "lei": "BG00873L2ZHFXKNUACDM"
+    },
+    {
+      "id": "B0088",
+      "name": "Harbour Industries Global",
+      "jurisdiction": "GB",
+      "incorporation_date": "2013-04-08",
+      "legal_form": "DMCC",
+      "lei": "BG0088GNCQH5IZNGMSRF"
+    },
+    {
+      "id": "B0089",
+      "name": "Cobalt Holdings Enterprises",
+      "jurisdiction": "MT",
+      "incorporation_date": "2012-08-13",
+      "legal_form": "AG",
+      "lei": ""
+    },
+    {
+      "id": "B0090",
+      "name": "Summit Maritime Group",
+      "jurisdiction": "CH",
+      "incorporation_date": "2016-06-25",
+      "legal_form": "B.V.",
+      "lei": "BG0090MMFU8BP8PWJPGX"
+    },
+    {
+      "id": "B0091",
+      "name": "Regent Consulting",
+      "jurisdiction": "PA",
+      "incorporation_date": "2019-11-27",
+      "legal_form": "Limited",
+      "lei": "BG00911BRCCFMKOXW5DT"
+    },
+    {
+      "id": "B0092",
+      "name": "Ivory Investments Global",
+      "jurisdiction": "MT",
+      "incorporation_date": "2016-09-09",
+      "legal_form": "OOO",
+      "lei": ""
+    },
+    {
+      "id": "B0093",
+      "name": "Northern Resources Corporation",
+      "jurisdiction": "PA",
+      "incorporation_date": "2010-06-06",
+      "legal_form": "FZE",
+      "lei": ""
+    },
+    {
+      "id": "B0094",
+      "name": "Imperial Agri",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2009-10-09",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "B0095",
+      "name": "Harbour Consulting Enterprises",
+      "jurisdiction": "CH",
+      "incorporation_date": "2019-08-06",
+      "legal_form": "Public Limited Company",
+      "lei": ""
+    },
+    {
+      "id": "B0096",
+      "name": "Halcyon Investments Enterprises",
+      "jurisdiction": "IT",
+      "incorporation_date": "2018-09-16",
+      "legal_form": "S.p.A.",
+      "lei": ""
+    },
+    {
+      "id": "B0097",
+      "name": "Regent Partners Enterprises",
+      "jurisdiction": "VG",
+      "incorporation_date": "2012-12-03",
+      "legal_form": "Public Limited Company",
+      "lei": "BG0097Z2LU9I2CXKCMVQ"
+    },
+    {
+      "id": "B0098",
+      "name": "Imperial Industries International",
+      "jurisdiction": "CH",
+      "incorporation_date": "2011-01-13",
+      "legal_form": "Exempted Company",
+      "lei": "BG0098SYN1M0114Z9OQM"
+    },
+    {
+      "id": "B0099",
+      "name": "Atlantic Textiles Corporation",
+      "jurisdiction": "PA",
+      "incorporation_date": "2010-11-14",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG0099819VN4RHHGI4JO"
+    },
+    {
+      "id": "B0100",
+      "name": "Everest Industries",
+      "jurisdiction": "IT",
+      "incorporation_date": "2009-11-16",
+      "legal_form": "Public Limited Company",
+      "lei": ""
+    },
+    {
+      "id": "B0101",
+      "name": "Emerald Partners Enterprises",
+      "jurisdiction": "CY",
+      "incorporation_date": "2008-03-11",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "B0102",
+      "name": "Emerald Textiles Enterprises (Services)",
+      "jurisdiction": "SC",
+      "incorporation_date": "2005-08-20",
+      "legal_form": "FZE",
+      "lei": "BG0102EDVCZ8OEN8BFD5"
+    },
+    {
+      "id": "B0103",
+      "name": "Regent Ventures Enterprises",
+      "jurisdiction": "MT",
+      "incorporation_date": "2012-04-01",
+      "legal_form": "Exempted Company",
+      "lei": "BG0103M54R79K157IZAL"
+    },
+    {
+      "id": "B0104",
+      "name": "Everest Ventures Group",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2016-10-09",
+      "legal_form": "AG",
+      "lei": "BG01049UTMCKMKWOVUMF"
+    },
+    {
+      "id": "B0105",
+      "name": "Cobalt Maritime International",
+      "jurisdiction": "IT",
+      "incorporation_date": "2008-06-21",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG010586QIS0F3P8UR1J"
+    },
+    {
+      "id": "B0106",
+      "name": "Ivory Holdings Group",
+      "jurisdiction": "CY",
+      "incorporation_date": "2016-07-20",
+      "legal_form": "Public Limited Company",
+      "lei": "BG0106AIURO7OICOW99C"
+    },
+    {
+      "id": "B0107",
+      "name": "Halcyon Metals Enterprises",
+      "jurisdiction": "PA",
+      "incorporation_date": "2006-05-19",
+      "legal_form": "OOO",
+      "lei": ""
+    },
+    {
+      "id": "B0108",
+      "name": "Ivory Trading Global",
+      "jurisdiction": "KY",
+      "incorporation_date": "2019-10-01",
+      "legal_form": "B.V.",
+      "lei": ""
+    },
+    {
+      "id": "B0109",
+      "name": "Regent Holdings",
+      "jurisdiction": "NL",
+      "incorporation_date": "2010-01-17",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG0109FFPLTCL65RWPN4"
+    },
+    {
+      "id": "B0110",
+      "name": "Regent Textiles (Holdings)",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2005-11-26",
+      "legal_form": "S.p.A.",
+      "lei": ""
+    },
+    {
+      "id": "B0111",
+      "name": "Cypress Petroleum",
+      "jurisdiction": "GB",
+      "incorporation_date": "2018-02-25",
+      "legal_form": "OOO",
+      "lei": ""
+    },
+    {
+      "id": "B0112",
+      "name": "Granite Ventures Global",
+      "jurisdiction": "AE",
+      "incorporation_date": "2005-10-07",
+      "legal_form": "Limited",
+      "lei": ""
+    },
+    {
+      "id": "B0113",
+      "name": "Harbour Resources Enterprises",
+      "jurisdiction": "GB",
+      "incorporation_date": "2018-09-19",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG011383V6I3MR4EEPDX"
+    },
+    {
+      "id": "B0114",
+      "name": "Garnet Partners",
+      "jurisdiction": "AE",
+      "incorporation_date": "2017-03-11",
+      "legal_form": "FZE",
+      "lei": ""
+    },
+    {
+      "id": "B0115",
+      "name": "Harbour Investments Global",
+      "jurisdiction": "CH",
+      "incorporation_date": "2015-01-03",
+      "legal_form": "Exempted Company",
+      "lei": ""
+    },
+    {
+      "id": "B0116",
+      "name": "Imperial Logistics International",
+      "jurisdiction": "KY",
+      "incorporation_date": "2012-10-08",
+      "legal_form": "Public Limited Company",
+      "lei": ""
+    },
+    {
+      "id": "B0117",
+      "name": "Crown Consulting Enterprises",
+      "jurisdiction": "VG",
+      "incorporation_date": "2011-01-13",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "B0118",
+      "name": "Northern Capital Global",
+      "jurisdiction": "PA",
+      "incorporation_date": "2018-07-13",
+      "legal_form": "IBC",
+      "lei": "BG01181MLE50SRSTGI2A"
+    },
+    {
+      "id": "B0119",
+      "name": "Cypress Partners",
+      "jurisdiction": "PA",
+      "incorporation_date": "2012-07-11",
+      "legal_form": "DMCC",
+      "lei": ""
+    },
+    {
+      "id": "B0120",
+      "name": "Falcon Property International",
+      "jurisdiction": "GB",
+      "incorporation_date": "2010-04-15",
+      "legal_form": "Public Limited Company",
+      "lei": "BG0120Z6S6I7GZEWRD0X"
+    },
+    {
+      "id": "B0121",
+      "name": "Imperial Industries",
+      "jurisdiction": "CY",
+      "incorporation_date": "2012-12-22",
+      "legal_form": "Sociedad Anonima",
+      "lei": ""
+    },
+    {
+      "id": "B0122",
+      "name": "Harbour Investments Group",
+      "jurisdiction": "BZ",
+      "incorporation_date": "2018-05-07",
+      "legal_form": "OOO",
+      "lei": "BG0122DJ0WZAO9EAOPE0"
+    },
+    {
+      "id": "B0123",
+      "name": "Cypress Resources International",
+      "jurisdiction": "CY",
+      "incorporation_date": "2019-04-10",
+      "legal_form": "B.V.",
+      "lei": "BG01237CW3MB5UW0LZWN"
+    },
+    {
+      "id": "B0124",
+      "name": "Regent Ventures International",
+      "jurisdiction": "NL",
+      "incorporation_date": "2015-10-07",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "B0125",
+      "name": "Draco Logistics",
+      "jurisdiction": "CH",
+      "incorporation_date": "2010-09-04",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "B0126",
+      "name": "Beacon Textiles",
+      "jurisdiction": "AE",
+      "incorporation_date": "2005-08-14",
+      "legal_form": "FZE",
+      "lei": "BG0126EJVMNNRIHF153X"
+    },
+    {
+      "id": "B0127",
+      "name": "Everest Textiles Global",
+      "jurisdiction": "IT",
+      "incorporation_date": "2016-12-23",
+      "legal_form": "Limited",
+      "lei": "BG0127AIYDBWTEDWVWUS"
+    },
+    {
+      "id": "B0128",
+      "name": "Cypress Holdings Group",
+      "jurisdiction": "MT",
+      "incorporation_date": "2007-06-11",
+      "legal_form": "Public Limited Company",
+      "lei": "BG0128RRA55PMAEVEPD1"
+    },
+    {
+      "id": "B0129",
+      "name": "Foxglove Resources Enterprises",
+      "jurisdiction": "AE",
+      "incorporation_date": "2011-07-21",
+      "legal_form": "Public Limited Company",
+      "lei": ""
+    },
+    {
+      "id": "B0130",
+      "name": "Cypress Agri Group",
+      "jurisdiction": "MT",
+      "incorporation_date": "2017-11-21",
+      "legal_form": "IBC",
+      "lei": ""
+    },
+    {
+      "id": "B0131",
+      "name": "Granite Partners Enterprises",
+      "jurisdiction": "SC",
+      "incorporation_date": "2019-06-07",
+      "legal_form": "Sociedad Anonima",
+      "lei": "BG0131853REVO54FODG7"
+    },
+    {
+      "id": "B0132",
+      "name": "Northern Industries Global",
+      "jurisdiction": "MT",
+      "incorporation_date": "2010-02-12",
+      "legal_form": "FZE",
+      "lei": ""
+    },
+    {
+      "id": "B0133",
+      "name": "Foxglove Agri Group",
+      "jurisdiction": "PA",
+      "incorporation_date": "2010-07-26",
+      "legal_form": "Exempted Company",
+      "lei": "BG0133SYKY3U0M6BAZCN"
+    },
+    {
+      "id": "B0134",
+      "name": "Halcyon Industries Enterprises",
+      "jurisdiction": "SC",
+      "incorporation_date": "2020-07-17",
+      "legal_form": "Public Limited Company",
+      "lei": "BG0134BRA7BK0E6OL99W"
+    },
+    {
+      "id": "B0135",
+      "name": "Harbour Petroleum",
+      "jurisdiction": "AE",
+      "incorporation_date": "2010-03-03",
+      "legal_form": "AG",
+      "lei": ""
+    },
+    {
+      "id": "B0136",
+      "name": "Summit Capital Enterprises",
+      "jurisdiction": "CH",
+      "incorporation_date": "2013-08-26",
+      "legal_form": "AG",
+      "lei": "BG0136LOBZI3LYRERKUT"
+    },
+    {
+      "id": "B0137",
+      "name": "Cypress Consulting",
+      "jurisdiction": "IT",
+      "incorporation_date": "2005-06-05",
+      "legal_form": "DMCC",
+      "lei": "BG0137DL69B92NFXZ9K9"
+    },
+    {
+      "id": "B0138",
+      "name": "Harbour Metals Corporation",
+      "jurisdiction": "AE",
+      "incorporation_date": "2017-10-05",
+      "legal_form": "DMCC",
+      "lei": ""
+    },
+    {
+      "id": "B0139",
+      "name": "Summit Agri International",
+      "jurisdiction": "MT",
+      "incorporation_date": "2008-08-12",
+      "legal_form": "B.V.",
+      "lei": ""
+    }
+  ],
+  "structural_entities": [
+    "P001",
+    "P002",
+    "P003",
+    "P004",
+    "P005",
+    "P006",
+    "P007",
+    "P008",
+    "P009",
+    "P010",
+    "P011",
+    "P012",
+    "P013",
+    "P014",
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006",
+    "C007",
+    "C008",
+    "C009",
+    "C010",
+    "C011",
+    "C012",
+    "C013",
+    "C014",
+    "C015",
+    "C016",
+    "C017",
+    "C018",
+    "C019",
+    "C020",
+    "C021",
+    "C022",
+    "C023"
+  ],
+  "ownership": [
+    {
+      "parent": "P001",
+      "child": "C004",
+      "percent": 100.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C004",
+      "child": "C003",
+      "percent": 90.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C003",
+      "child": "C002",
+      "percent": 75.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C002",
+      "child": "C001",
+      "percent": 60.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C001",
+      "child": "C005",
+      "percent": 51.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C005",
+      "child": "C002",
+      "percent": 12.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "P008",
+      "child": "C004",
+      "percent": 0.0,
+      "kind": "directorship"
+    },
+    {
+      "parent": "P004",
+      "child": "C006",
+      "percent": 100.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C006",
+      "child": "C015",
+      "percent": 80.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C015",
+      "child": "C010",
+      "percent": 65.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C010",
+      "child": "C008",
+      "percent": 55.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "P003",
+      "child": "C016",
+      "percent": 100.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C016",
+      "child": "C018",
+      "percent": 70.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "P007",
+      "child": "C009",
+      "percent": 82.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "P010",
+      "child": "C012",
+      "percent": 45.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C012",
+      "child": "C011",
+      "percent": 30.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C010",
+      "child": "C012",
+      "percent": 40.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "P012",
+      "child": "C019",
+      "percent": 100.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C019",
+      "child": "C013",
+      "percent": 95.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C013",
+      "child": "C014",
+      "percent": 70.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C007",
+      "child": "C019",
+      "percent": 0.0,
+      "kind": "trusteeship"
+    },
+    {
+      "parent": "P009",
+      "child": "C020",
+      "percent": 100.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "P005",
+      "child": "C017",
+      "percent": 100.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C017",
+      "child": "C010",
+      "percent": 25.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "P013",
+      "child": "C021",
+      "percent": 100.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C021",
+      "child": "C022",
+      "percent": 75.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "C022",
+      "child": "C023",
+      "percent": 60.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "P014",
+      "child": "C022",
+      "percent": 25.0,
+      "kind": "ownership"
+    },
+    {
+      "parent": "P002",
+      "child": "C002",
+      "percent": 0.0,
+      "kind": "directorship"
+    },
+    {
+      "parent": "P002",
+      "child": "C003",
+      "percent": 0.0,
+      "kind": "directorship"
+    },
+    {
+      "parent": "P002",
+      "child": "C013",
+      "percent": 0.0,
+      "kind": "directorship"
+    },
+    {
+      "parent": "P011",
+      "child": "C005",
+      "percent": 0.0,
+      "kind": "directorship"
+    },
+    {
+      "parent": "P006",
+      "child": "C010",
+      "percent": 0.0,
+      "kind": "directorship"
+    }
+  ],
+  "layered_roots": {
+    "P001": true,
+    "P004": true,
+    "P010": true,
+    "P012": true,
+    "P005": true,
+    "P003": false,
+    "P007": false,
+    "P009": false,
+    "P013": false,
+    "P014": false
+  },
+  "secrecy_jurisdictions": [
+    "AE",
+    "BZ",
+    "CY",
+    "KY",
+    "MT",
+    "PA",
+    "SC",
+    "VG"
+  ],
+  "truth_clusters": {
+    "P001": [
+      "os-P001",
+      "ofac-40001",
+      "agg-p-P001-0",
+      "icij-P001"
+    ],
+    "P002": [
+      "psc-int-P002-C002",
+      "psc-int-P002-C013",
+      "icij-P002"
+    ],
+    "P003": [
+      "psc-int-P003-C016",
+      "agg-p-P003-0"
+    ],
+    "P004": [
+      "os-P004",
+      "icij-P004"
+    ],
+    "P005": [
+      "agg-p-P005-0",
+      "agg-p-P005-1",
+      "icij-P005"
+    ],
+    "P006": [
+      "os-P006",
+      "agg-p-P006-0",
+      "agg-p-P006-1",
+      "icij-P006"
+    ],
+    "P007": [
+      "psc-int-P007-C009"
+    ],
+    "P008": [
+      "os-P008",
+      "ofac-40008",
+      "agg-p-P008-0",
+      "icij-P008"
+    ],
+    "P009": [
+      "psc-int-P009-C020",
+      "agg-p-P009-0",
+      "agg-p-P009-1"
+    ],
+    "P010": [
+      "os-P010",
+      "psc-int-P010-C012"
+    ],
+    "P011": [
+      "agg-p-P011-0"
+    ],
+    "P012": [
+      "agg-p-P012-0",
+      "icij-P012"
+    ],
+    "P013": [
+      "psc-int-P013-C021",
+      "agg-p-P013-0"
+    ],
+    "P014": [
+      "psc-int-P014-C022"
+    ],
+    "Q0000": [
+      "agg-p-Q0000-0"
+    ],
+    "Q0002": [
+      "agg-p-Q0002-0"
+    ],
+    "Q0003": [
+      "agg-p-Q0003-0"
+    ],
+    "Q0004": [
+      "agg-p-Q0004-0",
+      "agg-p-Q0004-1"
+    ],
+    "Q0005": [
+      "agg-p-Q0005-0"
+    ],
+    "Q0006": [
+      "agg-p-Q0006-0"
+    ],
+    "Q0007": [
+      "agg-p-Q0007-0"
+    ],
+    "Q0008": [
+      "agg-p-Q0008-0"
+    ],
+    "Q0009": [
+      "agg-p-Q0009-0"
+    ],
+    "Q0010": [
+      "agg-p-Q0010-0",
+      "agg-p-Q0010-1"
+    ],
+    "Q0011": [
+      "agg-p-Q0011-0",
+      "agg-p-Q0011-1"
+    ],
+    "Q0012": [
+      "agg-p-Q0012-0"
+    ],
+    "Q0013": [
+      "agg-p-Q0013-0"
+    ],
+    "Q0014": [
+      "agg-p-Q0014-0"
+    ],
+    "Q0015": [
+      "agg-p-Q0015-0"
+    ],
+    "Q0017": [
+      "agg-p-Q0017-0"
+    ],
+    "Q0019": [
+      "agg-p-Q0019-0",
+      "agg-p-Q0019-1"
+    ],
+    "Q0020": [
+      "agg-p-Q0020-0",
+      "agg-p-Q0020-1"
+    ],
+    "Q0021": [
+      "agg-p-Q0021-0"
+    ],
+    "Q0022": [
+      "agg-p-Q0022-0"
+    ],
+    "Q0024": [
+      "agg-p-Q0024-0"
+    ],
+    "Q0025": [
+      "agg-p-Q0025-0",
+      "agg-p-Q0025-1"
+    ],
+    "Q0026": [
+      "agg-p-Q0026-0"
+    ],
+    "Q0027": [
+      "agg-p-Q0027-0",
+      "agg-p-Q0027-1"
+    ],
+    "Q0029": [
+      "agg-p-Q0029-0"
+    ],
+    "Q0030": [
+      "agg-p-Q0030-0",
+      "agg-p-Q0030-1"
+    ],
+    "Q0031": [
+      "agg-p-Q0031-0"
+    ],
+    "Q0032": [
+      "agg-p-Q0032-0"
+    ],
+    "Q0033": [
+      "agg-p-Q0033-0"
+    ],
+    "Q0034": [
+      "agg-p-Q0034-0"
+    ],
+    "Q0035": [
+      "agg-p-Q0035-0"
+    ],
+    "Q0036": [
+      "agg-p-Q0036-0"
+    ],
+    "Q0037": [
+      "agg-p-Q0037-0"
+    ],
+    "Q0038": [
+      "agg-p-Q0038-0",
+      "agg-p-Q0038-1"
+    ],
+    "Q0040": [
+      "agg-p-Q0040-0"
+    ],
+    "Q0041": [
+      "agg-p-Q0041-0"
+    ],
+    "Q0044": [
+      "agg-p-Q0044-0",
+      "agg-p-Q0044-1"
+    ],
+    "Q0046": [
+      "agg-p-Q0046-0",
+      "agg-p-Q0046-1"
+    ],
+    "Q0047": [
+      "agg-p-Q0047-0"
+    ],
+    "Q0048": [
+      "agg-p-Q0048-0"
+    ],
+    "Q0049": [
+      "agg-p-Q0049-0",
+      "agg-p-Q0049-1"
+    ],
+    "Q0051": [
+      "agg-p-Q0051-0"
+    ],
+    "Q0054": [
+      "agg-p-Q0054-0"
+    ],
+    "Q0055": [
+      "agg-p-Q0055-0"
+    ],
+    "Q0056": [
+      "agg-p-Q0056-0"
+    ],
+    "Q0058": [
+      "agg-p-Q0058-0",
+      "agg-p-Q0058-1"
+    ],
+    "Q0059": [
+      "agg-p-Q0059-0",
+      "agg-p-Q0059-1"
+    ],
+    "Q0060": [
+      "agg-p-Q0060-0",
+      "agg-p-Q0060-1"
+    ],
+    "Q0061": [
+      "agg-p-Q0061-0"
+    ],
+    "Q0062": [
+      "agg-p-Q0062-0"
+    ],
+    "Q0064": [
+      "agg-p-Q0064-0"
+    ],
+    "Q0065": [
+      "agg-p-Q0065-0"
+    ],
+    "Q0066": [
+      "agg-p-Q0066-0"
+    ],
+    "Q0067": [
+      "agg-p-Q0067-0"
+    ],
+    "Q0068": [
+      "agg-p-Q0068-0"
+    ],
+    "Q0069": [
+      "agg-p-Q0069-0"
+    ],
+    "Q0070": [
+      "agg-p-Q0070-0"
+    ],
+    "Q0072": [
+      "agg-p-Q0072-0"
+    ],
+    "Q0073": [
+      "agg-p-Q0073-0",
+      "agg-p-Q0073-1"
+    ],
+    "Q0074": [
+      "agg-p-Q0074-0",
+      "agg-p-Q0074-1"
+    ],
+    "Q0076": [
+      "agg-p-Q0076-0"
+    ],
+    "Q0077": [
+      "agg-p-Q0077-0"
+    ],
+    "Q0078": [
+      "agg-p-Q0078-0",
+      "agg-p-Q0078-1"
+    ],
+    "Q0079": [
+      "agg-p-Q0079-0"
+    ],
+    "Q0080": [
+      "agg-p-Q0080-0",
+      "agg-p-Q0080-1"
+    ],
+    "Q0081": [
+      "agg-p-Q0081-0"
+    ],
+    "Q0083": [
+      "agg-p-Q0083-0"
+    ],
+    "Q0085": [
+      "agg-p-Q0085-0"
+    ],
+    "Q0086": [
+      "agg-p-Q0086-0"
+    ],
+    "Q0087": [
+      "agg-p-Q0087-0"
+    ],
+    "C001": [
+      "lei-5493001KJTIIGC8Y1R12",
+      "psc-sub-C002-C001",
+      "ch-07000000",
+      "agg-c-C001-0"
+    ],
+    "C002": [
+      "lei-213800MBWEIJDM5CU638",
+      "psc-sub-C003-C002",
+      "psc-int-C002-C001",
+      "psc-sub-C005-C002",
+      "psc-sub-P002-C002",
+      "ch-07000137",
+      "agg-c-C002-0",
+      "icij-C002"
+    ],
+    "C003": [
+      "psc-int-C003-C002",
+      "agg-c-C003-0",
+      "agg-c-C003-1",
+      "icij-C003"
+    ],
+    "C004": [
+      "os-C004",
+      "agg-c-C004-0",
+      "icij-C004"
+    ],
+    "C005": [
+      "lei-253400WQIYIZAXBWCU02",
+      "psc-int-C005-C002",
+      "agg-c-C005-0",
+      "agg-c-C005-1",
+      "icij-C005"
+    ],
+    "C006": [
+      "os-C006",
+      "agg-c-C006-0",
+      "icij-C006"
+    ],
+    "C007": [
+      "lei-506700GE1G29325QX363",
+      "agg-c-C007-0",
+      "icij-C007"
+    ],
+    "C008": [
+      "agg-c-C008-0",
+      "icij-C008"
+    ],
+    "C009": [
+      "lei-213800D1EI4B9WTWWD28",
+      "psc-sub-P007-C009",
+      "ch-07001096"
+    ],
+    "C010": [
+      "psc-int-C010-C012",
+      "agg-c-C010-0",
+      "agg-c-C010-1",
+      "icij-C010"
+    ],
+    "C011": [
+      "lei-5493004NBBK8OCM3T012",
+      "psc-sub-C012-C011",
+      "ch-07001370",
+      "agg-c-C011-0"
+    ],
+    "C012": [
+      "os-C012",
+      "psc-sub-P010-C012",
+      "psc-int-C012-C011",
+      "psc-sub-C010-C012"
+    ],
+    "C013": [
+      "lei-529900W3MOO00A18X956",
+      "psc-sub-C019-C013",
+      "psc-int-C013-C014",
+      "psc-sub-P002-C013",
+      "ch-07001644",
+      "icij-C013"
+    ],
+    "C014": [
+      "psc-sub-C013-C014",
+      "ch-07001781"
+    ],
+    "C015": [
+      "agg-c-C015-0",
+      "agg-c-C015-1",
+      "icij-C015"
+    ],
+    "C016": [
+      "lei-724500Y6L1I8Z2GLRP19",
+      "psc-sub-P003-C016",
+      "psc-int-C016-C018",
+      "ch-07002055",
+      "agg-c-C016-0"
+    ],
+    "C017": [
+      "icij-C017"
+    ],
+    "C018": [
+      "lei-815600A9E1D1D0F0C123",
+      "psc-sub-C016-C018",
+      "ch-07002329",
+      "agg-c-C018-0"
+    ],
+    "C019": [
+      "psc-int-C019-C013",
+      "agg-c-C019-0",
+      "agg-c-C019-1",
+      "icij-C019"
+    ],
+    "C020": [
+      "lei-213800QZ5K7EJP9NRT44",
+      "psc-sub-P009-C020",
+      "ch-07002603",
+      "agg-c-C020-0"
+    ],
+    "C021": [
+      "lei-724500KKV1J1M8L2CD77",
+      "psc-sub-P013-C021",
+      "psc-int-C021-C022",
+      "ch-07002740"
+    ],
+    "C022": [
+      "lei-815600B2C3D4E5F6A789",
+      "psc-sub-C021-C022",
+      "psc-int-C022-C023",
+      "psc-sub-P014-C022",
+      "ch-07002877"
+    ],
+    "C023": [
+      "lei-213800RR8T2WQ4NMPL61",
+      "psc-sub-C022-C023",
+      "ch-07003014",
+      "agg-c-C023-0"
+    ],
+    "B0000": [
+      "lei-BG0000E970PIJS6H64UZ",
+      "agg-c-B0000-0",
+      "icij-B0000"
+    ],
+    "B0001": [
+      "icij-B0001"
+    ],
+    "B0002": [
+      "agg-c-B0002-0",
+      "icij-B0002"
+    ],
+    "B0003": [
+      "lei-BG0003INIHTU8TCBK0YC",
+      "ch-07003562",
+      "agg-c-B0003-0",
+      "icij-B0003"
+    ],
+    "B0004": [
+      "lei-BG0004KCVSEHTJCNUCZM",
+      "agg-c-B0004-0"
+    ],
+    "B0005": [
+      "ch-07003836",
+      "agg-c-B0005-0",
+      "agg-c-B0005-1"
+    ],
+    "B0006": [
+      "lei-BG0006D9HPLODI40IZT2",
+      "agg-c-B0006-0",
+      "agg-c-B0006-1",
+      "icij-B0006"
+    ],
+    "B0007": [
+      "lei-BG0007C6NLXKNFWTB2V0",
+      "ch-07004110",
+      "agg-c-B0007-0"
+    ],
+    "B0008": [
+      "ch-07004247",
+      "icij-B0008"
+    ],
+    "B0009": [
+      "lei-BG0009X6S3P4HPTKHRK5",
+      "ch-07004384",
+      "icij-B0009"
+    ],
+    "B0010": [
+      "lei-BG00101BOJG3E2ABL3W2",
+      "ch-07004521",
+      "agg-c-B0010-0",
+      "agg-c-B0010-1"
+    ],
+    "B0011": [
+      "ch-07004658",
+      "agg-c-B0011-0"
+    ],
+    "B0012": [
+      "icij-B0012"
+    ],
+    "B0013": [
+      "icij-B0013"
+    ],
+    "B0014": [
+      "agg-c-B0014-0",
+      "icij-B0014"
+    ],
+    "B0015": [
+      "lei-BG0015RRQJGJNQAPPFF4",
+      "icij-B0015"
+    ],
+    "B0016": [
+      "lei-BG0016EBJ274X7K3XGTT",
+      "icij-B0016"
+    ],
+    "B0017": [
+      "agg-c-B0017-0",
+      "icij-B0017"
+    ],
+    "B0018": [
+      "agg-c-B0018-0",
+      "agg-c-B0018-1"
+    ],
+    "B0019": [
+      "agg-c-B0019-0",
+      "agg-c-B0019-1"
+    ],
+    "B0020": [
+      "lei-BG0020QOM2VW4O7LF212",
+      "ch-07005891",
+      "agg-c-B0020-0",
+      "agg-c-B0020-1",
+      "icij-B0020"
+    ],
+    "B0021": [
+      "ch-07006028"
+    ],
+    "B0022": [
+      "lei-BG00229SZI61I6SUTA3O",
+      "agg-c-B0022-0",
+      "agg-c-B0022-1",
+      "icij-B0022"
+    ],
+    "B0023": [
+      "agg-c-B0023-0",
+      "agg-c-B0023-1",
+      "icij-B0023"
+    ],
+    "B0024": [
+      "lei-BG0024SZ1LUMMZ0FPLZN",
+      "agg-c-B0024-0",
+      "agg-c-B0024-1",
+      "icij-B0024"
+    ],
+    "B0025": [
+      "lei-BG0025R3938Q9O09UUSL",
+      "icij-B0025"
+    ],
+    "B0026": [
+      "ch-07006713",
+      "agg-c-B0026-0",
+      "icij-B0026"
+    ],
+    "B0027": [
+      "agg-c-B0027-0"
+    ],
+    "B0028": [
+      "lei-BG0028E6EY0OYI01MV2W",
+      "ch-07006987"
+    ],
+    "B0029": [
+      "lei-BG0029Z4VVOPH4I6TLRF",
+      "ch-07007124",
+      "agg-c-B0029-0"
+    ],
+    "B0030": [
+      "agg-c-B0030-0",
+      "icij-B0030"
+    ],
+    "B0031": [
+      "agg-c-B0031-0",
+      "agg-c-B0031-1",
+      "icij-B0031"
+    ],
+    "B0032": [
+      "agg-c-B0032-0",
+      "icij-B0032"
+    ],
+    "B0033": [
+      "ch-07007672",
+      "agg-c-B0033-0"
+    ],
+    "B0034": [
+      "agg-c-B0034-0",
+      "icij-B0034"
+    ],
+    "B0035": [
+      "lei-BG00351IWFR63EYW0M02",
+      "ch-07007946"
+    ],
+    "B0036": [
+      "lei-BG0036T8CI1WTS95GPH3",
+      "icij-B0036"
+    ],
+    "B0037": [
+      "agg-c-B0037-0",
+      "agg-c-B0037-1",
+      "icij-B0037"
+    ],
+    "B0038": [
+      "agg-c-B0038-0",
+      "icij-B0038"
+    ],
+    "B0039": [
+      "agg-c-B0039-0"
+    ],
+    "B0040": [
+      "lei-BG00404YNVVRCTOUP010",
+      "icij-B0040"
+    ],
+    "B0041": [
+      "agg-c-B0041-0",
+      "agg-c-B0041-1",
+      "icij-B0041"
+    ],
+    "B0042": [
+      "ch-07008905",
+      "agg-c-B0042-0",
+      "agg-c-B0042-1",
+      "icij-B0042"
+    ],
+    "B0043": [
+      "lei-BG0043RXAJAZO9GOPCC5",
+      "ch-07009042",
+      "agg-c-B0043-0",
+      "agg-c-B0043-1",
+      "icij-B0043"
+    ],
+    "B0044": [
+      "lei-BG0044HYJBBO8HTL9C6X",
+      "agg-c-B0044-0",
+      "agg-c-B0044-1",
+      "icij-B0044"
+    ],
+    "B0045": [
+      "icij-B0045"
+    ],
+    "B0047": [
+      "lei-BG0047K3ROUSGLB1P7LK",
+      "agg-c-B0047-0",
+      "icij-B0047"
+    ],
+    "B0048": [
+      "lei-BG00487HNDLIZ9FM728G",
+      "agg-c-B0048-0",
+      "agg-c-B0048-1",
+      "icij-B0048"
+    ],
+    "B0049": [
+      "lei-BG0049KNNY0OMYQJSW7B",
+      "agg-c-B0049-0",
+      "icij-B0049"
+    ],
+    "B0050": [
+      "lei-BG0050X4B5KRFBJXWE2R",
+      "ch-07010001",
+      "agg-c-B0050-0",
+      "agg-c-B0050-1"
+    ],
+    "B0051": [
+      "agg-c-B0051-0",
+      "icij-B0051"
+    ],
+    "B0052": [
+      "icij-B0052"
+    ],
+    "B0053": [
+      "agg-c-B0053-0",
+      "agg-c-B0053-1",
+      "icij-B0053"
+    ],
+    "B0054": [
+      "ch-07010549",
+      "agg-c-B0054-0",
+      "agg-c-B0054-1"
+    ],
+    "B0055": [
+      "lei-BG00554ZL8R1NVJ4PTPX",
+      "agg-c-B0055-0",
+      "icij-B0055"
+    ],
+    "B0056": [
+      "ch-07010823",
+      "agg-c-B0056-0",
+      "agg-c-B0056-1",
+      "icij-B0056"
+    ],
+    "B0057": [
+      "lei-BG00573XCA62FHHPID0J",
+      "agg-c-B0057-0",
+      "icij-B0057"
+    ],
+    "B0058": [
+      "ch-07011097",
+      "icij-B0058"
+    ],
+    "B0059": [
+      "lei-BG0059A4N0MCRBY7FU5X",
+      "agg-c-B0059-0",
+      "icij-B0059"
+    ],
+    "B0060": [
+      "ch-07011371",
+      "agg-c-B0060-0",
+      "agg-c-B0060-1"
+    ],
+    "B0061": [
+      "ch-07011508"
+    ],
+    "B0062": [
+      "lei-BG0062N9X2OJ5E151DNX",
+      "ch-07011645"
+    ],
+    "B0063": [
+      "lei-BG0063TBHSWMFXYS15NR",
+      "ch-07011782"
+    ],
+    "B0064": [
+      "agg-c-B0064-0"
+    ],
+    "B0065": [
+      "ch-07012056",
+      "agg-c-B0065-0",
+      "icij-B0065"
+    ],
+    "B0066": [
+      "ch-07012193",
+      "agg-c-B0066-0",
+      "agg-c-B0066-1",
+      "icij-B0066"
+    ],
+    "B0067": [
+      "lei-BG0067E48APOP2PQISAF",
+      "agg-c-B0067-0",
+      "icij-B0067"
+    ],
+    "B0068": [
+      "agg-c-B0068-0",
+      "agg-c-B0068-1",
+      "icij-B0068"
+    ],
+    "B0069": [
+      "lei-BG0069T8XXOKEIFO885J",
+      "icij-B0069"
+    ],
+    "B0070": [
+      "lei-BG0070BCCPALRRZSTGL0",
+      "icij-B0070"
+    ],
+    "B0071": [
+      "agg-c-B0071-0",
+      "icij-B0071"
+    ],
+    "B0072": [
+      "agg-c-B0072-0",
+      "icij-B0072"
+    ],
+    "B0073": [
+      "lei-BG0073UYT4NUXQH6YUYG",
+      "ch-07013152",
+      "agg-c-B0073-0",
+      "icij-B0073"
+    ],
+    "B0074": [
+      "lei-BG00740ESMPA2Y0ZPRGI"
+    ],
+    "B0075": [
+      "ch-07013426",
+      "agg-c-B0075-0",
+      "icij-B0075"
+    ],
+    "B0076": [
+      "agg-c-B0076-0",
+      "agg-c-B0076-1",
+      "icij-B0076"
+    ],
+    "B0077": [
+      "lei-BG00778ODJ19AS9QIB2S",
+      "agg-c-B0077-0"
+    ],
+    "B0078": [
+      "agg-c-B0078-0",
+      "agg-c-B0078-1",
+      "icij-B0078"
+    ],
+    "B0079": [
+      "icij-B0079"
+    ],
+    "B0080": [
+      "lei-BG00809UDT0CHPAA4531",
+      "ch-07014111",
+      "agg-c-B0080-0",
+      "agg-c-B0080-1"
+    ],
+    "B0081": [
+      "agg-c-B0081-0",
+      "agg-c-B0081-1",
+      "icij-B0081"
+    ],
+    "B0082": [
+      "lei-BG0082W4N1Y8BIXEAVNI",
+      "icij-B0082"
+    ],
+    "B0083": [
+      "ch-07014522",
+      "icij-B0083"
+    ],
+    "B0084": [
+      "lei-BG0084IODSB1CQQN1PW1",
+      "agg-c-B0084-0",
+      "agg-c-B0084-1",
+      "icij-B0084"
+    ],
+    "B0085": [
+      "agg-c-B0085-0",
+      "icij-B0085"
+    ],
+    "B0086": [
+      "lei-BG0086VH9AVA4NA0ZP71",
+      "agg-c-B0086-0",
+      "icij-B0086"
+    ],
+    "B0087": [
+      "lei-BG00873L2ZHFXKNUACDM",
+      "agg-c-B0087-0",
+      "agg-c-B0087-1",
+      "icij-B0087"
+    ],
+    "B0088": [
+      "lei-BG0088GNCQH5IZNGMSRF",
+      "ch-07015207",
+      "agg-c-B0088-0"
+    ],
+    "B0089": [
+      "ch-07015344",
+      "agg-c-B0089-0",
+      "agg-c-B0089-1",
+      "icij-B0089"
+    ],
+    "B0090": [
+      "lei-BG0090MMFU8BP8PWJPGX",
+      "agg-c-B0090-0"
+    ],
+    "B0091": [
+      "lei-BG00911BRCCFMKOXW5DT",
+      "icij-B0091"
+    ],
+    "B0092": [
+      "ch-07015755",
+      "agg-c-B0092-0",
+      "icij-B0092"
+    ],
+    "B0093": [
+      "agg-c-B0093-0",
+      "icij-B0093"
+    ],
+    "B0094": [
+      "agg-c-B0094-0",
+      "icij-B0094"
+    ],
+    "B0095": [
+      "agg-c-B0095-0",
+      "agg-c-B0095-1"
+    ],
+    "B0096": [
+      "ch-07016303",
+      "agg-c-B0096-0"
+    ],
+    "B0097": [
+      "lei-BG0097Z2LU9I2CXKCMVQ",
+      "agg-c-B0097-0",
+      "icij-B0097"
+    ],
+    "B0098": [
+      "lei-BG0098SYN1M0114Z9OQM",
+      "agg-c-B0098-0"
+    ],
+    "B0099": [
+      "lei-BG0099819VN4RHHGI4JO",
+      "agg-c-B0099-0",
+      "icij-B0099"
+    ],
+    "B0100": [
+      "ch-07016851",
+      "agg-c-B0100-0",
+      "agg-c-B0100-1"
+    ],
+    "B0101": [
+      "ch-07016988",
+      "agg-c-B0101-0",
+      "agg-c-B0101-1",
+      "icij-B0101"
+    ],
+    "B0102": [
+      "lei-BG0102EDVCZ8OEN8BFD5",
+      "icij-B0102"
+    ],
+    "B0103": [
+      "lei-BG0103M54R79K157IZAL",
+      "ch-07017262",
+      "agg-c-B0103-0",
+      "icij-B0103"
+    ],
+    "B0104": [
+      "lei-BG01049UTMCKMKWOVUMF",
+      "agg-c-B0104-0",
+      "icij-B0104"
+    ],
+    "B0105": [
+      "lei-BG010586QIS0F3P8UR1J",
+      "ch-07017536",
+      "agg-c-B0105-0"
+    ],
+    "B0106": [
+      "lei-BG0106AIURO7OICOW99C",
+      "ch-07017673",
+      "icij-B0106"
+    ],
+    "B0107": [
+      "agg-c-B0107-0",
+      "agg-c-B0107-1",
+      "icij-B0107"
+    ],
+    "B0108": [
+      "agg-c-B0108-0",
+      "icij-B0108"
+    ],
+    "B0109": [
+      "lei-BG0109FFPLTCL65RWPN4",
+      "ch-07018084"
+    ],
+    "B0110": [
+      "agg-c-B0110-0",
+      "icij-B0110"
+    ],
+    "B0111": [
+      "ch-07018358",
+      "agg-c-B0111-0",
+      "agg-c-B0111-1"
+    ],
+    "B0112": [
+      "agg-c-B0112-0",
+      "icij-B0112"
+    ],
+    "B0113": [
+      "lei-BG011383V6I3MR4EEPDX",
+      "ch-07018632"
+    ],
+    "B0114": [
+      "agg-c-B0114-0",
+      "icij-B0114"
+    ],
+    "B0115": [
+      "agg-c-B0115-0",
+      "agg-c-B0115-1"
+    ],
+    "B0116": [
+      "agg-c-B0116-0",
+      "icij-B0116"
+    ],
+    "B0117": [
+      "agg-c-B0117-0",
+      "icij-B0117"
+    ],
+    "B0118": [
+      "lei-BG01181MLE50SRSTGI2A",
+      "agg-c-B0118-0",
+      "icij-B0118"
+    ],
+    "B0119": [
+      "agg-c-B0119-0",
+      "icij-B0119"
+    ],
+    "B0120": [
+      "lei-BG0120Z6S6I7GZEWRD0X",
+      "ch-07019591",
+      "agg-c-B0120-0"
+    ],
+    "B0121": [
+      "ch-07019728",
+      "agg-c-B0121-0",
+      "icij-B0121"
+    ],
+    "B0122": [
+      "lei-BG0122DJ0WZAO9EAOPE0",
+      "icij-B0122"
+    ],
+    "B0123": [
+      "lei-BG01237CW3MB5UW0LZWN",
+      "ch-07020002",
+      "icij-B0123"
+    ],
+    "B0124": [
+      "ch-07020139",
+      "agg-c-B0124-0"
+    ],
+    "B0125": [
+      "agg-c-B0125-0"
+    ],
+    "B0126": [
+      "lei-BG0126EJVMNNRIHF153X",
+      "agg-c-B0126-0",
+      "icij-B0126"
+    ],
+    "B0127": [
+      "lei-BG0127AIYDBWTEDWVWUS",
+      "ch-07020550"
+    ],
+    "B0128": [
+      "lei-BG0128RRA55PMAEVEPD1",
+      "ch-07020687",
+      "agg-c-B0128-0",
+      "agg-c-B0128-1",
+      "icij-B0128"
+    ],
+    "B0129": [
+      "icij-B0129"
+    ],
+    "B0130": [
+      "ch-07020961",
+      "icij-B0130"
+    ],
+    "B0131": [
+      "lei-BG0131853REVO54FODG7",
+      "agg-c-B0131-0",
+      "icij-B0131"
+    ],
+    "B0132": [
+      "ch-07021235",
+      "icij-B0132"
+    ],
+    "B0133": [
+      "lei-BG0133SYKY3U0M6BAZCN",
+      "agg-c-B0133-0",
+      "icij-B0133"
+    ],
+    "B0134": [
+      "lei-BG0134BRA7BK0E6OL99W",
+      "agg-c-B0134-0",
+      "icij-B0134"
+    ],
+    "B0135": [
+      "icij-B0135"
+    ],
+    "B0136": [
+      "lei-BG0136LOBZI3LYRERKUT",
+      "agg-c-B0136-0"
+    ],
+    "B0137": [
+      "lei-BG0137DL69B92NFXZ9K9",
+      "ch-07021920",
+      "agg-c-B0137-0"
+    ],
+    "B0138": [
+      "agg-c-B0138-0",
+      "icij-B0138"
+    ],
+    "B0139": [
+      "ch-07022194",
+      "agg-c-B0139-0",
+      "icij-B0139"
+    ]
+  }
+}

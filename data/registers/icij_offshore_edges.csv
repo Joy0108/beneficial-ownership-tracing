@@ -1,0 +1,19 @@
+node_id_start,node_id_end,rel_type,link,start_date,sourceID
+icij-P001,icij-C004,shareholder_of,shareholder of (100%),2013-01-01,Offshore Leaks 2016
+icij-C004,icij-C003,shareholder_of,shareholder of (90%),2013-01-01,Offshore Leaks 2016
+icij-C003,icij-C002,shareholder_of,shareholder of (75%),2013-01-01,Offshore Leaks 2016
+icij-C005,icij-C002,shareholder_of,shareholder of (12%),2013-01-01,Offshore Leaks 2016
+icij-P008,icij-C004,officer_of,director of,2013-01-01,Offshore Leaks 2016
+icij-P004,icij-C006,shareholder_of,shareholder of (100%),2013-01-01,Offshore Leaks 2016
+icij-C006,icij-C015,shareholder_of,shareholder of (80%),2013-01-01,Offshore Leaks 2016
+icij-C015,icij-C010,shareholder_of,shareholder of (65%),2013-01-01,Offshore Leaks 2016
+icij-C010,icij-C008,shareholder_of,shareholder of (55%),2013-01-01,Offshore Leaks 2016
+icij-P012,icij-C019,shareholder_of,shareholder of (100%),2013-01-01,Offshore Leaks 2016
+icij-C019,icij-C013,shareholder_of,shareholder of (95%),2013-01-01,Offshore Leaks 2016
+icij-C007,icij-C019,officer_of,trustee of,2013-01-01,Offshore Leaks 2016
+icij-P005,icij-C017,shareholder_of,shareholder of (100%),2013-01-01,Offshore Leaks 2016
+icij-C017,icij-C010,shareholder_of,shareholder of (25%),2013-01-01,Offshore Leaks 2016
+icij-P002,icij-C002,officer_of,director of,2013-01-01,Offshore Leaks 2016
+icij-P002,icij-C003,officer_of,director of,2013-01-01,Offshore Leaks 2016
+icij-P002,icij-C013,officer_of,director of,2013-01-01,Offshore Leaks 2016
+icij-P006,icij-C010,officer_of,director of,2013-01-01,Offshore Leaks 2016

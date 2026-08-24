@@ -1,0 +1,437 @@
+{
+  "corpus": {
+    "records": 566,
+    "statements": 42,
+    "by_source": {
+      "aggregator": 261,
+      "companies_house": 64,
+      "gleif_l1": 78,
+      "icij": 117,
+      "ofac": 2,
+      "openownership": 36,
+      "opensanctions": 8
+    },
+    "true_entities": 246,
+    "resolvable_entities": 176,
+    "true_pairs": 534
+  },
+  "entity_resolution": {
+    "blocking": {
+      "records": 566,
+      "all_pairs": 159895,
+      "candidate_pairs": 3596,
+      "reduction_ratio": 0.97751,
+      "keys_per_record": 4.66,
+      "blocks": 1149,
+      "oversized_blocks_dropped": 0,
+      "pairs_dropped_by_size_cap": 0,
+      "candidates_by_key_type": {
+        "address": 25,
+        "dob_jurisdiction": 26,
+        "name_tokens": 707,
+        "phonetic": 20,
+        "prefix": 2818
+      }
+    },
+    "candidate_recall": {
+      "candidate_recall": 0.9906,
+      "true_pairs": 534,
+      "found": 529,
+      "missed": 5,
+      "missed_examples": [
+        [
+          "agg-c-B0121-0",
+          "ch-07019728"
+        ],
+        [
+          "agg-c-C010-0",
+          "agg-c-C010-1"
+        ],
+        [
+          "agg-p-P001-0",
+          "icij-P001"
+        ],
+        [
+          "ch-07019728",
+          "icij-B0121"
+        ],
+        [
+          "icij-P002",
+          "psc-int-P002-C013"
+        ]
+      ]
+    },
+    "adjudication": {
+      "backend": "deterministic",
+      "reviewed": 365,
+      "borderline_total": 365,
+      "truncated": 0,
+      "upheld_as_match": 248,
+      "rejected": 117
+    },
+    "baseline_name_similarity_only": {
+      "precision": 0.3442,
+      "recall": 0.9906,
+      "f1": 0.5109,
+      "tp": 529,
+      "fp": 1008,
+      "fn": 5
+    },
+    "pipeline": {
+      "precision": 0.9844,
+      "recall": 0.9438,
+      "f1": 0.9637,
+      "tp": 504,
+      "fp": 8,
+      "fn": 30
+    },
+    "improvement_f1": 0.4528,
+    "clusters": {
+      "entities": 254,
+      "records": 566,
+      "singletons": 84,
+      "merged_entities": 170,
+      "largest_cluster": 8,
+      "cross_source_entities": 147,
+      "sanctioned_entities": 5,
+      "pep_entities": 4,
+      "weakest_link_min": 0.5838
+    },
+    "mapping_to_truth": {
+      "resolved_entities_mapped": 254,
+      "false_merges": 2,
+      "fragmented_seed_entities": 10,
+      "worst_fragmentation": 2
+    }
+  },
+  "graph": {
+    "stats": {
+      "nodes": 254,
+      "edges": 37,
+      "control_edges": 31,
+      "roots": 232,
+      "cycles": 1,
+      "unresolved_statements": 0,
+      "mean_edge_confidence": 0.6087,
+      "secrecy_nodes": 127
+    },
+    "labelled_structures": 11,
+    "layering": {
+      "n": 11,
+      "precision": 1.0,
+      "recall": 0.8333,
+      "f1": 0.9091,
+      "tp": 5,
+      "fp": 0,
+      "fn": 1,
+      "tn": 5,
+      "missed": [
+        "E-agg-p-P001-0"
+      ]
+    },
+    "threshold": 1.0,
+    "threshold_sweep": [
+      {
+        "threshold": 0.0,
+        "precision": 0.5,
+        "recall": 0.8333,
+        "f1": 0.625,
+        "tp": 5,
+        "fp": 5,
+        "fn": 1
+      },
+      {
+        "threshold": 0.2,
+        "precision": 0.625,
+        "recall": 0.8333,
+        "f1": 0.7143,
+        "tp": 5,
+        "fp": 3,
+        "fn": 1
+      },
+      {
+        "threshold": 0.4,
+        "precision": 0.625,
+        "recall": 0.8333,
+        "f1": 0.7143,
+        "tp": 5,
+        "fp": 3,
+        "fn": 1
+      },
+      {
+        "threshold": 0.6,
+        "precision": 0.7143,
+        "recall": 0.8333,
+        "f1": 0.7692,
+        "tp": 5,
+        "fp": 2,
+        "fn": 1
+      },
+      {
+        "threshold": 0.8,
+        "precision": 0.8333,
+        "recall": 0.8333,
+        "f1": 0.8333,
+        "tp": 5,
+        "fp": 1,
+        "fn": 1
+      },
+      {
+        "threshold": 1.0,
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "threshold": 1.2,
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8,
+        "tp": 4,
+        "fp": 0,
+        "fn": 2
+      },
+      {
+        "threshold": 1.4,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "tp": 3,
+        "fp": 0,
+        "fn": 3
+      },
+      {
+        "threshold": 1.6,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "tp": 3,
+        "fp": 0,
+        "fn": 3
+      },
+      {
+        "threshold": 1.8,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "tp": 3,
+        "fp": 0,
+        "fn": 3
+      },
+      {
+        "threshold": 2.0,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "tp": 3,
+        "fp": 0,
+        "fn": 3
+      }
+    ]
+  },
+  "regulatory_rag": {
+    "k": 5,
+    "questions": 15,
+    "recall@5": 1.0,
+    "any_primary@5": 1.0,
+    "precision@5": 0.3333,
+    "mrr": 0.9333,
+    "pep_language": {
+      "retrieval_questions": 3,
+      "retrieval_found_primary": 3,
+      "retrieval_rate": 1.0,
+      "language_probes": 5,
+      "language_correct": 5,
+      "language_rate": 1.0
+    },
+    "ablation": [
+      {
+        "config": "bm25 only",
+        "k": 5,
+        "questions": 15,
+        "recall@5": 1.0,
+        "any_primary@5": 1.0,
+        "precision@5": 0.2933,
+        "mrr": 0.9333
+      },
+      {
+        "config": "dense only",
+        "k": 5,
+        "questions": 15,
+        "recall@5": 1.0,
+        "any_primary@5": 1.0,
+        "precision@5": 0.32,
+        "mrr": 0.9667
+      },
+      {
+        "config": "rrf fused",
+        "k": 5,
+        "questions": 15,
+        "recall@5": 1.0,
+        "any_primary@5": 1.0,
+        "precision@5": 0.3333,
+        "mrr": 0.9333
+      },
+      {
+        "config": "rrf + rerank",
+        "k": 5,
+        "questions": 15,
+        "recall@5": 1.0,
+        "any_primary@5": 1.0,
+        "precision@5": 0.3333,
+        "mrr": 0.9333
+      }
+    ]
+  },
+  "workflow": {
+    "subject": "E-agg-p-P003-0",
+    "path": [
+      "ingest",
+      "resolve",
+      "assemble_graph",
+      "score_structure",
+      "retrieve_guidance",
+      "draft_memo",
+      "verify",
+      "human_gate"
+    ],
+    "citation_resolution": 1.0,
+    "citations": 8,
+    "pep_check_passed": true,
+    "awaiting_human_decision": true,
+    "recommendation": "no escalation indicated"
+  },
+  "config": {
+    "blocking": {
+      "name": "default",
+      "use_name_tokens": true,
+      "use_prefix": true,
+      "use_phonetic": true,
+      "use_address": true,
+      "use_identifier": true,
+      "prefix_length": 6,
+      "token_key_size": 2,
+      "max_block_size": 60,
+      "max_address_df": 8
+    },
+    "scoring": {
+      "name": "default",
+      "weights": {
+        "name_jaro": 0.34,
+        "name_token_jaccard": 0.22,
+        "phonetic_match": 0.08,
+        "address_overlap": 0.12,
+        "jurisdiction_match": 0.08,
+        "birth_date_match": 0.12,
+        "identifier_match": 0.04
+      },
+      "match_threshold": 0.72,
+      "review_low": 0.58,
+      "review_high": 0.8,
+      "type_must_match": true
+    },
+    "graph": {
+      "control_threshold": 25.0,
+      "max_chain_depth": 12,
+      "attenuate_ownership": true
+    },
+    "rag": {
+      "top_k": 5,
+      "candidate_k": 25,
+      "rrf_k": 60,
+      "rerank": true,
+      "rerank_depth": 15,
+      "embed_dim": 96,
+      "require_citations": true
+    }
+  },
+  "leakage": {
+    "linear_scorer": {
+      "pair_level_test_f1": 0.9642,
+      "cluster_level_test_f1": 0.9449,
+      "inflation": 0.0193,
+      "records_shared_between_halves": 200,
+      "reading": "Both numbers come from the same features and the same search budget. The pair-level split lets 200 records appear in both halves, so weights tuned on train have already seen the exact strings they are tested on. The gap is how much a pair-level benchmark would overstate this matcher on entities it has never encountered."
+    },
+    "token_level_model": {
+      "pair_level_test_f1": 0.5705,
+      "cluster_level_test_f1": 0.4286,
+      "inflation": 0.1419,
+      "reading": "Identical model, identical data, identical training budget. Only the split differs. A pair-level benchmark reports this matcher as far better than it is, because the tokens it memorised in training are sitting in the test set attached to the same records."
+    }
+  },
+  "model_comparison": {
+    "labelled_structures": 11,
+    "positive_labels": 6,
+    "rules": {
+      "in_sample": {
+        "protocol": "in-sample",
+        "note": "weights are hand-set, not fitted, so this is not a training score",
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1
+      },
+      "leave_one_out": {
+        "protocol": "leave-one-out (identical: no fitted parameters)",
+        "note": "weights are hand-set, not fitted, so this is not a training score",
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "accuracy": 0.9091,
+        "accuracy_95ci": [
+          0.6226,
+          0.9838
+        ]
+      }
+    },
+    "verdict": {
+      "rules_f1": 0.9091,
+      "gcn_f1_in_sample": 1.0,
+      "gcn_f1_leave_one_out": 0.9091,
+      "gcn_memorisation_gap": 0.0909,
+      "reading": "The GCN carries 128 parameters against 11 labels. Its in-sample score is what memorisation looks like; the leave-one-out score is what it actually knows. The engineered features win here not because feature engineering beats representation learning, but because eleven labelled structures is not a training set."
+    },
+    "gcn": {
+      "in_sample": {
+        "protocol": "in-sample (trained on these same labels)",
+        "warning": "meaningless as a quality measure; kept only to show the gap against leave-one-out",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "hidden_dim": 8,
+        "epochs": 300,
+        "parameters": 128,
+        "labelled_nodes": 11,
+        "final_loss": 0.09404,
+        "parameters_per_label": 11.6
+      },
+      "leave_one_out": {
+        "protocol": "leave-one-out",
+        "folds": 11,
+        "accuracy": 0.9091,
+        "accuracy_95ci": [
+          0.6226,
+          0.9838
+        ],
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1
+      }
+    }
+  }
+}

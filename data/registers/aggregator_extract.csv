@@ -1,0 +1,262 @@
+record_id,entity_type,name,jurisdiction,address,birth_date,source_register
+agg-c-C001-0,company,Northwind Energy Trading Ltd.,GB,"Beaufort House, 15 St Botolph Street, London EC3A 7BB",,gleif
+agg-c-C002-0,company,Baltic Resource Holdings Limited,CY,"Themistokli Dervi 3, Julia House, 1066 Nicosia",,gleif
+agg-c-C003-0,company,Arcadia Capital Partners Ltd,KY,PO BOX 309,,gleif
+agg-c-C003-1,company,Arcadia Capital Partners Ltd,KY,"190 Elgin Avenue, George Town, Grand Cayman KY1-9008",,orbis
+agg-c-C004-0,company,Meridian Nominees Ltd,VG,"CRAIGMUIR CHAMBERS,PO BOX 71,ROAD TOWN,TORTOLA VG1110",,opencorporates
+agg-c-C005-0,company,Volga Shipping Group OOO,RU,ULITSA TVERSKAYA 12,,orbis
+agg-c-C005-1,company,Volga Shipping Group LLC,RU,Ulitsa Tverskaya 12,,gleif
+agg-c-C006-0,company,Sunrise Commodities Free Zone Estalishment,AE,Unit 1802,,opencorporates
+agg-c-C007-0,company,HELVETIA TRUST SERVICES AKTIENGESELLSCHAFT,CH,"BAHNHOFSTRASSE 45,8001 ZURICH",,opencorporates
+agg-c-C008-0,company,Delta Marine Logistics S.A.,PA,Torre Global Bank,,orbis
+agg-c-C010-0,company,Silk Rad Ventures IBC,SC,"Suite 1, Second Floor, Sound & Vision House, Francis Rachel Street, Victoria, Mahe",,gleif
+agg-c-C010-1,company,Sil Road Ventures Ltd,SC,Suite 1,,gleif
+agg-c-C011-0,company,Aurora Mining Holdings Limited,GB,27 Old Broad Street,,gleif
+agg-c-C015-0,company,KESTREL TRADING DMCC DMCC,AE,Office 3402,,opencorporates
+agg-c-C015-1,company,Kestrel Trading DMCC DMCC,AE,"Office 3402, Almas Tower, JLT, Dubai",,opencorporates
+agg-c-C016-0,company,Orion Petrochemicals BV,NL,"Zuidplein 126, 1077 XV Amsterdam",,opencorporates
+agg-c-C018-0,company,Adriatic Shipping Lines SpA,IT,"Via Monte Napoleone 8, 20121 Milano",,opencorporates
+agg-c-C019-0,company,Blue Harbour Nominees Ltd,BZ,"WITHFIELD TOWER,THIRD FLOOR,4792 CONEY DRIVE,BELIZE CITY",,gleif
+agg-c-C019-1,company,Blue Harbour Nominees IBC,BZ,Withfield Tower,,orbis
+agg-c-C020-0,company,Continental Freight Systems Ltd.,GB,"1 Canada Square, Canary Wharf, London E14 5AB",,gleif
+agg-c-C023-0,company,BALTIC FISHERIIES LTD.,GB,"27 Old Broad Street, London EC2N 1HN",,gleif
+agg-c-B0000-0,company,Cobalt Textiles International Ltd,PA,"Torre Global Bank, Calle 50, Ciudad de Panama",,gleif
+agg-c-B0002-0,company,Cobalt Partners International SA,AE,UNIT 1802,,opencorporates
+agg-c-B0003-0,company,Northern Partners Global S.A.,CY,"Themistokli Dervi 3, Julia House, 1066 Nicosia",,orbis
+agg-c-B0004-0,company,Draco Capital Corporation Besloten Vennootschap,CH,"BAHNHOFSTRASSE 45,8001 ZURICH",,opencorporates
+agg-c-B0005-0,company,Emerald Capital International DMCC,NL,"ZUIDPLEIN 126,1077 XV AMSTERDAM",,opencorporates
+agg-c-B0005-1,company,Emerald Capital International DMCC Ltd,NL,"ZUIDPLEIN 126,1077 XV AMSTERDAM",,orbis
+agg-c-B0006-0,company,Harbour Maritime Corporation Exempted Company,AE,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",,opencorporates
+agg-c-B0006-1,company,Harbour Maritime Corporation Limited,AE,"Unit 1802, Jumeirah Business Centre 3, Cluster Y, JLT, Dubai",,orbis
+agg-c-B0007-0,company,REGENT INDUSTRIES CORPORATION LTD,IT,"Via Monte Napoleone 8, 20121 Milano",,orbis
+agg-c-B0010-0,company,Imperial Property Group DMCC,NL,"Zuidplein 126, 1077 XV Amsterdam",,orbis
+agg-c-B0010-1,company,Imperial Property Group DMCC Ltd,NL,"Zuidplein 126, 1077 XV Amsterdam",,opencorporates
+agg-c-B0011-0,company,Cypress Consulting Enterprises DMCC,IT,"Via Monte Napoleone 8, 20121 Milano",,opencorporates
+agg-c-B0014-0,company,Harbour Resources Corporation Aktiengesellschaft,SC,"Suite 1, Second Floor, Sound & Vision House, Francis Rachel Street, Victoria, Mahe",,gleif
+agg-c-B0017-0,company,Anchor Petroleum Sociedad Anonima,AE,"UNIT 1802,JUMEIRAH BUSINESS CENTRE 3,CLUSTER Y,JLT,DUBAI",,gleif
+agg-c-B0018-0,company,Falcon Partners DMCC,CH,"Bahnhofstrasse 45, 8001 Zurich",,gleif
+agg-c-B0018-1,company,Falcon Partners DMCC,CH,"Bahnhofstrasse 45, 8001 Zurich",,orbis
+agg-c-B0019-0,company,Anchor Maritime Group Ltd,CH,Bahnhofstrasse 45,,orbis
+agg-c-B0019-1,company,Anchor Maritime Group Ltd,CH,"Bahnhofstrasse 45, 8001 Zurich",,orbis
+agg-c-B0020-0,company,Emerald Resources P.L.C.,CY,"Themistokli Dervi 3, Julia House, 1066 Nicosia",,gleif
+agg-c-B0020-1,company,Emerald Resources Public LimitedCompany,CY,"Arch. Makariou III 199, Neocleous House, 3030 Limassol",,opencorporates
+agg-c-B0022-0,company,Beacon Investments Enterprises OOO,PA,Torre Global Bank,,orbis
+agg-c-B0022-1,company,BEACON INVESTMENTS ENTERPRISES OOO,PA,"TORRE GLOBAL BANK,CALLE 50,CIUDAD DE PANAMA",,orbis
+agg-c-B0023-0,company,Emerald Indsutries Corporation S.p.A.,BZ,"WITHFIELD TOWER,THIRD FLOOR,4792 CONEY DRIVE,BELIZE CITY",,gleif
+agg-c-B0023-1,company,Emerald Industries Corporaiton S.p.A.,BZ,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",,opencorporates
+agg-c-B0024-0,company,Atlantic Investments Limited,PA,"TORRE GLOBAL BANK,CALLE 50,CIUDAD DE PANAMA",,gleif
+agg-c-B0024-1,company,Atlantic Investments Ltd,PA,Torre Global Bank,,orbis
+agg-c-B0026-0,company,Everest Industries Enterprrises FZE,CY,"THEMISTOKLI DERVI 3,JULIA HOUSE,1066 NICOSIA",,opencorporates
+agg-c-B0027-0,company,Draco Petroleum Global S.A.,CH,"Bahnhofstrasse 45, 8001 Zurich",,gleif
+agg-c-B0029-0,company,HALCYOON LOGISTICS GROUP LIMITED,IT,"Via Monte Napoleone 8, 20121 Milano",,opencorporates
+agg-c-B0030-0,company,Granite Resources Corporation IBC,PA,Torre Global Bank,,opencorporates
+agg-c-B0031-0,company,Summit Resources Global Limited,BZ,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",,orbis
+agg-c-B0031-1,company,Summit Resources Global Limited,BZ,"WITHFIELD TOWER,THIRD FLOOR,4792 CONEY DRIVE,BELIZE CITY",,orbis
+agg-c-B0032-0,company,Harbour Agri Enterprises Sociedad Anonma,AE,"Unit 1802, Jumeirah Business Centre 3, Cluster Y, JLT, Dubai",,orbis
+agg-c-B0033-0,company,Everset Industries Global DMCC,GB,"27 Old Broad Street, London EC2N 1HN",,orbis
+agg-c-B0034-0,company,Anchor Agri LTD.,PA,TORRE GLOBAL BANK,,opencorporates
+agg-c-B0037-0,company,Emerald Agri International S.A.,AE,"Office 3402, Almas Tower, JLT, Dubai",,orbis
+agg-c-B0037-1,company,Emerald Agri International SA,AE,OFFICE 3402,,orbis
+agg-c-B0038-0,company,Anchor Logistics Limited,AE,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",,opencorporates
+agg-c-B0039-0,company,Falcon Metals FZE,CH,"Bahnhofstrasse 45, 8001 Zurich",,orbis
+agg-c-B0041-0,company,Regent Capital International Exempted Company,PA,"TORRE GLOBAL BANK,CALLE 50,CIUDAD DE PANAMA",,opencorporates
+agg-c-B0041-1,company,Regent Capital International Ltd,PA,"Torre Global Bank, Calle 50, Ciudad de Panama",,gleif
+agg-c-B0042-0,company,Ivory Holdings S.p.A.,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,opencorporates
+agg-c-B0042-1,company,Ivory Holdings SpA,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,orbis
+agg-c-B0043-0,company,Halcyon Resources Enterprises AG,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,orbis
+agg-c-B0043-1,company,Halcyon Resources Enterprises A.G.,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,gleif
+agg-c-B0044-0,company,GARNET PETROLEUM GROUP SA,AE,"Office 3402, Almas Tower, JLT, Dubai",,opencorporates
+agg-c-B0044-1,company,Garnet Petroeum Group SA,AE,"Office 3402, Almas Tower, JLT, Dubai",,orbis
+agg-c-B0047-0,company,Foxglove Logistics International S.p.A.,KY,PO Box 309,,gleif
+agg-c-B0048-0,company,Emerald Textiles Enterprises S.A.,SC,"Suite 1, Second Floor, Sound & Vision House, Francis Rachel Street, Victoria, Mahe",,opencorporates
+agg-c-B0048-1,company,Emerald Textiles Enterprises S.A.,SC,Suite 1,,opencorporates
+agg-c-B0049-0,company,Cypress Partners Group SA,KY,"190 Elgin Avenue, George Town, Grand Cayman KY1-9008",,orbis
+agg-c-B0050-0,company,Summit Partners Group Limited,GB,"1 Canada Square, Canary Wharf, London E14 5AB",,gleif
+agg-c-B0050-1,company,Summit Partners GGroup Ltd,GB,"1 Canada Square, Canary Wharf, London E14 5AB",,gleif
+agg-c-B0051-0,company,Summit Metals Enterprises AG,KY,"PO BOX 309,UGLAND HOUSE,GRAND CAYMAN KY1-1104",,orbis
+agg-c-B0053-0,company,Granite Metals Global Exempted Company,VG,CRAIGMUIR CHAMBERS,,opencorporates
+agg-c-B0053-1,company,Granite Metals Global Limited,VG,"Craigmuir Chambers, PO Box 71, Road Town, Tortola VG1110",,opencorporates
+agg-c-B0054-0,company,FALCON RESOURCES GLOBAL A.G.,IT,VIA MONTE NAPOLEONE 8,,orbis
+agg-c-B0054-1,company,FALCON RESOURCES GLOBAL AG,IT,VIA MONTE NAPOLEONE 8,,orbis
+agg-c-B0055-0,company,REGENT TEXTILES DMCC LTD,PA,"Torre Global Bank, Calle 50, Ciudad de Panama",,orbis
+agg-c-B0056-0,company,Harbour Trading Free Zone Establishment,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,orbis
+agg-c-B0056-1,company,Harbour Trading Free Zone Establishment,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,orbis
+agg-c-B0057-0,company,Cypress Capital AG,AE,"Office 3402, Almas Tower, JLT, Dubai",,gleif
+agg-c-B0059-0,company,GRANITE MARITIME INTERNATIONAL A.G.,VG,"Craigmuir Chambers, PO Box 71, Road Town, Tortola VG1110",,opencorporates
+agg-c-B0060-0,company,Falcon Agri Enterprises SpA,IT,VIA MONTE NAPOLEONE 8,,opencorporates
+agg-c-B0060-1,company,Falcon Agri Enterprises S.p.A.,IT,"Via Monte Napoleone 8, 20121 Milano",,gleif
+agg-c-B0064-0,company,Anchor Trading Global A.G.,CH,"Bahnhofstrasse 45, 8001 Zurich",,orbis
+agg-c-B0065-0,company,Ivory Trading Corporation SpA,CY,"Themistokli Dervi 3, Julia House, 1066 Nicosia",,orbis
+agg-c-B0066-0,company,Regent Ventures Group P.L.C.,MT,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",,orbis
+agg-c-B0066-1,company,Regent Venture Group P.L.C.,MT,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",,orbis
+agg-c-B0067-0,company,Draco Petroleum A.G.,KY,"190 Elgin Avenue, George Town, Grand Cayman KY1-9008",,gleif
+agg-c-B0068-0,company,Draco Industries Enterprises LLC,KY,"PO Box 309, Ugland House, Grand Cayman KY1-1104",,orbis
+agg-c-B0068-1,company,DRACO INDUSTRIES ENTERPRISES O.O.O.,KY,"190 Elgin Avenue, George Town, Grand Cayman KY1-9008",,opencorporates
+agg-c-B0071-0,company,Foxglove Textiles OOO,VG,"Craigmuir Chambers, PO Box 71, Road Town, Tortola VG1110",,gleif
+agg-c-B0072-0,company,Garnet Logistics Corporation DMCC Ltd,VG,"CRAIGMUIR CHAMBERS,PO BOX 71,ROAD TOWN,TORTOLA VG1110",,gleif
+agg-c-B0073-0,company,ATLANTIC PROPERTY INTERNATIONAL LIMITED,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,opencorporates
+agg-c-B0075-0,company,Crown Agri Group IBC,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,orbis
+agg-c-B0076-0,company,Draco Agri Group Limited,AE,Office 3402,,gleif
+agg-c-B0076-1,company,Draco Agri Group Exempted Company,AE,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",,gleif
+agg-c-B0077-0,company,Draco Maritime Global DMCC Ltd,CH,"BAHNHOFSTRASSE 45,8001 ZURICH",,opencorporates
+agg-c-B0078-0,company,Foxglove Industries Besloten Vennootscahp,BZ,"WITHFIELD TOWER,THIRD FLOOR,4792 CONEY DRIVE,BELIZE CITY",,gleif
+agg-c-B0078-1,company,Foxglove Industries Besloten Vennootschap,BZ,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",,orbis
+agg-c-B0080-0,company,Anchor Propertyy Global S.A.,IT,"VIA MONTE NAPOLEONE 8,20121 MILANO",,opencorporates
+agg-c-B0080-1,company,ANCHOR PROPERTY GLOBAL SOCIEDAD ANONIMA,IT,"Via Monte Napoleone 8, 20121 Milano",,orbis
+agg-c-B0081-0,company,Ivory Partners Enerprises Ltd,BZ,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",,opencorporates
+agg-c-B0081-1,company,Ivory Partners Enterprises IBC,BZ,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",,gleif
+agg-c-B0084-0,company,Atlantic Holdings Corporation PLC,BZ,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",,opencorporates
+agg-c-B0084-1,company,Atlantic Holdings Corporation P.L.C.,BZ,Withfield Tower,,orbis
+agg-c-B0085-0,company,Northern Metals Global PLC,AE,"UNIT 1802,JUMEIRAH BUSINESS CENTRE 3,CLUSTER Y,JLT,DUBAI",,gleif
+agg-c-B0086-0,company,ATLANTIC CAPITAL CORPORATION FREE ZONE ESTABLISHMENT,KY,"PO Box 309, Ugland House, Grand Cayman KY1-1104",,opencorporates
+agg-c-B0087-0,company,Emerald Logistics Global Limited,BZ,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",,gleif
+agg-c-B0087-1,company,Emerald Logistics Global Limited,BZ,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",,opencorporates
+agg-c-B0088-0,company,Harbour Industriess Global DMCC Ltd,GB,"1 Canada Square, Canary Wharf, London E14 5AB",,orbis
+agg-c-B0089-0,company,Cobalt Holdinngs Enterprises A.G.,MT,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",,opencorporates
+agg-c-B0089-1,company,Cobalt Holdings Enterprises Aktiengesellschaft,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,orbis
+agg-c-B0090-0,company,SUMMIT MARITIME GROUP B.V.,CH,"Bahnhofstrasse 45, 8001 Zurich",,gleif
+agg-c-B0092-0,company,Ivory Investments Global O.O.O.,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,opencorporates
+agg-c-B0093-0,company,Northern Resources Corporation Fere Zone Establishment,PA,"Torre Global Bank, Calle 50, Ciudad de Panama",,orbis
+agg-c-B0094-0,company,IMEPRIAL AGRI LTD,BZ,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",,gleif
+agg-c-B0095-0,company,Harbour Consulting Enterprises P.L.C.,CH,"Bahnhofstrasse 45, 8001 Zurich",,orbis
+agg-c-B0095-1,company,HARBOUR CONSULTING ENTERPRISES P.L.C.,CH,Bahnhofstrasse 45,,opencorporates
+agg-c-B0096-0,company,Halcyon Investments Enterprises SpA,IT,"Via Monte Napoleone 8, 20121 Milano",,gleif
+agg-c-B0097-0,company,Regent Partners Enterprises P.L.C.,VG,"Craigmuir Chambers, PO Box 71, Road Town, Tortola VG1110",,gleif
+agg-c-B0098-0,company,Imperial Industries International Limited,CH,"Bahnhofstrasse 45, 8001 Zurich",,opencorporates
+agg-c-B0099-0,company,Atlantic Textiles Corporation S.A.,PA,"Torre Global Bank, Calle 50, Ciudad de Panama",,orbis
+agg-c-B0100-0,company,EVERSET INDUSTRIES PLC,IT,"Via Monte Napoleone 8, 20121 Milano",,orbis
+agg-c-B0100-1,company,Everest Industries P.L.C.,IT,"VIA MONTE NAPOLEONE 8,20121 MILANO",,orbis
+agg-c-B0101-0,company,Emerald Partners Enterprises Limited,CY,"Arch. Makariou III 199, Neocleous House, 3030 Limassol",,orbis
+agg-c-B0101-1,company,Emerald Partners Enterprises Limited,CY,"Themistokli Dervi 3, Julia House, 1066 Nicosia",,gleif
+agg-c-B0103-0,company,Regent Ventures Enterprises Exempted Company,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,opencorporates
+agg-c-B0104-0,company,Everest Venures Group AG,BZ,WITHFIELD TOWER,,opencorporates
+agg-c-B0105-0,company,Coalt Maritime International SA,IT,"Via Monte Napoleone 8, 20121 Milano",,gleif
+agg-c-B0107-0,company,Halcyon Metals Enterprises LLC,PA,Torre Global Bank,,orbis
+agg-c-B0107-1,company,Halcyon Metals Enterprises OOO,PA,"Torre Global Bank, Calle 50, Ciudad de Panama",,orbis
+agg-c-B0108-0,company,IVORY TRADING GLOBAL BV,KY,"190 Elgin Avenue, George Town, Grand Cayman KY1-9008",,orbis
+agg-c-B0110-0,company,Regent Textiles (Holdings) S.p.A.,BZ,"WITHFIELD TOWER,THIRD FLOOR,4792 CONEY DRIVE,BELIZE CITY",,gleif
+agg-c-B0111-0,company,Cypress Petroleum O.O.O.,GB,Beaufort House,,gleif
+agg-c-B0111-1,company,Cypress Petroleum OOO,GB,1 Canada Square,,opencorporates
+agg-c-B0112-0,company,GRANITE VENTURES GLOBAL TD,AE,"Unit 1802, Jumeirah Business Centre 3, Cluster Y, JLT, Dubai",,opencorporates
+agg-c-B0114-0,company,Garnet Partnrs FZE,AE,Unit 1802,,opencorporates
+agg-c-B0115-0,company,Harbour Investments Global Ltd,CH,Bahnhofstrasse 45,,orbis
+agg-c-B0115-1,company,Harbour Investments Global Limited,CH,"Bahnhofstrasse 45, 8001 Zurich",,opencorporates
+agg-c-B0116-0,company,Imperial Logistics International P.L.C.,KY,"PO Box 309, Ugland House, Grand Cayman KY1-1104",,opencorporates
+agg-c-B0117-0,company,Crown Consulting Enterprises SA,VG,Craigmuir Chambers,,opencorporates
+agg-c-B0118-0,company,Northern Capital Global Limited,PA,TORRE GLOBAL BANK,,orbis
+agg-c-B0119-0,company,CYPRESS PARTNERS DMCC  LTD,PA,"Torre Global Bank, Calle 50, Ciudad de Panama",,opencorporates
+agg-c-B0120-0,company,Falcon Property International PLC,GB,"1 CANADA SQUARE,CANARY WHARF,LONDON E14 5AB",,orbis
+agg-c-B0121-0,company,Imperial Industries Sociedad Anonima,CY,"ARCH. MAKARIOU III 199,NEOCLEOUS HOUSE,3030 LIMASSOL",,gleif
+agg-c-B0124-0,company,Regent Ventures International Limited,NL,"Zuidplein 126, 1077 XV Amsterdam",,gleif
+agg-c-B0125-0,company,Draco Logistics Ltd,CH,"Bahnhofstrasse 45, 8001 Zurich",,gleif
+agg-c-B0126-0,company,BEACON TEXTILES FZE,AE,"Office 3402, Almas Tower, JLT, Dubai",,opencorporates
+agg-c-B0128-0,company,Cypress Holdings Group Public Limited Company,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,orbis
+agg-c-B0128-1,company,CYPRESS HOLDINGS GROUP PUBLIC LIMITED COMPANY,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,orbis
+agg-c-B0131-0,company,Granite Partners Enterprises SA,SC,"Suite 1, Second Floor, Sound & Vision House, Francis Rachel Street, Victoria, Mahe",,orbis
+agg-c-B0133-0,company,Foxglove Agri Group Exempted Company,PA,"Torre Global Bank, Calle 50, Ciudad de Panama",,orbis
+agg-c-B0134-0,company,Halcyon Industries Enterprises P.L.C.,SC,"SUITE 1,SECOND FLOOR,SOUND & VISION HOUSE,FRANCIS RACHEL STREET,VICTORIA,MAHE",,orbis
+agg-c-B0136-0,company,SUMMIT CAPITAL ENTERPRISES AG,CH,"Bahnhofstrasse 45, 8001 Zurich",,opencorporates
+agg-c-B0137-0,company,CYPRESS CNOSULTING DMCC LTD,IT,"VIA MONTE NAPOLEONE 8,20121 MILANO",,gleif
+agg-c-B0138-0,company,HarbourMetals Corporation DMCC,AE,"Office 3402, Almas Tower, JLT, Dubai",,gleif
+agg-c-B0139-0,company,Summit Agri International BV,MT,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",,gleif
+agg-p-P001-0,person,Dmitry Wolow,RU,"Ulitsa Tverskaya 12, Moscow 125009",1968-04-11,opencorporates
+agg-p-P003-0,person,Marcus Van Der Berg,NL,"Zuidplein 126, 1077 XV Amsterdam",1961-01-30,opencorporates
+agg-p-P005-0,person,Li Wei Chen,CN,"JING'AN DISTRICT,1266 NANJING WEST ROAD,SHANGHAI",1979-11-05,worldcheck
+agg-p-P005-1,person,Lee Wei Chan,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1979-11-05,opencorporates
+agg-p-P006-0,person,Oksana Petrenko,UA,"Khreshchatyk Street 22, Kyiv 01001",1983-03-24,worldcheck
+agg-p-P006-1,person,Oksana Petrneko,UA,"Khreshchatyk Street 22, Kyiv 01001",1983-03-24,worldcheck
+agg-p-P008-0,person,Sergey Morozov,RU,"Nevsky Prospekt 28, Saint Petersburg 191186",1972-12-15,worldcheck
+agg-p-P009-0,person,Isabella Ferrari,IT,VIA MONTE NAPOLEONE 8,1980-05-21,opencorporates
+agg-p-P009-1,person,Isabella Ferrari,IT,"Via Monte Napoleone 8, 20121 Milano",1980-05-21,opencorporates
+agg-p-P011-0,person,Julia Kuznetsova,RU,"Ulitsa Tverskaya 12, Moscow 125009",1988-02-09,worldcheck
+agg-p-P012-0,person,Thomas Whitfield,GB,"1 Canada Square, Canary Wharf, London E14 5AB",1954-10-03,opencorporates
+agg-p-P013-0,person,Henrik Larsson,SE,"Sveavagen 44, 111 34 Stockholm",1971-05-17,opencorporates
+agg-p-Q0000-0,person,Andrei Kovacs,UA,"Khreshchatyk Street 22, Kyiv 01001",1990-10-16,worldcheck
+agg-p-Q0002-0,person,James Silva,NL,"Zuidplein 126, 1077 XV Amsterdam",1967-10-11,opencorporates
+agg-p-Q0003-0,person,Katarina BBerg,RU,"Nevsky Prospekt 28, Saint Petersburg 191186",1993-01-03,worldcheck
+agg-p-Q0004-0,person,Maria Reyes,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1951-11-17,national_register
+agg-p-Q0004-1,person,Maria Reyes,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1951-11-17,worldcheck
+agg-p-Q0005-0,person,James Adeyemi,CH,"Bahnhofstrasse 45, 8001 Zurich",1971-06-07,worldcheck
+agg-p-Q0006-0,person,Irina Reyes,GB,"BEAUFORT HOUSE,15 ST BOTOLPH STREET,LONDON EC3A 7BB",1975-01-02,opencorporates
+agg-p-Q0007-0,person,Sofia Bakker,GB,"27 Old Broad Street, London EC2N 1HN",1958-10-22,opencorporates
+agg-p-Q0008-0,person,Clara Ibrahim,CY,"ARCH. MAKARIOU III 199,NEOCLEOUS HOUSE,3030 LIMASSOL",1978-08-17,national_register
+agg-p-Q0009-0,person,Nikolai Yilmaz,AE,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",1989-01-02,national_register
+agg-p-Q0010-0,person,Irina Adeyemi,NL,"ZUIDPLEIN 126,1077 XV AMSTERDAM",1994-05-12,worldcheck
+agg-p-Q0010-1,person,Irina Adeyemi,NL,"Zuidplein 126, 1077 XV Amsterdam",1994-05-12,worldcheck
+agg-p-Q0011-0,person,Fatima Okafor,GB,"Beaufort House, 15 St Botolph Street, London EC3A 7BB",1988-02-03,opencorporates
+agg-p-Q0011-1,person,Fatima Okafor,GB,"27 Old Broad Street, London EC2N 1HN",1988-02-03,worldcheck
+agg-p-Q0012-0,person,Nikolai Novak,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1986-11-27,national_register
+agg-p-Q0013-0,person,Fatima Adeyemi,AE,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",1956-11-04,national_register
+agg-p-Q0014-0,person,James  Bakker,RU,"Ulitsa Tverskaya 12, Moscow 125009",1965-10-03,national_register
+agg-p-Q0015-0,person,Iria Kovacs,GB,"BEAUFORT HOUSE,15 ST BOTOLPH STREET,LONDON EC3A 7BB",1965-07-04,worldcheck
+agg-p-Q0017-0,person,Irina Costa,CH,"Bahnhofstrasse 45, 8001 Zurich",1976-08-22,national_register
+agg-p-Q0019-0,person,Andrei Berg,IT,"Via Monte Napoleone 8, 20121 Milano",1980-07-18,opencorporates
+agg-p-Q0019-1,person,Andrei Berg,IT,"VIA MONTE NAPOLEONE 8,20121 MILANO",1980-07-18,national_register
+agg-p-Q0020-0,person,Kaarina Fischer,IT,Via Monte Napoleone 8,1960-07-08,opencorporates
+agg-p-Q0020-1,person,Katarina Fischer,IT,"Via Monte Napoleone 8, 20121 Milano",1960-07-08,worldcheck
+agg-p-Q0021-0,person,James Petrov,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1988-03-07,opencorporates
+agg-p-Q0022-0,person,Nikolai Marchteti,AE,Office 3402,1950-06-13,opencorporates
+agg-p-Q0024-0,person,Samuel Dubois,NL,Zuidplein 126,1992-05-16,worldcheck
+agg-p-Q0025-0,person,Irina Bakker,RU,Ulitsa Tverskaya 12,1983-08-08,worldcheck
+agg-p-Q0025-1,person,Irina Bakker,RU,"Ulitsa Tverskaya 12, Moscow 125009",1983-08-08,national_register
+agg-p-Q0026-0,person,Ivan Berg,IT,Via Monte Napoleone 8,1975-02-06,opencorporates
+agg-p-Q0027-0,person,Katarina Fischer,AE,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",1991-11-18,worldcheck
+agg-p-Q0027-1,person,Katarina Fischer,AE,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",1991-11-18,worldcheck
+agg-p-Q0029-0,person,Ivan aNkamura,GH,"INDEPENDENCE AVENUE 5,RIDGE,ACCRA",1970-12-22,opencorporates
+agg-p-Q0030-0,person,Lucia Marchetti,UA,"Khreshchatyk Street 22, Kyiv 01001",1976-02-13,national_register
+agg-p-Q0030-1,person,Luci aMarchetti,UA,"KHRESHCHATYK STREET 22,KYIV 01001",1976-02-13,worldcheck
+agg-p-Q0031-0,person,Grace Hadad,CH,"Bahnhofstrasse 45, 8001 Zurich",1984-12-08,opencorporates
+agg-p-Q0032-0,person,Lucia Adeyemi,NL,"Zuidplein 126, 1077 XV Amsterdam",1981-01-08,national_register
+agg-p-Q0033-0,person,Katarina Haddad,CN,"JING'AN DISTRICT,1266 NANJING WEST ROAD,SHANGHAI",1952-06-02,opencorporates
+agg-p-Q0034-0,person,Niklai Berg,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1980-10-25,worldcheck
+agg-p-Q0035-0,person,Fatim aYilmaz,RU,"Ulitsa Tverskaya 12, Moscow 125009",1984-12-23,national_register
+agg-p-Q0036-0,person,Peter Novak,CY,"Arch. Makariou III 199, Neocleous House, 3030 Limassol",1956-12-06,opencorporates
+agg-p-Q0037-0,person,Clara Nakmura,GH,"Independence Avenue 5, Ridge, Accra",1995-12-07,national_register
+agg-p-Q0038-0,person,Lucia Bakker,GB,"1 Canada Square, Canary Wharf, London E14 5AB",1953-03-19,national_register
+agg-p-Q0038-1,person,Lucia Bakker,GB,"BEAUFORT HOUSE,15 ST BOTOLPH STREET,LONDON EC3A 7BB",1953-03-19,worldcheck
+agg-p-Q0040-0,person,Omar Marchetti,AE,"Office 3402, Almas Tower, JLT, Dubai",1992-06-07,worldcheck
+agg-p-Q0041-0,person,Nikolai Marchetti,UA,"Khreshchatyk Street 22, Kyiv 01001",1957-02-19,worldcheck
+agg-p-Q0044-0,person,Hassan  Lindqvist,NL,"Zuidplein 126, 1077 XV Amsterdam",1992-12-11,worldcheck
+agg-p-Q0044-1,person,Hassan Lindqvist,NL,"ZUIDPLEIN 126,1077 XV AMSTERDAM",1992-12-11,national_register
+agg-p-Q0046-0,person,Maria Lindqvist,RU,"Nevsky Prospekt 28, Saint Petersburg 191186",1994-07-07,national_register
+agg-p-Q0046-1,person,Maria Lindqvist,RU,"Nevsky Prospekt 28, Saint Petersburg 191186",1994-07-07,national_register
+agg-p-Q0047-0,person,Irina Okafor,IT,"VIA MONTE NAPOLEONE 8,20121 MILANO",1964-11-18,worldcheck
+agg-p-Q0048-0,person,Nadia Fischer,GH,"Independence Avenue 5, Ridge, Accra",1976-01-18,national_register
+agg-p-Q0049-0,person,Sofia Adeyemi,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1979-06-05,opencorporates
+agg-p-Q0049-1,person,Sofia Adeyemi,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1979-06-05,opencorporates
+agg-p-Q0051-0,person,Andrei Yilmaz,NL,ZUIDPLEIN 126,1952-09-17,national_register
+agg-p-Q0054-0,person,Sofia Okafor,CY,"THEMISTOKLI DERVI 3,JULIA HOUSE,1066 NICOSIA",1979-04-17,worldcheck
+agg-p-Q0055-0,person,Daniel Lindqvist,NL,"ZUIDPLEIN 126,1077 XV AMSTERDAM",1966-10-04,national_register
+agg-p-Q0056-0,person,Sofia Ibrahim,NL,"Zuidplein 126, 1077 XV Amsterdam",1989-03-16,opencorporates
+agg-p-Q0058-0,person,Peter Silva,CY,"Arch. Makariou III 199, Neocleous House, 3030 Limassol",1960-02-08,opencorporates
+agg-p-Q0058-1,person,Peter Silva,CY,"Arch. Makariou III 199, Neocleous House, 3030 Limassol",1960-02-08,national_register
+agg-p-Q0059-0,person,Nikolai Fischer,RU,"Nevsky Prospekt 28, Saint Petersburg 191186",1978-04-27,opencorporates
+agg-p-Q0059-1,person,Nikolai Fischer,RU,"ULITSA TVERSKAYA 12,MOSCOW 125009",1978-04-27,opencorporates
+agg-p-Q0060-0,person,Grace Ibrahim,RU,NEVSKY PROSPEKT 28,1978-05-01,national_register
+agg-p-Q0060-1,person,Grace Ibrahim,RU,Ulitsa Tverskaya 12,1978-05-01,worldcheck
+agg-p-Q0061-0,person,Lucia Dubois,CY,"Arch. Makariou III 199, Neocleous House, 3030 Limassol",1970-05-25,opencorporates
+agg-p-Q0062-0,person,Irina Costa,AE,"Office 3402, Almas Tower, JLT, Dubai",1951-06-18,opencorporates
+agg-p-Q0064-0,person,Nikolai Okafor,RU,"Nevsky Prospekt 28, Saint Petersburg 191186",1989-06-18,opencorporates
+agg-p-Q0065-0,person,Fatima Dbois,UA,"Khreshchatyk Street 22, Kyiv 01001",1954-12-02,national_register
+agg-p-Q0066-0,person,Irina Adeyeemi,NL,"Zuidplein 126, 1077 XV Amsterdam",1969-01-04,worldcheck
+agg-p-Q0067-0,person,Anna Yiilmaz,NL,"Zuidplein 126, 1077 XV Amsterdam",1975-12-17,opencorporates
+agg-p-Q0068-0,person,Lucia Fischer,RU,NEVSKY PROSPEKT 28,1954-09-25,worldcheck
+agg-p-Q0069-0,person,Nikolai Reyes,GB,"Beaufort House, 15 St Botolph Street, London EC3A 7BB",1985-10-12,opencorporates
+agg-p-Q0070-0,person,Fatima Nkaamura,NL,"Zuidplein 126, 1077 XV Amsterdam",1958-02-27,national_register
+agg-p-Q0072-0,person,Clara Berg,NL,"Zuidplein 126, 1077 XV Amsterdam",1967-01-03,opencorporates
+agg-p-Q0073-0,person,Andrei Slva,NL,"ZUIDPLEIN 126,1077 XV AMSTERDAM",1956-09-16,national_register
+agg-p-Q0073-1,person,Andrei Silva,NL,ZUIDPLEIN 126,1956-09-16,national_register
+agg-p-Q0074-0,person,Irina Okafor,UA,"Khreshchatyk Street 22, Kyiv 01001",1984-10-14,opencorporates
+agg-p-Q0074-1,person,Irina Okafor,UA,"KHRESHCHATYK STREET 22,KYIV 01001",1984-10-14,national_register
+agg-p-Q0076-0,person,Viktor Nakamura,CH,"BAHNHOFSTRASSE 45,8001 ZURICH",1951-06-12,national_register
+agg-p-Q0077-0,person,Ivan Kovacs,CH,"BAHNHOFSTRASSE 45,8001 ZURICH",1956-01-23,national_register
+agg-p-Q0078-0,person,Lucia Okafor,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1960-10-22,worldcheck
+agg-p-Q0078-1,person,Lucia Okafor,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1960-10-22,opencorporates
+agg-p-Q0079-0,person,Daniel Lindqvist,IT,"Via Monte Napoleone 8, 20121 Milano",1967-11-22,national_register
+agg-p-Q0080-0,person,Omar Berg,UA,"Khreshchatyk Street 22, Kyiv 01001",1974-10-08,national_register
+agg-p-Q0080-1,person,Omar Berg,UA,KHRESHCHATYK STREET 22,1974-10-08,opencorporates
+agg-p-Q0081-0,person,Peter Reyes,RU,"Ulitsa Tverskaya 12, Moscow 125009",1990-06-21,opencorporates
+agg-p-Q0083-0,person,Lucia Larsen,CH,"Bahnhofstrasse 45, 8001 Zurich",1950-03-11,national_register
+agg-p-Q0085-0,person,Viktor Reyes,AE,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",1994-11-01,national_register
+agg-p-Q0086-0,person,Samuel Marchetti,CN,"Jing'an District, 1266 Nanjing West Road, Shanghai",1967-07-10,worldcheck
+agg-p-Q0087-0,person,Sofia Haddad,GH,"Independence Avenue 5, Ridge, Accra",1987-04-07,worldcheck

@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2024-08-09",
+  "note": "Hand-built against the guidance corpus before the retriever was tuned. Relevant sections are graded: primary sections answer the question, secondary sections a reviewer would also want in front of them. The PEP-language questions are the ones that matter most: a system that renders a PEP match as an adverse finding is both wrong on the law and a driver of unjustified de-risking.",
+  "questions": [
+    {
+      "qid": "R-01",
+      "question": "What is the ownership threshold for identifying a beneficial owner of a legal entity customer, and how is indirect ownership calculated?",
+      "primary": ["FinCEN-CDD-1", "FinCEN-CDD-2"],
+      "secondary": ["FATF-R10-INR-5"],
+      "reference_answer": "Twenty-five percent of equity interests under the ownership prong. Indirect interests are calculated by multiplying percentages along the chain, so sixty percent of a holding company that owns fifty percent of the customer is a thirty percent indirect interest and is reportable."
+    },
+    {
+      "qid": "R-02",
+      "question": "If no natural person holds twenty-five percent, who must be identified as the beneficial owner?",
+      "primary": ["FATF-R10-INR-5", "FinCEN-CDD-1"],
+      "secondary": ["FinCEN-CTA-1"],
+      "reference_answer": "The cascade moves to natural persons exercising control through other means, and only if none is identified to the senior managing official. Under the FinCEN rule at least one individual must always be identified under the control prong regardless of the ownership prong."
+    },
+    {
+      "qid": "R-03",
+      "question": "Is a politically exposed person match a reason to decline the relationship?",
+      "primary": ["FATF-R12", "FFIEC-EDD"],
+      "secondary": ["FATF-RISK-BASED"],
+      "pep_language_test": true,
+      "reference_answer": "No. Recommendation 12 requires enhanced due diligence: senior management approval, source of wealth and funds, and enhanced ongoing monitoring. PEP status is a category calling for additional scrutiny, not a finding of wrongdoing, and the FFIEC manual is explicit that it does not by itself require the account to be declined."
+    },
+    {
+      "qid": "R-04",
+      "question": "How should a firm treat a customer whose beneficial owner is a family member of a foreign official?",
+      "primary": ["FATF-R12"],
+      "secondary": ["FFIEC-EDD", "FATF-RISK-BASED"],
+      "pep_language_test": true,
+      "reference_answer": "The Recommendation 12 requirements extend to family members and close associates of a PEP. That means enhanced due diligence and senior management approval, applied case by case; it does not mean the relationship is adverse."
+    },
+    {
+      "qid": "R-05",
+      "question": "When is an entity blocked because of who owns it, even though it is not itself on the SDN list?",
+      "primary": ["FFIEC-SANCTIONS"],
+      "secondary": ["FinCEN-CDD-2"],
+      "reference_answer": "When blocked persons own fifty percent or more in the aggregate, directly or indirectly. Aggregation across several blocked owners is required, so two blocked persons holding thirty percent each make the company blocked. Below fifty percent the entity is not blocked by the rule but the interest is a risk factor."
+    },
+    {
+      "qid": "R-06",
+      "question": "What ownership structures does FATF identify as techniques for concealing beneficial ownership?",
+      "primary": ["FATF-LAYERING"],
+      "secondary": ["FATF-R24", "FFIEC-NOMINEE"],
+      "reference_answer": "Chains across multiple jurisdictions including at least one with weak requirements, nominee shareholders and directors acting on undisclosed instructions, bearer shares, trusts and foundations outside company registers, and fragmentation of holdings so each falls below the disclosure threshold while the aggregate confers control."
+    },
+    {
+      "qid": "R-07",
+      "question": "Is a long ownership chain by itself evidence of concealment?",
+      "primary": ["FATF-LAYERING"],
+      "secondary": ["FFIEC-NOMINEE"],
+      "reference_answer": "No. Many legitimate groups are structured across several holding companies for tax, financing or regulatory reasons. What distinguishes concealment is length combined with opacity and the absence of a commercial rationale."
+    },
+    {
+      "qid": "R-08",
+      "question": "What must a firm do when a corporate service provider is the shareholder or officer of record?",
+      "primary": ["FFIEC-NOMINEE"],
+      "secondary": ["FATF-R24"],
+      "reference_answer": "Determine on whose instructions the provider acts and record the answer. The provider is not the beneficial owner, and recording it as one leaves the customer file wrong on its central fact. FATF's revised Recommendation 24 requires countries to prevent the misuse of nominees, including by requiring them to disclose their nominator."
+    },
+    {
+      "qid": "R-09",
+      "question": "Who must a trustee identify as beneficial owners of an express trust?",
+      "primary": ["FATF-R25"],
+      "secondary": ["FATF-LAYERING"],
+      "reference_answer": "The settlor, the trustee, the protector where one exists, the beneficiaries or class of beneficiaries, and any other natural person exercising ultimate effective control. Control through a trust must be pursued to the natural persons behind it rather than recorded as ownership by the trustee."
+    },
+    {
+      "qid": "R-10",
+      "question": "When may a bank rely on the beneficial ownership certification the customer provided?",
+      "primary": ["FinCEN-CDD-3"],
+      "secondary": ["FFIEC-CDD"],
+      "reference_answer": "When it has no knowledge of facts that would reasonably call the information into question. Where an independent source such as a corporate register or a sanctions list contradicts the certification, reliance is no longer reasonable and the discrepancy must be resolved first."
+    },
+    {
+      "qid": "R-11",
+      "question": "What is the standard for filing a suspicious activity report, and what must the narrative contain?",
+      "primary": ["FinCEN-SAR"],
+      "secondary": ["FATF-R20"],
+      "reference_answer": "Suspicion, not proof. The narrative must explain who, what, when, where and why, and must connect a structural finding to the customer relationship and the transactions observed. A description of corporate structure with no such connection is not a completed narrative."
+    },
+    {
+      "qid": "R-12",
+      "question": "How often must beneficial ownership information be refreshed?",
+      "primary": ["FFIEC-MONITOR"],
+      "secondary": ["FinCEN-CTA-1"],
+      "reference_answer": "There is no categorical fixed schedule under the FFIEC manual; the trigger is an event indicating the information may no longer be accurate. Under the Corporate Transparency Act reporting rule a reporting company must update its own filing within thirty days of a change."
+    },
+    {
+      "qid": "R-13",
+      "question": "Is it acceptable to exit all customers from a higher-risk jurisdiction as a class?",
+      "primary": ["FATF-RISK-BASED"],
+      "secondary": ["FFIEC-EDD"],
+      "pep_language_test": true,
+      "reference_answer": "No. FATF has stated that terminating relationships with entire classes of customer without case-by-case risk assessment is inconsistent with the risk-based approach, drives activity into less transparent channels, and is a failure of the standard rather than a conservative application of it."
+    },
+    {
+      "qid": "R-14",
+      "question": "How long must customer due diligence records and analysis be retained?",
+      "primary": ["FATF-RECORDS"],
+      "secondary": ["FinCEN-SAR"],
+      "reference_answer": "At least five years after the business relationship ends for CDD records, account files, business correspondence and the results of any analysis, and at least five years for transaction records. Records must permit reconstruction of individual transactions."
+    },
+    {
+      "qid": "R-15",
+      "question": "What does the revised Recommendation 24 require countries to do about beneficial ownership registries?",
+      "primary": ["FATF-R24"],
+      "secondary": ["FATF-R10"],
+      "reference_answer": "A multi-pronged approach: a registry or an alternative mechanism giving equivalent efficient access, combined with information held by the company itself and other sources where relevant. Countries must also assess risks from foreign-created legal persons with a sufficient link to the jurisdiction and prevent the misuse of nominees."
+    }
+  ]
+}

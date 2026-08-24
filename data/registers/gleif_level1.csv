@@ -1,0 +1,79 @@
+LEI,Entity.LegalName,Entity.LegalJurisdiction,Entity.LegalForm,Entity.LegalAddress,Entity.EntityStatus,Registration.InitialRegistrationDate
+5493001KJTIIGC8Y1R12,Northwind Energy Trading Ltd.,GB,Limited,"27 Old Broad Street, London EC2N 1HN",ACTIVE,2011-03-15
+213800MBWEIJDM5CU638,Baltic Resource Holdings Ltd.,CY,Limited,"Themistokli Dervi 3, Julia House, 1066 Nicosia",ACTIVE,2012-07-02
+253400WQIYIZAXBWCU02,Volga Shipping Group O.O.O.,RU,OOO,"Ulitsa Tverskaya 12, Moscow 125009",ACTIVE,2009-11-28
+506700GE1G29325QX363,HELVETIA TRUST SERVICES A.G.,CH,AG,"Bahnhofstrasse 45, 8001 Zurich",ACTIVE,2008-06-30
+213800D1EI4B9WTWWD28,Cardinal Infrastructure P.L.C.,GB,Public Limited Company,"1 Canada Square, Canary Wharf, London E14 5AB",ACTIVE,2010-04-19
+5493004NBBK8OCM3T012,Aurora Mining Holdings Ltd.,GB,Limited,"Beaufort House, 15 St Botolph Street, London EC3A 7BB",ACTIVE,2012-11-09
+529900W3MOO00A18X956,Grandview Property Fund LTD.,MT,Limited,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",ACTIVE,2015-06-14
+724500Y6L1I8Z2GLRP19,Orion Petrochemicals B.V.,NL,B.V.,Zuidplein 126,ACTIVE,2011-10-06
+815600A9E1D1D0F0C123,Adriatic Shipping Lines SpA,IT,S.p.A.,"Via Monte Napoleone 8, 20121 Milano",ACTIVE,2010-02-11
+213800QZ5K7EJP9NRT44,Continental Freight Systems Ltd,GB,Limited,"27 Old Broad Street, London EC2N 1HN",ACTIVE,2009-05-18
+724500KKV1J1M8L2CD77,Rhine Valley Logistics Besloten Vennootschap,NL,B.V.,"Zuidplein 126, 1077 XV Amsterdam",ACTIVE,2013-04-12
+815600B2C3D4E5F6A789,TUSCAN OODS SPA,IT,S.p.A.,"Via Monte Napoleone 8, 20121 Milano",ACTIVE,2014-07-08
+213800RR8T2WQ4NMPL61,Baltic Fisheries Ltd.,GB,Limited,"27 Old Broad Street, London EC2N 1HN",ACTIVE,2015-11-23
+BG0000E970PIJS6H64UZ,COBALT TEXTILES INTERNATIONAL IBC,PA,IBC,"TORRE GLOBAL BANK,CALLE 50,CIUDAD DE PANAMA",ACTIVE,2020-01-15
+BG0003INIHTU8TCBK0YC,NORTHERN PARTNERS GLOBAL S.A.,CY,Sociedad Anonima,"Arch. Makariou III 199, Neocleous House, 3030 Limassol",ACTIVE,2017-07-22
+BG0004KCVSEHTJCNUCZM,Draco Capital Corporation Besloten Vennootschap,CH,B.V.,"Bahnhofstrasse 45, 8001 Zurich",ACTIVE,2006-07-27
+BG0006D9HPLODI40IZT2,Harbour Maritime Corporation Limited,AE,Exempted Company,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",ACTIVE,2008-02-13
+BG0007C6NLXKNFWTB2V0,Regent Industries Corporation  IBC,IT,IBC,"VIA MONTE NAPOLEONE 8,20121 MILANO",ACTIVE,2009-06-17
+BG0009X6S3P4HPTKHRK5,Anchor Property Corporation IBC,MT,IBC,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",ACTIVE,2018-02-15
+BG00101BOJG3E2ABL3W2,Imperial Propert yGroup DMCC Ltd,NL,DMCC,"Zuidplein 126, 1077 XV Amsterdam",ACTIVE,2015-04-11
+BG0015RRQJGJNQAPPFF4,Beacon Capital Group A.G.,SC,AG,"Suite 1, Second Floor, Sound & Vision House, Francis Rachel Street, Victoria, Mahe",ACTIVE,2018-07-10
+BG0016EBJ274X7K3XGTT,Everest Holdinggs LTD.,SC,Limited,"Suite 1, Second Floor, Sound & Vision House, Francis Rachel Street, Victoria, Mahe",ACTIVE,2019-03-04
+BG0020QOM2VW4O7LF212,Emerald Resources Public Limited Company,CY,Public Limited Company,Themistokli Dervi 3,ACTIVE,2013-07-06
+BG00229SZI61I6SUTA3O,Beacon Investments Enterprises LLC,PA,OOO,"TORRE GLOBAL BANK,CALLE 50,CIUDAD DE PANAMA",ACTIVE,2018-05-20
+BG0024SZ1LUMMZ0FPLZN,Atlantic Investmets Ltd,PA,Exempted Company,TORRE GLOBAL BANK,ACTIVE,2010-09-11
+BG0025R3938Q9O09UUSL,ATLANTIC INVESTMENTS CORPORATION FREE ZONE ESTABLISHMENT,BZ,FZE,"WITHFIELD TOWER,THIRD FLOOR,4792 CONEY DRIVE,BELIZE CITY",ACTIVE,2009-02-01
+BG0028E6EY0OYI01MV2W,Summit Agri  Global SpA,IT,S.p.A.,"Via Monte Napoleone 8, 20121 Milano",ACTIVE,2010-12-19
+BG0029Z4VVOPH4I6TLRF,Halcyon Logistcs Group Limited,IT,Exempted Company,"Via Monte Napoleone 8, 20121 Milano",ACTIVE,2013-04-09
+BG00351IWFR63EYW0M02,Crown Capital Enterprises Aktiengesellschaft,NL,AG,"ZUIDPLEIN 126,1077 XV AMSTERDAM",ACTIVE,2018-08-08
+BG0036T8CI1WTS95GPH3,Summit Property Enterprises SA,KY,Sociedad Anonima,"PO BOX 309,UGLAND HOUSE,GRAND CAYMAN KY1-1104",ACTIVE,2020-04-02
+BG00404YNVVRCTOUP010,NORTHERN PROPERTY CORPORATION LTD,AE,IBC,"Office 3402, Almas Tower, JLT, Dubai",ACTIVE,2008-05-27
+BG0043RXAJAZO9GOPCC5,Halcyon Resources Enterprises A.G.,MT,AG,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",ACTIVE,2011-11-14
+BG0044HYJBBO8HTL9C6X,Garnet Petroleum Group Sociedad Aonnima,AE,Sociedad Anonima,"UNIT 1802,JUMEIRAH BUSINESS CENTRE 3,CLUSTER Y,JLT,DUBAI",ACTIVE,2009-09-02
+BG0047K3ROUSGLB1P7LK,Foxglove Logistics Internatioal SpA,KY,S.p.A.,"190 Elgin Avenue, George Town, Grand Cayman KY1-9008",ACTIVE,2015-06-25
+BG00487HNDLIZ9FM728G,Emerald Textiles Enterprises SA,SC,Sociedad Anonima,Suite 1,ACTIVE,2008-09-20
+BG0049KNNY0OMYQJSW7B,CYPRESS PARTNERS GROUP SOCIEDAD ANONIMA,KY,Sociedad Anonima,"PO Box 309, Ugland House, Grand Cayman KY1-1104",ACTIVE,2014-08-14
+BG0050X4B5KRFBJXWE2R,Summit Partners Group Ltd.,GB,Limited,"27 Old Broad Street, London EC2N 1HN",ACTIVE,2012-02-17
+BG00554ZL8R1NVJ4PTPX,Regent Textiles DMCC Ltd,PA,DMCC,"Torre Global Bank, Calle 50, Ciudad de Panama",ACTIVE,2007-09-19
+BG00573XCA62FHHPID0J,CYPRESS CAPITAL A.G.,AE,AG,"OFFICE 3402,ALMAS TOWER,JLT,DUBAI",ACTIVE,2006-01-27
+BG0059A4N0MCRBY7FU5X,Granite Maritime International AG,VG,AG,"Craigmuir Chambers, PO Box 71, Road Town, Tortola VG1110",ACTIVE,2020-08-18
+BG0062N9X2OJ5E151DNX,Halcyon Textiles Corporation Limited,NL,Limited,ZUIDPLEIN 126,ACTIVE,2008-02-19
+BG0063TBHSWMFXYS15NR,Falcon Industries Group Sociedad Anonima,GB,Sociedad Anonima,"27 Old Broad Street, London EC2N 1HN",ACTIVE,2012-04-21
+BG0067E48APOP2PQISAF,DRACO PETROLEUM A.G.,KY,AG,"PO Box 309, Ugland House, Grand Cayman KY1-1104",ACTIVE,2020-08-18
+BG0069T8XXOKEIFO885J,HARBOUR TEXTILES IBC,BZ,IBC,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",ACTIVE,2012-02-06
+BG0070BCCPALRRZSTGL0,DRACO TRADING INTERNATIONAL B.V.,BZ,B.V.,"WITHFIELD TOWER,THIRD FLOOR,4792 CONEY DRIVE,BELIZE CITY",ACTIVE,2010-05-14
+BG0073UYT4NUXQH6YUYG,Atlantic Property International Exempted Company,MT,Exempted Company,Level 3,ACTIVE,2012-03-09
+BG00740ESMPA2Y0ZPRGI,Northern Industries Corporation Exempted Company,CH,Exempted Company,"Bahnhofstrasse 45, 8001 Zurich",ACTIVE,2007-12-24
+BG00778ODJ19AS9QIB2S,Draco Maritime Global DMCC Ltd,CH,DMCC,"BAHNHOFSTRASSE 45,8001 ZURICH",ACTIVE,2009-01-23
+BG00809UDT0CHPAA4531,Anchor Property Global SA,IT,Sociedad Anonima,"VIA MONTE NAPOLEONE 8,20121 MILANO",ACTIVE,2006-07-05
+BG0082W4N1Y8BIXEAVNI,Beacoon Petroleum International PLC,AE,Public Limited Company,"Unit 1802, Jumeirah Business Centre 3, Cluster Y, JLT, Dubai",ACTIVE,2006-02-25
+BG0084IODSB1CQQN1PW1,Atlanntic Holdings Corporation PLC,BZ,Public Limited Company,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",ACTIVE,2015-11-04
+BG0086VH9AVA4NA0ZP71,Atlantic Capital Crporation FZE,KY,FZE,"190 Elgin Avenue, George Town, Grand Cayman KY1-9008",ACTIVE,2020-10-25
+BG00873L2ZHFXKNUACDM,Emerald Logistics Global Ltd,BZ,IBC,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",ACTIVE,2013-11-08
+BG0088GNCQH5IZNGMSRF,Harbour Industries Global DMCC Ltd,GB,DMCC,"1 Canada Square, Canary Wharf, London E14 5AB",ACTIVE,2013-04-08
+BG0090MMFU8BP8PWJPGX,Summit Maritime Group Besloten Vennootschap,CH,B.V.,"Bahnhofstrasse 45, 8001 Zurich",ACTIVE,2016-06-25
+BG00911BRCCFMKOXW5DT,Regent Consulting Limited,PA,Limited,"TORRE GLOBAL BANK,CALLE 50,CIUDAD DE PANAMA",ACTIVE,2019-11-27
+BG0097Z2LU9I2CXKCMVQ,Regent Partners Enterprises P.L.C.,VG,Public Limited Company,"Craigmuir Chambers, PO Box 71, Road Town, Tortola VG1110",ACTIVE,2012-12-03
+BG0098SYN1M0114Z9OQM,IMPERIAL INDUSRIES INTERNATIONAL LIMITED,CH,Exempted Company,"Bahnhofstrasse 45, 8001 Zurich",ACTIVE,2011-01-13
+BG0099819VN4RHHGI4JO,Atlantic Textiles  Corporation S.A.,PA,Sociedad Anonima,Torre Global Bank,ACTIVE,2010-11-14
+BG0102EDVCZ8OEN8BFD5,Emerald Textiles Enerprises (Services) Free Zone Establishment,SC,FZE,"Suite 1, Second Floor, Sound & Vision House, Francis Rachel Street, Victoria, Mahe",ACTIVE,2005-08-20
+BG0103M54R79K157IZAL,REGENT VENTURES ENTERPRISES LIMITED,MT,Exempted Company,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",ACTIVE,2012-04-01
+BG01049UTMCKMKWOVUMF,Everest Ventures Group Aktiengesellschaft,BZ,AG,"Withfield Tower, Third Floor, 4792 Coney Drive, Belize City",ACTIVE,2016-10-09
+BG010586QIS0F3P8UR1J,Cobalt Maritime International Sociedad Anonima,IT,Sociedad Anonima,"Via Monte Napoleone 8, 20121 Milano",ACTIVE,2008-06-21
+BG0106AIURO7OICOW99C,Ivory Holdings Group Public Limited Company,CY,Public Limited Company,"Themistokli Dervi 3, Julia House, 1066 Nicosia",ACTIVE,2016-07-20
+BG0109FFPLTCL65RWPN4,Regent Holdings SA,NL,Sociedad Anonima,"ZUIDPLEIN 126,1077 XV AMSTERDAM",ACTIVE,2010-01-17
+BG011383V6I3MR4EEPDX,Harbou Resources Enterprises Sociedad Anonima,GB,Sociedad Anonima,"1 CANADA SQUARE,CANARY WHARF,LONDON E14 5AB",ACTIVE,2018-09-19
+BG01181MLE50SRSTGI2A,Northern Capital Global Limited,PA,IBC,"Torre Global Bank, Calle 50, Ciudad de Panama",ACTIVE,2018-07-13
+BG0120Z6S6I7GZEWRD0X,Falcon Property International Public Limited Company,GB,Public Limited Company,"Beaufort House, 15 St Botolph Street, London EC3A 7BB",ACTIVE,2010-04-15
+BG0122DJ0WZAO9EAOPE0,Harbour Investments Group  O.O.O.,BZ,OOO,"WITHFIELD TOWER,THIRD FLOOR,4792 CONEY DRIVE,BELIZE CITY",ACTIVE,2018-05-07
+BG01237CW3MB5UW0LZWN,Cypress RResources International Besloten Vennootschap,CY,B.V.,ARCH. MAKARIOU III 199,ACTIVE,2019-04-10
+BG0126EJVMNNRIHF153X,Beacon Texties Free Zone Establishment,AE,FZE,"UNIT 1802,JUMEIRAH BUSINESS CENTRE 3,CLUSTER Y,JLT,DUBAI",ACTIVE,2005-08-14
+BG0127AIYDBWTEDWVWUS,Everest Textiles Global LTD.,IT,Limited,"Via Monte Napoleone 8, 20121 Milano",ACTIVE,2016-12-23
+BG0128RRA55PMAEVEPD1,Cypress Holdings Group P.L.C.,MT,Public Limited Company,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",ACTIVE,2007-06-11
+BG0131853REVO54FODG7,Granite Partner Enterprises S.A.,SC,Sociedad Anonima,"SUITE 1,SECOND FLOOR,SOUND & VISION HOUSE,FRANCIS RACHEL STREET,VICTORIA,MAHE",ACTIVE,2019-06-07
+BG0133SYKY3U0M6BAZCN,Foxglove Agri Group Exempted Company,PA,Exempted Company,"Torre Global Bank, Calle 50, Ciudad de Panama",ACTIVE,2010-07-26
+BG0134BRA7BK0E6OL99W,Halcyon Industries Enterprises Public Limited Company,SC,Public Limited Company,"Suite 1, Second Floor, Sound & Vision House, Francis Rachel Street, Victoria, Mahe",ACTIVE,2020-07-17
+BG0136LOBZI3LYRERKUT,Summit Capital Enterprises AG,CH,AG,Bahnhofstrasse 45,ACTIVE,2013-08-26
+BG0137DL69B92NFXZ9K9,Cypress Consulting DMCC,IT,DMCC,"Via Monte Napoleone 8, 20121 Milano",ACTIVE,2005-06-05

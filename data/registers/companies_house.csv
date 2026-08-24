@@ -1,0 +1,65 @@
+company_number,company_name,company_status,jurisdiction,date_of_creation,registered_office_address,sic_code
+07000000,Northwind Energy Trading LTD.,active,GB,2011-03-15,"BEAUFORT HOUSE,15 ST BOTOLPH STREET,LONDON EC3A 7BB",70100
+07000137,BALTIC RESOURCE HOLDINGS LTD.,active,CY,2012-07-02,Arch. Makariou III 199,68209
+07001096,Cardinal Infrastructure P.L.C.,active,GB,2010-04-19,"1 CANADA SQUARE,CANARY WHARF,LONDON E14 5AB",70100
+07001370,Aurora Mininng Holdings Limited,active,GB,2012-11-09,27 OLD BROAD STREET,64209
+07001644,Grandview Property Fund Ltd,active,MT,2015-06-14,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",64209
+07001781,Pinnacle Advisory Services LLP,active,GB,2013-08-27,BEAUFORT HOUSE,64209
+07002055,Orion Petrochemicals BV,active,NL,2011-10-06,"Zuidplein 126, 1077 XV Amsterdam",68209
+07002329,Adriatic Shipping Lines SpA,active,IT,2010-02-11,Via Monte Napoleone 8,46900
+07002603,Continental Freight Systems Ltd,active,GB,2009-05-18,"27 OLD BROAD STREET,LONDON EC2N 1HN",68209
+07002740,Rhine Valley Logistics B.V.,active,NL,2013-04-12,"Zuidplein 126, 1077 XV Amsterdam",68209
+07002877,Tuscan Foods S.p.A.,active,IT,2014-07-08,VIA MONTE NAPOLEONE 8,64209
+07003014,Baltic Fisheries LTD.,active,GB,2015-11-23,"27 Old Broad Street, London EC2N 1HN",70100
+07003562,Northern Partners Global Sociedad Anonima,active,CY,2017-07-22,"Themistokli Dervi 3, Julia House, 1066 Nicosia",64209
+07003836,Emerald Capital International DMCC,active,NL,2010-09-17,"Zuidplein 126, 1077 XV Amsterdam",68209
+07004110,Regent Industries Coorporation Limited,active,IT,2009-06-17,Via Monte Napoleone 8,68209
+07004247,Cobalt Textiles Corporation S.p.A.,active,MT,2018-09-07,Level 3,68209
+07004384,ANCHOR PROPERTYCORPORATION LTD,active,MT,2018-02-15,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",70100
+07004521,Imperial Property Group DMCC Ltd,active,NL,2015-04-11,"Zuidplein 126, 1077 XV Amsterdam",64209
+07004658,Cypress Consulting Enterprises DMCC Ltd,active,IT,2010-06-08,"VIA MONTE NAPOLEONE 8,20121 MILANO",64209
+07005891,Emerald Resources PLC,active,CY,2013-07-06,Themistokli Dervi 3,68209
+07006028,Crown Logistcis Global S.A.,active,GB,2018-06-13,"27 OLD BROAD STREET,LONDON EC2N 1HN",64209
+07006713,Everest Industries Enterprises FZE,active,CY,2010-11-19,"Themistokli Dervi 3, Julia House, 1066 Nicosia",46900
+07006987,SUMMIT AGRI GLOBAL SPA,active,IT,2010-12-19,"VIA MONTE NAPOLEONE 8,20121 MILANO",70100
+07007124,Halcyon Logistics Group Exempted Company,active,IT,2013-04-09,"VIA MONTE NAPOLEONE 8,20121 MILANO",64209
+07007672,EVEREST INDUSTRIES GLOBAL DMCC,active,GB,2014-04-08,"27 Old Broad Street, London EC2N 1HN",46900
+07007946,Crown Capital Enterprises A.G.,active,NL,2018-08-08,"ZUIDPLEIN 126,1077 XV AMSTERDAM",46900
+07008905,Ivory Holdings SpA,active,MT,2010-12-05,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",68209
+07009042,Halcyon Resources Enterprises A.G.,active,MT,2011-11-14,Level 3,70100
+07010001,Summit Partners Group Ltd,active,GB,2012-02-17,"Beaufort House, 15 St Botolph Street, London EC3A 7BB",46900
+07010549,Falcon Resources Global A.G.,active,IT,2019-08-23,"Via Monte Napoleone 8, 20121 Milano",46900
+07010823,Harbour Trading Free Zone Establishment,active,MT,2012-06-12,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",70100
+07011097,Cypress Property Group Aktiengesellschaft,active,MT,2014-03-19,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",68209
+07011371,Falcon Agri Enterprises S.p.A.,active,IT,2010-04-14,"Via Monte Napoleone 8, 20121 Milano",70100
+07011508,DRACO HOLDINGS AG,active,GB,2005-03-15,"Beaufort House, 15 St Botolph Street, London EC3A 7BB",68209
+07011645,Halcyon Textiles Corporation LTD.,active,NL,2008-02-19,"Zuidplein 126, 1077 XV Amsterdam",64209
+07011782,Falcon Industries Group Sociedad Anoonima,active,GB,2012-04-21,"27 Old Broad Street, London EC2N 1HN",46900
+07012056,Ivory Trading Corporation S.p.A.,active,CY,2011-02-06,Arch. Makariou III 199,46900
+07012193,Regent Ventures Group P.L.C.,active,MT,2019-08-14,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",70100
+07013152,Atlantic Property International Exempted Company,active,MT,2012-03-09,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",68209
+07013426,Crown Agri Group Limited,active,MT,2020-10-19,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",46900
+07014111,Anchor Property Global S.A.,active,IT,2006-07-05,VIA MONTE NAPOLEONE 8,46900
+07014522,Foxglove Property FZE,active,MT,2006-10-18,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",64209
+07015207,Harbour Industries Global DMCC Ltd,active,GB,2013-04-08,"Beaufort House, 15 St Botolph Street, London EC3A 7BB",68209
+07015344,Cobalt Holdings Enterprises AG,active,MT,2012-08-13,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",64209
+07015755,Ivory Investments Global LLC,active,MT,2016-09-09,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",70100
+07016303,HALCYON INVESTMENTS ENTERPRISES S.P.A.,active,IT,2018-09-16,"VIA MONTE NAPOLEONE 8,20121 MILANO",46900
+07016851,Everest Industries P.L.C.,active,IT,2009-11-16,Via Monte Napoleone 8,46900
+07016988,Emerald Partners Enterprises Limited,active,CY,2008-03-11,"Themistokli Dervi 3, Julia House, 1066 Nicosia",68209
+07017262,REGENT VENTURES ENTERPRISES LTD,active,MT,2012-04-01,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",70100
+07017536,Cobalt Maritime International S.A.,active,IT,2008-06-21,"VIA MONTE NAPOLEONE 8,20121 MILANO",64209
+07017673,Ivory Holdings Group Public Limited Company,active,CY,2016-07-20,"Arch. Makariou III 199, Neocleous House, 3030 Limassol",46900
+07018084,Regent Holdings Sociedad Anonima,active,NL,2010-01-17,"ZUIDPLEIN 126,1077 XV AMSTERDAM",46900
+07018358,CYPRESS PETROLEUM LLC,active,GB,2018-02-25,"1 Canada Square, Canary Wharf, London E14 5AB",70100
+07018632,Harbour Resources Enterprises Sociedad Anonima,active,GB,2018-09-19,1 Canada Square,70100
+07019591,Falcon Property International PLC,active,GB,2010-04-15,"1 Canada Square, Canary Wharf, London E14 5AB",70100
+07019728,Imerial Industries S.A.,active,CY,2012-12-22,"ARCH. MAKARIOU III 199,NEOCLEOUS HOUSE,3030 LIMASSOL",70100
+07020002,Cypress Resources International B.V.,active,CY,2019-04-10,"Arch. Makariou III 199, Neocleous House, 3030 Limassol",70100
+07020139,Regent Ventures International Limited,active,NL,2015-10-07,"Zuidplein 126, 1077 XV Amsterdam",68209
+07020550,Everest Textiles Global Limited,active,IT,2016-12-23,"Via Monte Napoleone 8, 20121 Milano",68209
+07020687,Cypress Holdings Group PLC,active,MT,2007-06-11,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",46900
+07020961,Cypress Agri Group BC,active,MT,2017-11-21,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",46900
+07021235,Northernn Industries Global FZE,active,MT,2010-02-12,"Level 3, Valletta Buildings, South Street, Valletta VLT 1103",70100
+07021920,Cypress Consulting DMCC,active,IT,2005-06-05,"Via Monte Napoleone 8, 20121 Milano",64209
+07022194,Summit Agri International B.V.,active,MT,2008-08-12,"LEVEL 3,VALLETTA BUILDINGS,SOUTH STREET,VALLETTA VLT 1103",64209

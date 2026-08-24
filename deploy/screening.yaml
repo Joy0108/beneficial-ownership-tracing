@@ -1,0 +1,132 @@
+# Batch screening deployment.
+#
+# The shape follows how this workload actually behaves rather than a default web
+# service template. Screening is bursty and queue-driven: a daily OpenSanctions
+# delta arrives, a few thousand entities need re-screening, and then nothing
+# happens for a day. So the API is a small always-on deployment and the work is
+# done by workers scaled on queue depth, not on CPU.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ubo-screening
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ubo-config
+  namespace: ubo-screening
+data:
+  UBO_LLM: "deterministic"
+  # Blocking parameters and decision thresholds are configuration, not code:
+  # a threshold change is a policy change and must be reviewable on its own.
+  UBO_MATCH_THRESHOLD: "0.72"
+  UBO_LAYERING_THRESHOLD: "1.0"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ubo-api
+  namespace: ubo-screening
+spec:
+  replicas: 2
+  selector:
+    matchLabels: { app: ubo-api }
+  template:
+    metadata:
+      labels: { app: ubo-api }
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/joy0108/beneficial-ownership-tracing:latest
+          command: ["python", "-m", "ubo.cli", "registers"]
+          envFrom:
+            - configMapRef: { name: ubo-config }
+          resources:
+            requests: { cpu: "250m", memory: "512Mi" }
+            limits: { cpu: "1", memory: "1Gi" }
+          readinessProbe:
+            exec:
+              command: ["python", "-c", "import ubo; print(ubo.__version__)"]
+            initialDelaySeconds: 5
+            periodSeconds: 20
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ubo-worker
+  namespace: ubo-screening
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: ubo-worker }
+  template:
+    metadata:
+      labels: { app: ubo-worker }
+    spec:
+      containers:
+        - name: worker
+          image: ghcr.io/joy0108/beneficial-ownership-tracing:latest
+          command: ["python", "-m", "ubo.cli", "eval", "--fast"]
+          envFrom:
+            - configMapRef: { name: ubo-config }
+          resources:
+            # Entity resolution is memory-bound on the blocking index, not
+            # CPU-bound, so the request is shaped accordingly.
+            requests: { cpu: "500m", memory: "2Gi" }
+            limits: { cpu: "2", memory: "4Gi" }
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: ubo-worker
+  namespace: ubo-screening
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: ubo-worker
+  minReplicas: 1
+  maxReplicas: 12
+  metrics:
+    - type: External
+      external:
+        metric:
+          name: screening_queue_depth
+        target:
+          type: AverageValue
+          averageValue: "200"
+  behavior:
+    scaleDown:
+      # A delta arrives, the queue drains, and the queue is empty again within
+      # minutes. Without a stabilisation window the autoscaler thrashes through
+      # the whole burst.
+      stabilizationWindowSeconds: 600
+---
+# Daily delta ingestion. OpenSanctions and GLEIF both publish daily; this is
+# what makes the drift monitors see real distribution shift rather than
+# synthetic noise.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: ubo-daily-delta
+  namespace: ubo-screening
+spec:
+  schedule: "0 3 * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 2
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: delta
+              image: ghcr.io/joy0108/beneficial-ownership-tracing:latest
+              command: ["sh", "-c", "python -m ubo.cli drift && python -m ubo.cli eval"]
+              envFrom:
+                - configMapRef: { name: ubo-config }
+              resources:
+                requests: { cpu: "500m", memory: "2Gi" }
+                limits: { cpu: "2", memory: "4Gi" }

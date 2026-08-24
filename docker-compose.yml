@@ -1,0 +1,25 @@
+services:
+  screening:
+    build: .
+    environment:
+      UBO_LLM: deterministic
+      # Point at the mlflow service to mirror registered versions there; the
+      # promotion gates are enforced locally either way.
+      UBO_MLFLOW_URI: http://mlflow:5000
+    volumes:
+      - ./reports:/app/reports
+      - ./artifacts:/app/artifacts
+    command: ["eval"]
+    depends_on:
+      - mlflow
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:latest
+    command: mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:////mlflow/mlflow.db
+    ports:
+      - "5000:5000"
+    volumes:
+      - mlflow-store:/mlflow
+
+volumes:
+  mlflow-store:
