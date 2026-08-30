@@ -43,6 +43,100 @@ for each threshold.
 
 ---
 
+
+## Orchestration: LangGraph, and a control to prove it
+
+The screening workflow runs on **LangGraph**. The topology - nodes, edges,
+routers, the required-stage rule - is declared once in `workflow/spec.py` and
+compiled into a `StateGraph`. Each feature used replaced something this
+codebase was maintaining by hand:
+
+**Reducers put the merge rule in the type.** `_path` and `_checkpoints` are
+`Annotated[list, operator.add]`, so "a node returns a partial update that is
+merged, never substituted" becomes a property a node *cannot* violate rather
+than a convention the engine enforces. It could not overwrite the decision
+trail if it tried.
+
+**The checkpointer is the decision trail.** Every super-step is persisted, so
+an examiner asking why a subject was escalated gets the sequence of states that
+produced the decision from the framework's own durable record - not from a list
+this module appends to and could forget to append to. State types crossing the
+checkpointer are registered explicitly; a screening workflow that reads
+sanctions data must not also be a deserialisation gadget.
+
+**Interrupts make the human gate real.** The workflow already had a
+`human_gate` node, but *a node that records the need for a human is not a graph
+that stops*. With `human_in_the_loop=True` the run halts before the gate and
+`resume()` continues from the persisted checkpoint, so an analyst decides on a
+paused case with the memo and its verification in front of them, rather than
+reviewing a decision the workflow already recorded.
+
+**The required-stage rule stays ours.** LangGraph has no way to declare "this
+run is invalid unless `human_gate` executed". That check runs after `invoke`
+against the accumulated path, and there is a test asserting it still fires on
+the LangGraph engine - because a control that can be bypassed by swapping the
+executor is not a control.
+
+### The conformance test
+
+`workflow/graph.py` keeps a dependency-free walker over the same spec. It is
+not a fallback anyone is expected to run - it is the **control**. Both engines
+call the same routers and the same `missing_required` check, so the test
+asserting one subject produces an identical path, memo, decision package and
+audit trail under both is asserting that the two executors agree, not that two
+copies of a graph were edited in step.
+
+---
+
+## Regime routing: the metric that replaced a saturated one
+
+`recall@5` on the regulatory corpus is **1.000**. That is not a good result; it
+is a benchmark with nothing left to say. Every question's labelled section is
+already in the top five, so no retrieval change can move the number in either
+direction.
+
+The corpus mixes three kinds of authority, and they are **not
+interchangeable**:
+
+| | what it is | binding? |
+|---|---|---|
+| **FATF** | international standards and interpretive notes | no - persuasive only |
+| **FinCEN** | US law: the CDD rule, 31 CFR 1010.230, the CTA | yes |
+| **FFIEC** | US examination procedure | it is what an examiner tests |
+
+Answering *"what must a US bank collect at onboarding"* out of a FATF
+Recommendation is not merely off-topic - it cites a non-binding standard as a
+legal obligation, which is the worst failure a due-diligence memo has. **Recall
+scores it as a hit**, because the FATF section really is about beneficial
+ownership.
+
+So routing is measured separately:
+
+| metric | value | what it tells you |
+|---|---|---|
+| `recall@5` | **1.000** | saturated; uninformative |
+| `regime_routing_accuracy` | **0.867** | 2 of 15 questions are answered out of the wrong authority |
+
+The expected regime is derived from the labelled primary section, so the metric
+needed no new annotation.
+
+**The router abstains rather than guesses.** It fires on 20% of the golden
+questions - the ones that actually name an authority ("31 CFR", "FATF
+Recommendation", "FFIEC manual"). The two questions that misroute name none:
+
+* *"How often must beneficial ownership information be refreshed?"* - expected
+  FFIEC, retrieved FATF
+* *"Is it acceptable to exit all customers from a higher-risk jurisdiction as a
+  class?"* - expected FATF, retrieved FFIEC
+
+Both are genuinely ambiguous, and a cue pattern broad enough to catch them
+would misroute the questions it currently gets right. **A confident wrong
+regime is worse than no boost**, so the boost stays conservative and the two
+failures stay visible. The honest fix is topic-level authority annotation on
+the corpus, not a better regex.
+
+---
+
 ## The eight-step workflow
 
 ```

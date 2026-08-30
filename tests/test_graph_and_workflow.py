@@ -11,8 +11,9 @@ from ubo.graph.patterns import assess, evaluate, sweep_threshold
 from ubo.rag import pep
 from ubo.registers.loaders import Statement
 from ubo.registry import Registry
-from ubo.workflow.graph import END, START, StateMachine, WorkflowError
-from ubo.workflow.nodes import record_decision, screen
+from ubo.workflow.graph import END, START, StateMachine, WorkflowError, audit_trail
+from ubo.workflow.langgraph_engine import langgraph_available
+from ubo.workflow.nodes import build_workflow, record_decision, screen, select_engine
 
 # --- graph construction ----------------------------------------------------
 
@@ -309,3 +310,118 @@ def test_monitors_stay_quiet_when_nothing_moved(records):
     report = run_monitors(records, records)
     assert report["overall_status"] == "stable"
     assert report["action"] == "no action"
+
+
+# --- the two engines --------------------------------------------------------
+
+needs_langgraph = pytest.mark.skipif(not langgraph_available(), reason="langgraph is not installed")
+
+
+@needs_langgraph
+def test_langgraph_is_the_default_engine():
+    assert select_engine("auto") == "langgraph"
+    assert build_workflow().engine == "langgraph"
+
+
+@needs_langgraph
+def test_both_engines_execute_the_same_graph_identically(records, statements, entities, graph, regulatory):
+    """The conformance test.
+
+    One declared topology, two executors. If LangGraph's reducers, conditional
+    edges and required-stage handling mean what the reference walker means,
+    then the path, the memo, the citations and the recommendation are the same
+    object. Any divergence is a misunderstanding of the framework, and this is
+    where it surfaces rather than in a screening decision.
+    """
+    subject = next(e for e in graph.entities if graph.children(e, control_only=True))
+    seed = {"records": records, "statements": statements, "entities": entities}
+    reference = screen(subject, state=seed, regulatory=regulatory, engine="reference")
+    langgraph = screen(subject, state=seed, regulatory=regulatory, engine="langgraph")
+
+    assert reference["_path"] == langgraph["_path"]
+    assert reference["decision_package"] == langgraph["decision_package"]
+    assert reference["memo"].text == langgraph["memo"].text
+    assert reference["verification"] == langgraph["verification"]
+    assert reference["awaiting_human_decision"] == langgraph["awaiting_human_decision"]
+
+    left, right = audit_trail(reference), audit_trail(langgraph)
+    assert [c["node"] for c in left] == [c["node"] for c in right]
+    assert [c["next"] for c in left] == [c["next"] for c in right]
+    assert [c["added_keys"] for c in left] == [c["added"] for c in right]
+
+
+@needs_langgraph
+def test_the_required_human_gate_is_enforced_on_langgraph_too():
+    """The gate cannot be bypassed by swapping the executor."""
+    from ubo.workflow.nodes import compile_workflow
+    from ubo.workflow.spec import END as SEND
+    from ubo.workflow.spec import START as SSTART
+    from ubo.workflow.spec import WorkflowSpec
+
+    spec = WorkflowSpec("t", max_steps=8)
+    spec.add_node("a", lambda s: {"x": 1})
+    spec.add_node("human_gate", lambda s: {}, required=True)
+    spec.add_edge(SSTART, "a")
+    spec.add_edge("a", SEND)
+
+    with pytest.raises(WorkflowError, match="required stage"):
+        compile_workflow(spec, engine="langgraph").invoke({})
+
+
+@needs_langgraph
+def test_the_checkpointer_records_every_super_step(records, statements, entities, graph, regulatory):
+    subject = next(e for e in graph.entities if graph.children(e, control_only=True))
+    workflow = build_workflow(regulatory=regulatory, engine="langgraph")
+    state = workflow.invoke({"subject": subject, "records": records,
+                             "statements": statements, "entities": entities})
+
+    history = workflow.state_history(state["_thread_id"])
+    assert history[-1]["path"] == state["_path"]
+    pending = [n for h in history for n in h["next"]]
+    assert "human_gate" in pending and "draft_memo" in pending
+
+
+@needs_langgraph
+def test_the_human_gate_actually_pauses_the_run(records, statements, entities, graph, regulatory):
+    """A node that records the need for a human is not a graph that stops."""
+    subject = next(e for e in graph.entities if graph.children(e, control_only=True))
+    workflow = build_workflow(regulatory=regulatory, engine="langgraph", human_in_the_loop=True)
+    paused = workflow.invoke({"subject": subject, "records": records,
+                              "statements": statements, "entities": entities})
+
+    assert workflow.interrupted(paused["_thread_id"])
+    assert "human_gate" not in paused["_path"]
+    assert paused["memo"].text                      # the memo exists to be read
+    assert "decision_package" not in paused         # but no decision was packaged
+
+    resumed = workflow.resume(paused["_thread_id"])
+    assert resumed["_path"][-1] == "human_gate"
+    assert resumed["decision_package"]["requires_human_decision"] is True
+    assert resumed["decision_package"]["decision"] is None
+
+
+# --- regime routing ---------------------------------------------------------
+
+def test_regime_inference_abstains_when_the_question_names_no_authority():
+    """A confident wrong regime is worse than no boost at all.
+
+    FATF sets standards; FinCEN makes law. Boosting the wrong one promotes a
+    non-binding recommendation into a legal obligation, so the router only
+    fires when the question actually names an authority.
+    """
+    from ubo.rag.retrieve import infer_regime
+
+    assert infer_regime("what must a US bank collect under 31 CFR 1010.230") == "FinCEN"
+    assert infer_regime("what does FATF Recommendation 24 require") == "FATF"
+    assert infer_regime("what will an examiner test in the FFIEC manual") == "FFIEC"
+    assert infer_regime("how is a politically exposed person defined") is None
+
+
+def test_routing_accuracy_is_measured_where_recall_is_saturated():
+    """recall@5 is 1.000 and says nothing. Routing accuracy is the live metric."""
+    from ubo.eval.rag import evaluate_retrieval, load_golden
+    from ubo.rag.retrieve import RegulatoryIndex
+
+    report = evaluate_retrieval(RegulatoryIndex(), load_golden())
+    assert report["recall@5"] == 1.0                      # saturated
+    assert 0.0 < report["regime_routing_accuracy"] < 1.0  # informative

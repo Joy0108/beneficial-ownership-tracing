@@ -202,6 +202,61 @@ def rrf(rankings: Sequence[Sequence[tuple[str, float]]], k: int = 60) -> list[tu
     return sorted(scores.items(), key=lambda kv: (-kv[1], kv[0]))
 
 
+# ---------------------------------------------------------------------------
+# Regime routing
+# ---------------------------------------------------------------------------
+#
+# The corpus mixes three kinds of authority and they are not interchangeable:
+#
+#   FATF    international *standards*. Persuasive, not binding on any firm.
+#   FinCEN  binding US law - the CDD rule, 31 CFR 1010.230, the CTA.
+#   FFIEC   US examination procedure - what an examiner will actually test.
+#
+# Answering "what must a US bank collect at onboarding" out of a FATF
+# Recommendation is not merely off-topic; it cites a non-binding standard as a
+# legal obligation, which is the single worst failure mode a due-diligence memo
+# has. Recall cannot see this - the FATF section really is about beneficial
+# ownership - so routing is measured separately and boosted separately.
+
+REGIME_OF_SOURCE = {
+    "FATF": "FATF", "FATF-GUID": "FATF",
+    "FinCEN": "FinCEN", "FinCEN-CTA": "FinCEN",
+    "FFIEC": "FFIEC",
+}
+
+# Query-side cues. Deliberately conservative: an unmatched query routes to no
+# regime and the boost simply does not apply, which is safer than guessing.
+_REGIME_CUES = {
+    "FinCEN": (
+        r"\b31 ?cfr\b", r"\bcdd rule\b", r"\bcorporate transparency\b", r"\bcta\b",
+        r"\bfincen\b", r"\breporting company\b", r"\bbeneficial ownership rule\b",
+        r"\blegal entity customer\b", r"\bus (?:bank|firm|institution)\b",
+    ),
+    "FATF": (
+        r"\bfatf\b", r"\brecommendation ?\d+\b", r"\binterpretive note\b",
+        r"\binternational standard\b", r"\bmutual evaluation\b",
+    ),
+    "FFIEC": (
+        r"\bffiec\b", r"\bexamin", r"\bmanual\b", r"\bsupervisor", r"\btesting procedure\b",
+    ),
+}
+
+
+def infer_regime(query: str) -> str | None:
+    """Which authority the question is asking about, or None if unclear."""
+    low = query.lower()
+    scores = {
+        regime: sum(1 for pattern in patterns if re.search(pattern, low))
+        for regime, patterns in _REGIME_CUES.items()
+    }
+    best = max(scores, key=lambda r: scores[r])
+    return best if scores[best] > 0 else None
+
+
+def regime_of(section: Section) -> str | None:
+    return REGIME_OF_SOURCE.get(section.source)
+
+
 class RegulatoryIndex:
     def __init__(self, sections: Sequence[Section] | None = None, cfg: RagConfig = DEFAULT_RAG):
         self.cfg = cfg
@@ -210,7 +265,7 @@ class RegulatoryIndex:
         self.bm25 = BM25(self.sections)
         self.dense = DenseIndex(self.sections, cfg.embed_dim)
 
-    def rerank(self, query: str, candidates: Sequence[str]) -> list[tuple[str, float]]:
+    def rerank(self, query: str, candidates: Sequence[str], regime: str | None = None) -> list[tuple[str, float]]:
         """Refine the fused order with query-term coverage weighted by IDF.
 
         Deliberately weighted below the fusion rank: on a twenty-section corpus
@@ -218,6 +273,7 @@ class RegulatoryIndex:
         vote makes things worse more often than better.
         """
         q_terms = set(tokenize(query))
+        regime = regime if regime is not None else (infer_regime(query) if self.cfg.regime_routing else None)
         out = []
         for rank, sid in enumerate(candidates):
             section = self.by_id[sid]
@@ -225,7 +281,15 @@ class RegulatoryIndex:
             covered = sum(self.bm25.idf(t) for t in q_terms & terms)
             total = sum(self.bm25.idf(t) for t in q_terms) or 1.0
             title_hit = len(q_terms & set(tokenize(section.title))) / (len(q_terms) or 1)
-            out.append((sid, 3.0 / (1 + rank) + 1.4 * (covered / total) + 0.8 * title_hit))
+            # Weighted above the fusion rank on purpose. A binding US
+            # obligation and an international standard on the same subject
+            # retrieve about equally well, and citing the wrong one is a legal
+            # error rather than a relevance error. Off-regime sections are
+            # demoted, never removed: cross-references are real, and FFIEC
+            # procedure routinely explains a FinCEN rule.
+            same_regime = 1.0 if (regime and regime_of(section) == regime) else 0.0
+            out.append((sid, 3.0 / (1 + rank) + 1.4 * (covered / total) + 0.8 * title_hit
+                        + 2.2 * same_regime))
         return sorted(out, key=lambda kv: (-kv[1], kv[0]))
 
     def search(self, query: str, top_k: int | None = None) -> list[dict[str, Any]]:
@@ -236,10 +300,11 @@ class RegulatoryIndex:
 
         order = [sid for sid, _ in fused]
         if self.cfg.rerank:
-            order = [sid for sid, _ in self.rerank(query, order[: self.cfg.rerank_depth])] + order[self.cfg.rerank_depth :]
+            regime = infer_regime(query) if self.cfg.regime_routing else None
+            order = [sid for sid, _ in self.rerank(query, order[: self.cfg.rerank_depth], regime)] + order[self.cfg.rerank_depth :]
 
         results = []
         for sid in order[:top_k]:
             section = self.by_id[sid]
-            results.append({**section.to_dict(), "text": section.text})
+            results.append({**section.to_dict(), "text": section.text, "regime": regime_of(section)})
         return results

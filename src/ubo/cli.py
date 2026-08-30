@@ -163,7 +163,9 @@ def cmd_drift(args) -> int:
 def cmd_workflow(args) -> int:
     from .workflow.nodes import build_workflow
 
-    print(build_workflow().to_mermaid())
+    wf = build_workflow(engine=getattr(args, "engine", "auto"))
+    print(f"%% engine: {wf.engine}")
+    print(wf.to_mermaid())
     return 0
 
 
@@ -180,12 +182,16 @@ def build_parser() -> argparse.ArgumentParser:
 
     p = sub.add_parser("graph", help="build the ownership graph and rank structures by risk")
     p.add_argument("--top", type=int, default=6)
+    p.add_argument("--engine", choices=["auto", "langgraph", "reference"], default="auto",
+                   help="execution engine; auto picks langgraph when installed")
     p.set_defaults(func=cmd_graph)
 
     p = sub.add_parser("screen", help="run the eight-step workflow on one entity")
     p.add_argument("entity", help="entity id, or a substring of the canonical name")
     p.add_argument("--decide", choices=["escalate", "clear", "request_more_information"])
     p.add_argument("--analyst", help="analyst identity recorded against the decision")
+    p.add_argument("--engine", choices=["auto", "langgraph", "reference"], default="auto",
+                   help="execution engine; auto picks langgraph when installed")
     p.set_defaults(func=cmd_screen)
 
     p = sub.add_parser("guidance", help="query the regulatory corpus")

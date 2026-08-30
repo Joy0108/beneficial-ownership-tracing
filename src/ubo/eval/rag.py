@@ -17,7 +17,7 @@ from typing import Any
 
 from ..config import GOLDEN_PATH
 from ..rag import pep
-from ..rag.retrieve import RegulatoryIndex
+from ..rag.retrieve import RegulatoryIndex, infer_regime, regime_of
 
 
 def load_golden(path: Path = GOLDEN_PATH) -> dict[str, Any]:
@@ -32,8 +32,16 @@ def _mean(values) -> float:
 def evaluate_retrieval(index: RegulatoryIndex, golden: dict[str, Any], k: int = 5) -> dict[str, Any]:
     rows = []
     for q in golden["questions"]:
-        hits = [h["id"] for h in index.search(q["question"], k)]
+        results = index.search(q["question"], k)
+        hits = [h["id"] for h in results]
         primary = set(q["primary"])
+
+        # Routing. The expected authority is whichever the labelled primary
+        # section belongs to, so this needs no new annotation - and unlike
+        # recall it is not saturated, because the corpus contains sections on
+        # the same subject from three different authorities.
+        expected_regime = next((regime_of(index.by_id[p]) for p in q["primary"] if p in index.by_id), None)
+        top_regime = next((regime_of(index.by_id[h]) for h in hits if h in index.by_id), None)
         relevant = primary | set(q.get("secondary", []))
         rank = next((i + 1 for i, h in enumerate(hits) if h in primary), None)
         rows.append({
@@ -44,6 +52,10 @@ def evaluate_retrieval(index: RegulatoryIndex, golden: dict[str, Any], k: int = 
             "mrr": 1.0 / rank if rank else 0.0,
             "hits": hits,
             "missed_primary": sorted(primary - set(hits)),
+            "expected_regime": expected_regime,
+            "top_regime": top_regime,
+            "regime_correct": 1.0 if (expected_regime and top_regime == expected_regime) else 0.0,
+            "inferred_regime": infer_regime(q["question"]),
         })
     return {
         "k": k,
@@ -52,6 +64,12 @@ def evaluate_retrieval(index: RegulatoryIndex, golden: dict[str, Any], k: int = 
         f"any_primary@{k}": round(_mean(r["any_primary@k"] for r in rows), 4),
         f"precision@{k}": round(_mean(r["precision@k"] for r in rows), 4),
         "mrr": round(_mean(r["mrr"] for r in rows), 4),
+        # Fraction of questions whose top-ranked section comes from the
+        # authority the question is actually about. FATF sets standards;
+        # FinCEN makes law. Citing one for the other is a legal error that
+        # recall@k scores as a hit.
+        "regime_routing_accuracy": round(_mean(r["regime_correct"] for r in rows), 4),
+        "regime_inferred_rate": round(_mean(1.0 if r["inferred_regime"] else 0.0 for r in rows), 4),
         "rows": rows,
     }
 

@@ -86,6 +86,10 @@ class RagConfig:
     candidate_k: int = 25
     rrf_k: int = 60
     rerank: bool = True
+    # Boost sections from the authority the question is actually about.
+    # FATF is a standard; FinCEN is law. Citing one for the other is the worst
+    # failure a due-diligence memo has, and recall cannot see it.
+    regime_routing: bool = True
     rerank_depth: int = 15
     embed_dim: int = 96
     require_citations: bool = True

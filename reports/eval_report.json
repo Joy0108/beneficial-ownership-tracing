@@ -239,6 +239,8 @@
     "any_primary@5": 1.0,
     "precision@5": 0.3333,
     "mrr": 0.9333,
+    "regime_routing_accuracy": 0.8667,
+    "regime_inferred_rate": 0.2,
     "pep_language": {
       "retrieval_questions": 3,
       "retrieval_found_primary": 3,
@@ -255,7 +257,9 @@
         "recall@5": 1.0,
         "any_primary@5": 1.0,
         "precision@5": 0.2933,
-        "mrr": 0.9333
+        "mrr": 0.9333,
+        "regime_routing_accuracy": 0.8667,
+        "regime_inferred_rate": 0.2
       },
       {
         "config": "dense only",
@@ -264,7 +268,9 @@
         "recall@5": 1.0,
         "any_primary@5": 1.0,
         "precision@5": 0.32,
-        "mrr": 0.9667
+        "mrr": 0.9667,
+        "regime_routing_accuracy": 0.9333,
+        "regime_inferred_rate": 0.2
       },
       {
         "config": "rrf fused",
@@ -273,7 +279,9 @@
         "recall@5": 1.0,
         "any_primary@5": 1.0,
         "precision@5": 0.3333,
-        "mrr": 0.9333
+        "mrr": 0.9333,
+        "regime_routing_accuracy": 0.8667,
+        "regime_inferred_rate": 0.2
       },
       {
         "config": "rrf + rerank",
@@ -282,7 +290,9 @@
         "recall@5": 1.0,
         "any_primary@5": 1.0,
         "precision@5": 0.3333,
-        "mrr": 0.9333
+        "mrr": 0.9333,
+        "regime_routing_accuracy": 0.8667,
+        "regime_inferred_rate": 0.2
       }
     ]
   },
@@ -343,6 +353,7 @@
       "candidate_k": 25,
       "rrf_k": 60,
       "rerank": true,
+      "regime_routing": true,
       "rerank_depth": 15,
       "embed_dim": 96,
       "require_citations": true

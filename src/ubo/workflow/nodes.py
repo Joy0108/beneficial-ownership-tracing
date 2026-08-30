@@ -31,13 +31,49 @@ from ..rag.memo import build_writer, chain_view, verify_citations
 from ..rag.retrieve import RegulatoryIndex
 from ..registers.loaders import load_all
 from .graph import END, START, StateMachine
+from .spec import WorkflowError, WorkflowSpec
+
+#: ``langgraph`` when installed, otherwise the dependency-free walker.
+#: ``UBO_ENGINE`` pins it, which is what the conformance test uses to run the
+#: same subject through both without rebuilding the topology.
+ENGINE_ENV = "UBO_ENGINE"
+
+
+def select_engine(engine: str = "auto") -> str:
+    import os
+
+    from .langgraph_engine import langgraph_available
+
+    if engine == "auto":
+        engine = os.environ.get(ENGINE_ENV, "auto")
+    if engine == "auto":
+        return "langgraph" if langgraph_available() else "reference"
+    if engine not in {"langgraph", "reference"}:
+        raise WorkflowError(f"unknown engine {engine!r}; expected 'langgraph', 'reference' or 'auto'")
+    if engine == "langgraph" and not langgraph_available():
+        raise WorkflowError("engine='langgraph' requested but langgraph is not installed; pip install '.[graph]'")
+    return engine
+
+
+def compile_workflow(spec: WorkflowSpec, engine: str = "auto", human_in_the_loop: bool = False):
+    """Turn a declared topology into something with ``.invoke``."""
+    resolved = select_engine(engine)
+    if resolved == "langgraph":
+        from .langgraph_engine import LangGraphWorkflow
+
+        return LangGraphWorkflow(spec, human_in_the_loop=human_in_the_loop)
+    if human_in_the_loop:
+        raise WorkflowError("the pausing human gate needs a checkpointer; it is only on the langgraph engine")
+    return StateMachine.from_spec(spec)
 
 
 def build_workflow(
     regulatory: RegulatoryIndex | None = None,
     memo_backend: str | None = None,
     threshold: float = DEFAULT_THRESHOLD,
-) -> StateMachine:
+    engine: str = "auto",
+    human_in_the_loop: bool = False,
+):
     index = regulatory if regulatory is not None else RegulatoryIndex()
     writer = build_writer(memo_backend)
 
@@ -178,7 +214,9 @@ def build_workflow(
             "awaiting_human_decision": True,
         }
 
-    machine = StateMachine("ubo-screening", max_steps=20)
+    # Declared once here and compiled by whichever engine is selected.
+    # max_steps doubles as LangGraph's recursion_limit.
+    machine = WorkflowSpec("ubo-screening", max_steps=20)
     machine.add_node("ingest", ingest)
     machine.add_node("resolve", resolve)
     machine.add_node("assemble_graph", assemble_graph)
@@ -203,7 +241,7 @@ def build_workflow(
     machine.add_edge("verify", "human_gate")
     machine.add_edge("cannot_score", "human_gate")
     machine.add_edge("human_gate", END)
-    return machine
+    return compile_workflow(machine, engine=engine, human_in_the_loop=human_in_the_loop)
 
 
 def screen(
@@ -212,8 +250,9 @@ def screen(
     regulatory: RegulatoryIndex | None = None,
     memo_backend: str | None = None,
     threshold: float = DEFAULT_THRESHOLD,
+    engine: str = "auto",
 ) -> dict[str, Any]:
-    machine = build_workflow(regulatory, memo_backend, threshold)
+    machine = build_workflow(regulatory, memo_backend, threshold, engine=engine)
     seed = dict(state or {})
     seed["subject"] = subject
     return machine.invoke(seed)
